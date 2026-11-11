@@ -37,4 +37,7 @@ python3 -m http.server 3456 --bind 127.0.0.1
 
 修改产品页面或共享组件前，先阅读 [AGENTS.md](AGENTS.md) 与 [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)。所有产品页面统一复用根目录 `shared.css` 和 `sidebar.js`；修改共享资源或导航后，应验证跨页面切换与已有交互。
 
-本仓库包含项目资料与历史记录。系统缓存、编辑器本地状态、依赖目录和凭据文件由 `.gitignore` 排除。当前为代码与资料托管，尚未配置在线网站发布。
+本仓库包含项目资料与历史记录。系统缓存、编辑器本地状态、依赖目录和凭据文件由 `.gitignore` 排除。已启用 GitHub Pages，从 `main` 分支根目录发布静态页面（`.nojekyll` 保留原始 HTML/CSS/JavaScript）。
+
+- 项目首页：https://aliciayoung270-debug.github.io/AIxiaozhi/
+- 定时任务原型：https://aliciayoung270-debug.github.io/AIxiaozhi/requirements/scheduled-tasks/prototype.html
