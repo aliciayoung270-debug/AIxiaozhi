@@ -1,0 +1,396 @@
+ai_session_01a166df0b6e72cda8e2f47d5aeefbe5
+[1 USER SUCCESS]
+我们店铺里  B0HBW8JX6D  最近有些搜索词花费高但转化低，帮我列出这些词，然后逐一查一下这些词在亚马逊上的整体搜索量和竞争度，以及与本品listing的匹配性，判断哪些词值得保留、哪些应该否定。
+
+>先基于类目/商品广告表现确定问题搜索词的筛选标准，再严格按照这个标准筛选符合条件的搜索词
+
+>关键词与商品属性/场景的匹配性可以通过listing内容先自行分析判断
+
+[2 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+两个成员的结果已齐。我来汇总成一份完整结论。
+
+---
+
+## 一、筛选标准（先定标准，再筛词）
+
+**数据范围**：最近 7 天（2026-10-16 ～ 2026-10-22），商品 B0HBW8JX6D 关联的搜索词广告表现。
+
+该商品关联搜索词整体 ACOS 约 57.5%、CVR 仅约 1.1%，整体转化偏弱。基于此，我采用的「花费高但转化低」标准为**同时满足**：
+
+| 条件 | 阈值 |
+|---|---|
+| 花费 | cost ≥ $1.00（7 天累计，具备统计意义） |
+| 转化 | orderCnt = 0（零订单） |
+
+> 说明：7 天窗口内多数搜索词点击量很小（≤3 次），用 ACOS/CVR 阈值会因样本过小产生大量噪声，故以「花费 ≥ $1 且零订单」为主标准，避免把 1 次点击、0.1 美元的长尾词误判为浪费。
+
+## 二、符合条件的搜索词明细
+
+| 搜索词 | 花费 | 点击数 | 订单数 | 销售额 | ACOS | 转化率 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| leopard dress for women | 6.25 | 25 | 0 | 0.00 | — | 0.00% |
+| cheetah print dress | 4.75 | 19 | 0 | 0.00 | — | 0.00% |
+| long sleeve mini dress | 3.48 | 11 | 0 | 0.00 | — | 0.00% |
+| long sleeve mini dress for women | 2.43 | 8 | 0 | 0.00 | — | 0.00% |
+| bubble dress | 2.27 | 8 | 0 | 0.00 | — | 0.00% |
+| fall mini dress | 1.20 | 4 | 0 | 0.00 | — | 0.00% |
+
+> 口径：窗口：近7天（2026-10-16~2026-10-22） ｜ 范围：商品×1（金鑫亚马逊12） ｜ 筛选：cost>=1,orderCnt==0（命中 6/287 行）
+
+## 三、搜索量与竞争度（市场数据）
+
+| 关键词 | translateKeyword | volumes | ranks | top3_click_shares |
+| --- | --- | --- | --- | --- |
+| fall dress | 秋季连衣裙 | 499,468 | 473 | 0.08 |
+| fall dress | 秋季连衣裙 | 454,466 | 1,331 | 0.03 |
+| fall dress | 秋季连衣裙 | 416,840 | 640 | 0.09 |
+| fall dress | 秋季连衣裙 | 396,303 | 1,418 | 0.04 |
+| fall dress | 秋季连衣裙 | 370,224 | 1,005 | 0.02 |
+| fall dress | 秋季连衣裙 | 366,496 | 853 | 0.09 |
+| fall dress | 秋季连衣裙 | 362,496 | 1,294 | 0.03 |
+| fall dress | 秋季连衣裙 | 347,542 | 904 | 0.06 |
+| fall dress | 秋季连衣裙 | 329,557 | 2,076 | 0.04 |
+| fall dress | 秋季连衣裙 | 323,175 | 1,819 | 0.02 |
+| fall dress | 秋季连衣裙 | 300,648 | 1,623 | 0.05 |
+| fall dress | 秋季连衣裙 | 240,569 | 4,694 | 0.02 |
+| fall dress | 秋季连衣裙 | 240,084 | 4,625 | 0.05 |
+| fall dress | 秋季连衣裙 | 191,842 | 2,150 | 0.16 |
+| fall dress | 秋季连衣裙 | 187,751 | 7,427 | 0.03 |
+| fall dress | 秋季连衣裙 | 161,176 | 3,078 | 0.18 |
+| fall dress | 秋季连衣裙 | 144,709 | 7,401 | 0.03 |
+| fall dress | 秋季连衣裙 | 139,014 | 4,114 | 0.07 |
+| plaid dress | 格子连衣裙 | 138,878 | 11,998 | 0.04 |
+| fall dress | 秋季连衣裙 | 136,924 | 4,415 | 0.09 |
+| fall dress | 秋季连衣裙 | 135,272 | 4,162 | 0.13 |
+| cheetah print dress | 猎豹纹连衣裙 | 132,630 | 10,631 | 0.09 |
+| fall dress | 秋季连衣裙 | 129,254 | 9,416 | 0.03 |
+| fall dress | 秋季连衣裙 | 123,187 | 4,781 | 0.12 |
+| fall dress | 秋季连衣裙 | 122,933 | 8,663 | 0.04 |
+| fall dress | 秋季连衣裙 | 119,115 | 7,974 | 0.05 |
+| plaid dress | 格子连衣裙 | 84,391 | 9,539 | 0.07 |
+| plaid dress | 格子连衣裙 | 82,616 | 16,822 | 0.05 |
+| cheetah print dress | 猎豹纹连衣裙 | 81,686 | 14,752 | 0.32 |
+| cheetah print dress | 猎豹纹连衣裙 | 80,454 | 12,673 | 0.13 |
+| plaid dress | 格子连衣裙 | 77,156 | 14,524 | 0.06 |
+| cheetah print dress | 猎豹纹连衣裙 | 76,404 | 15,054 | 0.31 |
+| plaid dress | 格子连衣裙 | 75,802 | 10,261 | 0.08 |
+| cheetah print dress | 猎豹纹连衣裙 | 73,090 | 15,142 | 0.22 |
+| plaid dress | 格子连衣裙 | 72,924 | 13,845 | 0.04 |
+| cheetah print dress | 猎豹纹连衣裙 | 72,893 | 15,841 | 0.17 |
+| bubble skirt | 泡泡裙 | 70,176 | 16,769 | 0.10 |
+| cheetah print dress | 猎豹纹连衣裙 | 67,792 | 15,634 | 0.05 |
+| cheetah print dress | 猎豹纹连衣裙 | 66,772 | 17,823 | 0.13 |
+| bubble skirt | 泡泡裙 | 65,257 | 15,896 | 0.13 |
+| plaid dress | 格子连衣裙 | 64,489 | 12,788 | 0.28 |
+| bubble skirt | 泡泡裙 | 64,141 | 18,373 | 0.16 |
+| plaid dress | 格子连衣裙 | 62,439 | 21,841 | 0.03 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 61,752 | 18,881 | 0.06 |
+| plaid dress | 格子连衣裙 | 61,262 | 23,322 | 0.04 |
+| bubble skirt | 泡泡裙 | 61,242 | 16,009 | 0.17 |
+| cheetah print dress | 猎豹纹连衣裙 | 59,540 | 17,424 | 0.10 |
+| fall dress | 秋季连衣裙 | 59,513 | 14,363 | 0.21 |
+| cheetah print dress | 猎豹纹连衣裙 | 59,484 | 19,770 | 0.05 |
+| plaid dress | 格子连衣裙 | 58,596 | 14,512 | 0.16 |
+| plaid dress | 格子连衣裙 | 58,489 | 15,630 | 0.09 |
+| plaid dress | 格子连衣裙 | 58,045 | 20,617 | 0.04 |
+| cheetah print dress | 猎豹纹连衣裙 | 57,999 | 17,566 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 57,217 | 27,905 | 0.04 |
+| plaid dress | 格子连衣裙 | 57,070 | 18,462 | 0.05 |
+| bubble skirt | 泡泡裙 | 56,686 | 18,945 | 0.09 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 56,282 | 27,541 | 0.13 |
+| cheetah print dress | 猎豹纹连衣裙 | 56,247 | 18,146 | 0.14 |
+| bubble skirt | 泡泡裙 | 55,666 | 25,375 | 0.22 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 53,419 | 24,585 | 0.05 |
+| cheetah print dress | 猎豹纹连衣裙 | 52,601 | 24,122 | 0.11 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 51,686 | 27,871 | 0.05 |
+| plaid dress | 格子连衣裙 | 51,156 | 29,735 | 0.04 |
+| plaid dress | 格子连衣裙 | 50,906 | 18,241 | 0.12 |
+| plaid dress | 格子连衣裙 | 50,651 | 31,205 | 0.03 |
+| fall dress | 秋季连衣裙 | 50,648 | 16,454 | 0.18 |
+| bubble dress | 泡泡裙 | 50,424 | 23,203 | 0.11 |
+| plaid dress | 格子连衣裙 | 49,546 | 19,452 | 0.27 |
+| plaid dress | 格子连衣裙 | 49,461 | 22,181 | 0.07 |
+| cheetah print dress | 猎豹纹连衣裙 | 49,353 | 24,460 | 0.10 |
+| plaid dress | 格子连衣裙 | 48,742 | 18,389 | 0.29 |
+| cheetah print dress | 猎豹纹连衣裙 | 47,949 | 28,327 | 0.09 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 47,398 | 27,322 | 0.05 |
+| leopard dress | 豹纹连衣裙 | 46,944 | 27,285 | 0.10 |
+| leopard dress | 豹纹连衣裙 | 46,505 | 28,940 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 46,439 | 31,307 | 0.06 |
+| cheetah print dress | 猎豹纹连衣裙 | 46,080 | 25,899 | 0.09 |
+| plaid dress | 格子连衣裙 | 45,514 | 20,258 | 0.18 |
+| cheetah print dress | 猎豹纹连衣裙 | 44,883 | 26,717 | 0.07 |
+| bubble skirt | 泡泡裙 | 44,843 | 30,545 | 0.09 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 44,752 | 28,925 | 0.06 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 44,666 | 34,074 | 0.07 |
+| bubble skirt | 泡泡裙 | 43,929 | 31,361 | 0.23 |
+| bubble skirt | 泡泡裙 | 43,166 | 31,352 | 0.24 |
+| bubble dress | 泡泡裙 | 43,156 | 32,002 | 0.30 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 42,727 | 29,515 | 0.07 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 42,474 | 26,057 | 0.05 |
+| cheetah print dress | 猎豹纹连衣裙 | 42,010 | 24,818 | 0.11 |
+| plaid dress | 格子连衣裙 | 41,186 | 31,783 | 0.05 |
+| bubble dress | 泡泡裙 | 41,121 | 33,797 | 0.09 |
+| plaid dress | 格子连衣裙 | 41,090 | 26,295 | 0.05 |
+| bubble skirt | 泡泡裙 | 40,969 | 33,574 | 0.18 |
+| bubble dress | 泡泡裙 | 40,833 | 29,773 | 0.10 |
+| bubble skirt | 泡泡裙 | 40,590 | 30,750 | 0.11 |
+| bubble skirt | 泡泡裙 | 40,181 | 36,825 | 0.14 |
+| bubble dress | 泡泡裙 | 40,050 | 33,411 | 0.10 |
+| cheetah print dress | 猎豹纹连衣裙 | 39,823 | 29,839 | 0.09 |
+| plaid dress | 格子连衣裙 | 39,636 | 32,432 | 0.04 |
+| cheetah print dress | 猎豹纹连衣裙 | 39,494 | 28,764 | 0.06 |
+| plaid dress | 格子连衣裙 | 39,488 | 23,034 | 0.25 |
+| bubble skirt | 泡泡裙 | 38,338 | 31,948 | 0.09 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 38,106 | 30,520 | 0.06 |
+| bubble skirt | 泡泡裙 | 38,050 | 32,237 | 0.11 |
+| cheetah print dress | 猎豹纹连衣裙 | 37,969 | 44,160 | 0.12 |
+| bubble dress | 泡泡裙 | 37,530 | 39,821 | 0.24 |
+| bubble skirt | 泡泡裙 | 37,136 | 36,073 | 0.24 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 37,065 | 34,087 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 36,878 | 43,325 | 0.09 |
+| plaid dress | 格子连衣裙 | 36,863 | 40,581 | 0.21 |
+| plaid dress | 格子连衣裙 | 36,449 | 38,646 | 0.23 |
+| bubble skirt | 泡泡裙 | 35,560 | 33,034 | 0.10 |
+| plaid dress | 格子连衣裙 | 35,558 | 28,990 | 0.21 |
+| bubble skirt | 泡泡裙 | 35,535 | 32,374 | 0.09 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 35,373 | 32,277 | 0.06 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 35,272 | 35,944 | 0.06 |
+| plaid dress | 格子连衣裙 | 35,262 | 38,260 | 0.12 |
+| bubble skirt | 泡泡裙 | 34,535 | 47,739 | 0.10 |
+| bubble dress | 泡泡裙 | 34,025 | 39,767 | 0.16 |
+| bubble skirt | 泡泡裙 | 33,626 | 38,921 | 0.16 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 33,626 | 33,459 | 0.06 |
+| plaid dress | 格子连衣裙 | 33,378 | 38,296 | 0.06 |
+| cheetah print dress | 猎豹纹连衣裙 | 33,097 | 32,477 | 0.20 |
+| cheetah print dress | 猎豹纹连衣裙 | 32,712 | 46,688 | 0.10 |
+| bubble dress | 泡泡裙 | 32,641 | 39,228 | 0.10 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 32,580 | 34,387 | 0.06 |
+| bubble dress | 泡泡裙 | 32,378 | 36,684 | 0.10 |
+| bubble dress | 泡泡裙 | 32,328 | 36,067 | 0.09 |
+| bubble dress | 泡泡裙 | 32,227 | 38,218 | 0.09 |
+| plaid dress | 格子连衣裙 | 32,029 | 33,787 | 0.21 |
+| bubble skirt | 泡泡裙 | 31,681 | 43,621 | 0.12 |
+| bubble dress | 泡泡裙 | 31,454 | 36,859 | 0.11 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 31,262 | 34,731 | 0.07 |
+| cheetah print dress | 猎豹纹连衣裙 | 31,247 | 39,586 | 0.11 |
+| bubble dress | 泡泡裙 | 31,116 | 38,649 | 0.14 |
+| plaid dress | 格子连衣裙 | 30,742 | 37,796 | 0.07 |
+| bubble skirt | 泡泡裙 | 30,737 | 39,927 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 30,039 | 38,090 | 0.13 |
+| plaid dress | 格子连衣裙 | 30,030 | 46,695 | 0.09 |
+| plaid dress | 格子连衣裙 | 29,954 | 46,413 | 0.06 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 28,626 | 48,810 | 0.06 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 28,550 | 48,076 | 0.10 |
+| cheetah print dress | 猎豹纹连衣裙 | 27,970 | 41,989 | 0.24 |
+| bubble dress | 泡泡裙 | 27,732 | 49,796 | 0.09 |
+| leopard dress | 豹纹连衣裙 | 27,646 | 43,854 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 27,523 | 44,755 | 0.18 |
+| bubble dress | 泡泡裙 | 27,272 | 51,883 | 0.13 |
+| bubble skirt | 泡泡裙 | 27,242 | 40,439 | 0.13 |
+| bubble skirt | 泡泡裙 | 27,196 | 48,098 | 0.17 |
+| cheetah print dress | 猎豹纹连衣裙 | 27,191 | 48,098 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 27,101 | 37,193 | 0.07 |
+| bubble dress | 泡泡裙 | 26,565 | 46,982 | 0.09 |
+| bubble dress | 泡泡裙 | 26,454 | 53,156 | 0.11 |
+| bubble dress | 泡泡裙 | 26,404 | 54,660 | 0.11 |
+| leopard dress | 豹纹连衣裙 | 26,247 | 58,700 | 0.20 |
+| leopard dress | 豹纹连衣裙 | 25,727 | 56,520 | 0.19 |
+| cheetah print dress | 猎豹纹连衣裙 | 25,318 | 55,224 | 0.11 |
+| bubble skirt | 泡泡裙 | 25,060 | 52,582 | 0.08 |
+| plaid dress | 格子连衣裙 | 25,039 | 47,377 | 0.38 |
+| cheetah print dress | 猎豹纹连衣裙 | 24,733 | 48,201 | 0.22 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 24,731 | 57,484 | 0.08 |
+| bubble dress | 泡泡裙 | 24,636 | 69,119 | 0.13 |
+| plaid dress | 格子连衣裙 | 24,374 | 48,737 | 0.39 |
+| plaid dress | 格子连衣裙 | 24,050 | 46,669 | 0.36 |
+| fall dress | 秋季连衣裙 | 23,707 | 60,239 | 0.05 |
+| leopard dress | 豹纹连衣裙 | 23,484 | 50,566 | 0.11 |
+| bubble dress | 泡泡裙 | 23,419 | 66,861 | 0.10 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 23,355 | 50,922 | 0.80 |
+| leopard dress | 豹纹连衣裙 | 23,237 | 57,144 | 0.05 |
+| leopard dress | 豹纹连衣裙 | 23,217 | 60,283 | 0.14 |
+| bubble skirt | 泡泡裙 | 23,075 | 55,115 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 23,044 | 54,591 | 0.14 |
+| cheetah print dress | 猎豹纹连衣裙 | 23,020 | 61,586 | 0.14 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 22,954 | 64,002 | 0.14 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 22,792 | 44,346 | 0.07 |
+| plaid dress | 格子连衣裙 | 22,742 | 64,149 | 0.05 |
+| fall dress | 秋季连衣裙 | 22,662 | 63,641 | 0.11 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 22,620 | 53,796 | 0.14 |
+| leopard dress | 豹纹连衣裙 | 22,449 | 62,508 | 0.10 |
+| fall dress | 秋季连衣裙 | 22,434 | 65,130 | 0.04 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 22,321 | 55,529 | 0.19 |
+| bubble skirt | 泡泡裙 | 22,303 | 78,543 | 0.13 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 22,217 | 57,556 | 0.07 |
+| fall dress | 秋季连衣裙 | 22,212 | 64,082 | 0.04 |
+| leopard dress | 豹纹连衣裙 | 22,107 | 53,867 | 0.12 |
+| plaid dress | 格子连衣裙 | 21,999 | 55,797 | 0.36 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 21,888 | 56,072 | 0.09 |
+| leopard dress | 豹纹连衣裙 | 21,828 | 65,274 | 0.11 |
+| bubble dress | 泡泡裙 | 21,813 | 51,652 | 0.08 |
+| leopard dress | 豹纹连衣裙 | 21,784 | 55,946 | 0.20 |
+| fall dress | 秋季连衣裙 | 21,761 | 57,271 | 0.23 |
+| leopard dress | 豹纹连衣裙 | 21,646 | 66,410 | 0.06 |
+| bubble dress | 泡泡裙 | 21,626 | 61,879 | 0.06 |
+| plaid dress | 格子连衣裙 | 21,614 | 53,612 | 0.43 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 21,611 | 58,807 | 0.08 |
+| bubble dress | 泡泡裙 | 21,358 | 82,383 | 0.10 |
+| cheetah print dress | 猎豹纹连衣裙 | 21,358 | 57,426 | 0.17 |
+| bubble dress | 泡泡裙 | 21,272 | 64,246 | 0.09 |
+| plaid dress | 格子连衣裙 | 21,170 | 59,422 | 0.31 |
+| cheetah print dress | 猎豹纹连衣裙 | 21,108 | 59,751 | 0.27 |
+| leopard dress | 豹纹连衣裙 | 21,070 | 57,732 | 0.07 |
+| bubble skirt | 泡泡裙 | 20,984 | 57,126 | 0.11 |
+| plaid dress | 格子连衣裙 | 20,910 | 60,559 | 0.22 |
+| plaid dress | 格子连衣裙 | 20,780 | 61,019 | 0.37 |
+| cheetah print dress | 猎豹纹连衣裙 | 20,639 | 61,332 | 0.22 |
+| plaid dress | 格子连衣裙 | 20,322 | 61,890 | 0.35 |
+| plaid dress | 格子连衣裙 | 20,080 | 65,112 | 0.07 |
+| leopard dress | 豹纹连衣裙 | 19,965 | 62,187 | 0.11 |
+| cheetah print dress | 猎豹纹连衣裙 | 19,895 | 63,172 | 0.37 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 19,893 | 61,426 | 0.06 |
+| plaid dress | 格子连衣裙 | 19,560 | 66,445 | 0.06 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 19,535 | 69,077 | 0.10 |
+| plaid dress | 格子连衣裙 | 19,535 | 64,259 | 0.04 |
+| leopard dress | 豹纹连衣裙 | 19,525 | 70,469 | 0.05 |
+| plaid dress | 格子连衣裙 | 19,171 | 73,870 | 0.06 |
+| leopard dress | 豹纹连衣裙 | 19,112 | 66,613 | 0.09 |
+| bubble skirt | 泡泡裙 | 19,050 | 83,859 | 0.15 |
+| fall dress | 秋季连衣裙 | 18,866 | 61,448 | 0.07 |
+| bubble dress | 泡泡裙 | 18,777 | 64,573 | 0.10 |
+| leopard dress | 豹纹连衣裙 | 18,683 | 64,152 | 0.18 |
+| fall dress | 秋季连衣裙 | 18,232 | 97,550 | 0.05 |
+| plaid dress | 格子连衣裙 | 18,161 | 66,918 | 0.05 |
+| bubble dress | 泡泡裙 | 18,111 | 74,591 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 18,070 | 76,440 | 0.03 |
+| leopard dress | 豹纹连衣裙 | 17,992 | 71,012 | 0.09 |
+| mock neck dress | 假高领连衣裙 | 17,919 | 80,974 | 0.08 |
+| cheetah print dress | 猎豹纹连衣裙 | 17,893 | 97,471 | 0.15 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 17,576 | 66,835 | 0.06 |
+| bubble dress | 泡泡裙 | 17,505 | 81,485 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 17,491 | 85,049 | 0.10 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 17,469 | 67,071 | 0.04 |
+| cheetah print dress | 猎豹纹连衣裙 | 17,454 | 73,516 | 0.10 |
+| leopard dress | 豹纹连衣裙 | 17,365 | 77,518 | 0.15 |
+| leopard dress | 豹纹连衣裙 | 17,333 | 78,675 | 0.08 |
+| leopard dress | 豹纹连衣裙 | 17,307 | 77,497 | 0.17 |
+| plaid dress | 格子连衣裙 | 17,113 | 84,296 | 0.53 |
+| leopard dress | 豹纹连衣裙 | 17,090 | 104,585 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 17,039 | 75,057 | 0.17 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 16,998 | 78,983 | 0.19 |
+| bubble skirt | 泡泡裙 | 16,939 | 84,394 | 0.12 |
+| cheetah print dress | 猎豹纹连衣裙 | 16,802 | 79,937 | 0.20 |
+| mock neck dress | 假高领连衣裙 | 16,616 | 75,433 | 0.08 |
+| cheetah print dress | 猎豹纹连衣裙 | 16,590 | 79,586 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 16,580 | 79,657 | 0.05 |
+| leopard dress | 豹纹连衣裙 | 16,494 | 97,528 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 16,373 | 81,086 | 0.07 |
+| leopard dress | 豹纹连衣裙 | 16,372 | 77,635 | 0.21 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 16,363 | 71,386 | 0.05 |
+| cheetah print dress | 猎豹纹连衣裙 | 16,168 | 83,808 | 0.33 |
+| bubble skirt | 泡泡裙 | 16,108 | 85,589 | 0.31 |
+| plaid dress | 格子连衣裙 | 16,094 | 84,877 | 0.24 |
+| bubble dress | 泡泡裙 | 15,914 | 101,351 | 0.12 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 15,909 | 83,551 | 0.05 |
+| fall dress | 秋季连衣裙 | 15,893 | 110,763 | 0.03 |
+| plaid dress | 格子连衣裙 | 15,858 | 101,898 | 0.31 |
+| bubble dress | 泡泡裙 | 15,772 | 84,206 | 0.10 |
+| leopard dress | 豹纹连衣裙 | 15,704 | 88,558 | 0.15 |
+| cheetah print dress | 猎豹纹连衣裙 | 15,671 | 81,245 | 0.10 |
+| leopard dress | 豹纹连衣裙 | 15,601 | 103,568 | 0.10 |
+| cheetah print dress | 猎豹纹连衣裙 | 15,515 | 104,158 | 0.11 |
+| leopard dress | 豹纹连衣裙 | 15,272 | 89,653 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 15,242 | 103,832 | 0.15 |
+| plaid dress | 格子连衣裙 | 15,227 | 87,045 | 0.32 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 15,095 | 85,139 | 0.07 |
+| leopard dress | 豹纹连衣裙 | 15,024 | 90,047 | 0.13 |
+| bubble skirt | 泡泡裙 | 14,632 | 95,848 | 0.35 |
+| leopard dress | 豹纹连衣裙 | 14,453 | 105,144 | 0.25 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 14,394 | 92,459 | 0.28 |
+| leopard dress | 豹纹连衣裙 | 14,272 | 105,127 | 0.07 |
+| plaid dress | 格子连衣裙 | 14,176 | 94,425 | 0.08 |
+| leopard dress | 豹纹连衣裙 | 14,152 | 99,781 | 0.31 |
+| leopard dress | 豹纹连衣裙 | 13,975 | 102,821 | 0.27 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 13,711 | 103,191 | 0.28 |
+| leopard dress | 豹纹连衣裙 | 13,551 | 107,196 | 0.26 |
+| leopard dress | 豹纹连衣裙 | 13,523 | 106,126 | 0.31 |
+| leopard dress | 豹纹连衣裙 | 13,502 | 125,517 | 0.14 |
+| plaid dress | 格子连衣裙 | 13,430 | 104,279 | 0.25 |
+| leopard dress | 豹纹连衣裙 | 13,404 | 132,503 | 0.11 |
+| leopard dress | 豹纹连衣裙 | 13,393 | 111,100 | 0.05 |
+| leopard dress | 豹纹连衣裙 | 13,363 | 87,471 | 0.08 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 13,312 | 111,081 | 0.23 |
+| cheetah print dress | 猎豹纹连衣裙 | 13,277 | 96,832 | 0.11 |
+| long sleeve mini dress | 长袖迷你连衣裙 | 13,121 | 112,295 | 0.08 |
+| plaid dress | 格子连衣裙 | 13,095 | 91,308 | 0.07 |
+| cheetah print dress | 猎豹纹连衣裙 | 13,020 | 103,455 | 0.10 |
+| leopard dress | 豹纹连衣裙 | 12,883 | 102,606 | 0.07 |
+| leopard dress | 豹纹连衣裙 | 12,835 | 113,892 | 0.28 |
+| plaid dress | 格子连衣裙 | 12,810 | 101,377 | 0.08 |
+| plaid dress | 格子连衣裙 | 12,742 | 116,446 | 0.05 |
+| plaid dress | 格子连衣裙 | 12,676 | 101,670 
+
+[3 USER SUCCESS]
+版型错配：maxi dress、long fall dresses（本品为迷你裙）、skirt set（本品为连衣裙非套装）
+面料错配：sweater dress、denim dress、linen dress、velvet dress、chiffon dress、suede dress、faux leather dress
+低需求+错配：plus size leopard dress、cable knit dress
+帮我把这些否定
+
+[4 ASSISTANT SUCCESS]
+我需要向用户如实说明当前情况。广告数据专家返回了一个关键信息：系统对这些词的否词动作约束都返回了 `DEFER`（Listing 保护校验失败/未知），无法生成可执行否词清单。
+
+让我把结论如实转达给你。
+
+---
+
+## 否词执行结果说明
+
+我尝试为这 12 个词走否词流程，但**当前无法直接执行否定**，原因如下：
+
+### 核心问题：Listing 保护校验未通过
+
+系统对这 12 个词的否词动作约束全部返回了 **`DEFER`（待确认）**，原因是 `LISTING_PROTECTION_UNKNOWN`（Listing 保护校验失败/结果未知）。系统按"未知保护"保守处理，因此**没有任何一个词能进入可执行否词清单**。
+
+这是保护校验执行层面的问题，不是你的操作缺失，也无需你补充 Listing 信息。
+
+### 另一个问题：多数词是"根词"，报表里没有精确匹配
+
+你给的 12 个词大多是根词，而广告报表里实际记录的是更具体的搜索词变体。逐词核对如下：
+
+| 你要否定的词 | 报表中是否精确存在 | 实际情况 |
+|---|---|---|
+| maxi dress | ❌ | 仅有 `maxi fall dresses long sleeve women` 等变体 |
+| long fall dresses | ✅ | 命中 `yqh-P6B032-fall dress词组` |
+| skirt set | ❌ | 仅有 `brown sweater and skirt set` |
+| sweater dress | ❌ | 仅有 `mini sweater dress`、`bubble sweater dress` |
+| denim dress | ❌ | 仅有 `dark wash denim dresses` |
+| linen dress | ❌ | 仅有 `linen mini dress` |
+| velvet dress | ❌ | 仅有 `velvet mini dress` |
+| chiffon dress | ❌ | 仅有 `chiffon mini dresses for women` |
+| suede dress | ❌ | 仅有 `suede mini dress` |
+| faux leather dress | ✅ | 命中 `yqh-P6B032-自动捡漏`（自动广告） |
+| plus size leopard dress | ✅ | 命中 `yqh-P6B032-词组3 / leopard dress` |
+| cable knit dress | ❌ | 仅有 `women cable knit sweater dress...` 长尾 |
+
+### 命中活动/广告组归属（仅能确认到的）
+
+| 广告活动 | 广告组 | 活动状态 |
+|---|---|---|
+| yqh-P6B032-fall dress词组 | 广告组 - 9/30/2026 | 已暂停（TARGETING_CLAUSE_PAUSED） |
+| yqh-P6B032-词组3 | leopard dress | 已暂停（CAMPAIGN_PAUSED） |
+| yqh-P6B032-词组2-10.15 | 广告组 - 10/8/2026 | 已暂停（CAMPAIGN_PAUSED） |
+
+---
+
+## 建议
+
+1. **当前无法执行否词**：因 Listing 保护校验失败，系统保守未放行任何否定动作。你可以稍后重试（保护校验可能恢复），届时我会重新走否词流程。
+
+2. **词需要精确化**：你给的 12 个词多为根词，报表里实际是变体。若要继续，建议改用实际存在的精确变体（如 `linen mini dress`、`velvet mini dress`、`suede mini dress`、`chiffon mini dresses for women`、`dark wash denim dresses` 等），我可以按这些精确词重新梳理候选清单。
+
+3. **部分活动已暂停**：上述命中的广告活动均处于暂停状态，即使否词也可能影响有限，可一并评估。
+
+你希望我按「精确搜索词变体」方向重新梳理一份可执行的否词候选清单吗？还是稍后重试保护校验？

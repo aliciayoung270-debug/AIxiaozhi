@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "count": 27,
+  "checks": [
+    "Daily excludes yesterday",
+    "Hourly includes Beijing midnight",
+    "Future checks are excluded",
+    "Weekly includes exactly seven days",
+    "Weekly excludes older checks",
+    "Monthly includes exactly 31 days",
+    "Monthly excludes older checks",
+    "Latest check replaces older batch",
+    "Latest successful zero-hit suppresses old events",
+    "Failed check preserves successful result in window",
+    "Running check does not replace result",
+    "No successful check yields no events",
+    "Permissions apply after latest batch selection",
+    "Window expiration does not change human state",
+    "Current effective frequency determines window",
+    "Hourly next point is next hour",
+    "Daily after execution advances to tomorrow",
+    "Weekly Monday schedule is Monday",
+    "Weekly Friday schedule is Friday",
+    "Monthly defaults to first day",
+    "31st falls on September month-end",
+    "31st falls on February 28",
+    "31st falls on February 29 in leap year",
+    "Monthly crosses year correctly",
+    "Demo includes Monday, Friday and older monthly events",
+    "Stable feature IDs are unique and new F020 exists",
+    "All DOM feature IDs exist in metadata"
+  ]
+}

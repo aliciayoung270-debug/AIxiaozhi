@@ -1,0 +1,519 @@
+ai_session_01a13322d44e7d8a8905b6c77c333d38
+[1 USER SUCCESS]
+请帮我看下这个商品 B0CRDGCXWW 有哪些拓词的建议 ；我的要求是
+
+> 可以基于搜索词报告，找到出单多，acos低的长尾词有哪些，给出top10，同时要求这个词的流量是在上升的
+
+> 可以基于市场工具帮我做拓词，要求这个词的流量是在上升的，给出top10
+
+> 以上所有的词，在这个商品关联的广告活动下是否已投放了，是的话标记出是否投放以及匹配方式
+
+[2 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+三个成员的结果都已返回，我来汇总整理成一份完整的拓词建议报告。
+
+---
+
+# 商品 B0CRDGCXWW 拓词建议报告
+
+**商品**：B0CRDGCXWW（OrthoComfoot 男士矫形宽楦皮鞋/步行鞋，美国站，$79.99）
+**负责人**：杨梓孝（工号 5）｜**关联范围**：22 个子 ASIN，159 个 Campaign / 209 个广告组
+
+---
+
+## 一、基于搜索词报告（出单多 + ACOS 低 + 流量上升）
+
+**统计口径**：近 30 天（2026-09-06 ~ 2026-10-06）对比上一期（2026-08-06 ~ 2026-09-05）；出单 ≥ 2、ACOS ≤ 20%、本期曝光 > 上期曝光且本期曝光 ≥ 50。
+
+> ⚠️ 严格按"出单≥2 + ACOS≤20% + 流量上升"三重条件，**真正同时满足的词只有 2 个**，其余为低基数新词/潜力词，如实列出供参考。
+
+| 排名 | 搜索词 | 本期出单 | 本期ACOS | 本期曝光 | 上期曝光 | 流量趋势 | 是否已投放 | 匹配方式 |
+|---|---|---|---|---|---|---|---|---|
+| 1 | orthopedic dress shoes for men | 6 | 19.1% | 10021 | 5037 | ↑ 上升 | ✅ | 精准+词组+广泛 |
+| 2 | ortho dress shoes for men | 2 | 5.0% | 87 | 14 | ↑ 上升 | ✅ | 广泛 |
+| 3 | zapatos ortopédicos para hombre | 2 | 8.5% | 516 | 146 | ↑ 上升 | ✅ | 精准+广泛 |
+| 4 | orthopedic brown leather shoes for mens | 1 | 2.6% | 34 | — | 新词 | ❌ 未投放 | — |
+| 5 | orthopedic men's dress sneakers | 1 | 0.8% | 1 | — | 新词 | ❌ 未投放 | — |
+| 6 | black mens lace up bunion safe | 1 | 0.8% | 1 | — | 新词 | ❌ 未投放 | — |
+| 7 | mens orthopedic dress shoe | 1 | 2.5% | 4 | — | 新词 | ❌ 未投放 | — |
+| 8 | mens orthopedic office shoes | 1 | 0.9% | 6 | — | 新词 | ❌ 未投放 | — |
+| 9 | mens plantar fasciitis shoes | 1 | 2.0% | 12 | — | 新词 | ✅ | 精准+广泛 |
+
+> 注：`orthopedic shoes for men`（4 单，ACOS 20.0%）虽出单多、ACOS 达标，但曝光 18983→5637 **流量下降**，不符合"流量上升"要求，未纳入。
+
+---
+
+## 二、基于市场工具拓词（流量上升 Top 10）
+
+**判定依据**：趋势方向=增长 + 动量=加速/稳定 + 同比为正；时间范围基于 3–7 年历史周度数据（更新至 2026-10-12）。
+
+| 排名 | 关键词 | 周搜索量 | 同比 | 趋势强度 | 动量 | 是否已投放 | 匹配方式 |
+|---|---|---|---|---|---|---|---|
+| 1 | neuropathy shoes for men | 1,151 | +39% | 强 | 加速增长 | ✅ | 精准+词组+广泛 |
+| 2 | wide toe box dress shoes for men | 757 | +46% | 强 | 加速增长 | ✅ | 广泛（1条，已暂停） |
+| 3 | mens wide toe box dress shoes | 242 | +22% | 中等 | 加速增长 | ✅ | 广泛 |
+| 4 | diabetic dress shoes for men | 176 | +0% | 弱 | 稳定 | ✅ | 广泛 |
+| 5 | plantar fasciitis shoes for men | 2,272 | +29% | 弱 | 稳定 | ✅ | 精准+词组+广泛 |
+| 6 | mens arch support shoes | 631 | +36% | 中等 | 回暖中 | ✅ | 精准+词组+广泛 |
+| 7 | wide dress shoes for men | 752 | -24% | 中等 | 见顶回落 | ✅ | 广泛+词组 |
+| 8 | orthopedic shoes for men | 5,631 | -48% | 中等 | 见顶回落 | ✅ | 精准+词组+广泛 |
+| 9 | orthopedic dress shoes for men | 550 | -44% | 弱 | 减速信号 | ✅ | 精准+词组+广泛 |
+| 10 | waterproof dress shoes for men | 207 | -13% | 弱 | 见顶回落 | ❌ 未投放 | — |
+
+> ⚠️ 严格符合"流量上升"的只有前 **6 个词**；第 7–10 个词历史长期增长但近期动量已转"见顶回落/减速"、同比转负，属于"曾经增长、当前回落"，如实列出供你判断。
+
+---
+
+## 三、核心结论
+
+### ✅ 值得优先关注的增量机会（未投放 + 有潜力）
+
+以下 **6 个词当前未投放**，可作为拓词重点：
+
+| 来源 | 词 | 亮点 |
+|---|---|---|
+| 搜索词报告 | orthopedic brown leather shoes for mens | 出单 ACOS 2.6%，极低 |
+| 搜索词报告 | orthopedic men's dress sneakers | 出单 ACOS 0.8% |
+| 搜索词报告 | black mens lace up bunion safe | 出单 ACOS 0.8% |
+| 搜索词报告 | mens orthopedic dress shoe | 出单 ACOS 2.5% |
+| 搜索词报告 | mens orthopedic office shoes | 出单 ACOS 0.9% |
+| 市场工具 | waterproof dress shoes for men | 历史增长（但近期回落） |
+
+### ⚠️ 需要你留意的两点
+
+1. **已投放 ≠ 正在跑**：几乎所有关联 Campaign 的 `servingStatus` 均为"活动已暂停"，即这些词虽然配置存在，但所在广告活动当前是暂停的，实际不产生曝光。若你希望这些词真正生效，需要先确认对应广告活动是否要恢复投放。
+
+2. **市场工具中"流量上升"的强词大多已投放**：`neuropathy shoes for men`（+39%）、`wide toe box dress shoes for men`（+46%）等趋势最强的词，基本都已在多个活动以多种匹配方式投放，增量空间主要在"未投放的 6 个词"上。
+
+---
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+如果你需要，我可以进一步帮你：
+- 筛选出"当前真正在跑"（已启用且活动未暂停）的投放清单，明确真正的增量边界；
+- 或直接对上面 **6 个未投放的词**生成投放建议/执行清单。
+
+[3 USER SUCCESS]
+加上中文
+
+[4 ASSISTANT SUCCESS]
+好的，我把这份报告补充中文翻译，让关键词更易读。
+
+---
+
+# 商品 B0CRDGCXWW 拓词建议报告
+
+**商品**：B0CRDGCXWW（OrthoComfoot 男士矫形宽楦皮鞋/步行鞋，美国站，$79.99）
+**负责人**：杨梓孝（工号 5）｜**关联范围**：22 个子 ASIN，159 个 Campaign / 209 个广告组
+
+---
+
+## 一、基于搜索词报告（出单多 + ACOS 低 + 流量上升）
+
+**统计口径**：近 30 天（2026-09-06 ~ 2026-10-06）对比上一期（2026-08-06 ~ 2026-09-05）；出单 ≥ 2、ACOS ≤ 20%、本期曝光 > 上期曝光且本期曝光 ≥ 50。
+
+> ⚠️ 严格按"出单≥2 + ACOS≤20% + 流量上升"三重条件，**真正同时满足的词只有 2 个**，其余为低基数新词/潜力词，如实列出供参考。
+
+| 排名 | 搜索词 | 中文含义 | 本期出单 | 本期ACOS | 本期曝光 | 上期曝光 | 流量趋势 | 是否已投放 | 匹配方式 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | orthopedic dress shoes for men | 男士矫形正装鞋 | 6 | 19.1% | 10021 | 5037 | ↑ 上升 | ✅ | 精准+词组+广泛 |
+| 2 | ortho dress shoes for men | 男士矫形正装鞋（缩写） | 2 | 5.0% | 87 | 14 | ↑ 上升 | ✅ | 广泛 |
+| 3 | zapatos ortopédicos para hombre | 男士矫形鞋（西语） | 2 | 8.5% | 516 | 146 | ↑ 上升 | ✅ | 精准+广泛 |
+| 4 | orthopedic brown leather shoes for mens | 男士棕色皮革矫形鞋 | 1 | 2.6% | 34 | — | 新词 | ❌ 未投放 | — |
+| 5 | orthopedic men's dress sneakers | 男士矫形正装运动鞋 | 1 | 0.8% | 1 | — | 新词 | ❌ 未投放 | — |
+| 6 | black mens lace up bunion safe | 黑色系带拇外翻安全鞋 | 1 | 0.8% | 1 | — | 新词 | ❌ 未投放 | — |
+| 7 | mens orthopedic dress shoe | 男士矫形正装鞋（单数） | 1 | 2.5% | 4 | — | 新词 | ❌ 未投放 | — |
+| 8 | mens orthopedic office shoes | 男士矫形办公鞋 | 1 | 0.9% | 6 | — | 新词 | ❌ 未投放 | — |
+| 9 | mens plantar fasciitis shoes | 男士足底筋膜炎鞋 | 1 | 2.0% | 12 | — | 新词 | ✅ | 精准+广泛 |
+
+> 注：`orthopedic shoes for men`（男士矫形鞋，4 单，ACOS 20.0%）虽出单多、ACOS 达标，但曝光 18983→5637 **流量下降**，不符合"流量上升"要求，未纳入。
+
+---
+
+## 二、基于市场工具拓词（流量上升 Top 10）
+
+**判定依据**：趋势方向=增长 + 动量=加速/稳定 + 同比为正；时间范围基于 3–7 年历史周度数据（更新至 2026-10-12）。
+
+| 排名 | 关键词 | 中文含义 | 周搜索量 | 同比 | 趋势强度 | 动量 | 是否已投放 | 匹配方式 |
+|---|---|---|---|---|---|---|---|---|
+| 1 | neuropathy shoes for men | 男士神经病变鞋 | 1,151 | +39% | 强 | 加速增长 | ✅ | 精准+词组+广泛 |
+| 2 | wide toe box dress shoes for men | 男士宽楦正装鞋 | 757 | +46% | 强 | 加速增长 | ✅ | 广泛（1条，已暂停） |
+| 3 | mens wide toe box dress shoes | 男士宽楦正装鞋（变体） | 242 | +22% | 中等 | 加速增长 | ✅ | 广泛 |
+| 4 | diabetic dress shoes for men | 男士糖尿病正装鞋 | 176 | +0% | 弱 | 稳定 | ✅ | 广泛 |
+| 5 | plantar fasciitis shoes for men | 男士足底筋膜炎鞋 | 2,272 | +29% | 弱 | 稳定 | ✅ | 精准+词组+广泛 |
+| 6 | mens arch support shoes | 男士足弓支撑鞋 | 631 | +36% | 中等 | 回暖中 | ✅ | 精准+词组+广泛 |
+| 7 | wide dress shoes for men | 男士宽楦正装鞋（宽泛） | 752 | -24% | 中等 | 见顶回落 | ✅ | 广泛+词组 |
+| 8 | orthopedic shoes for men | 男士矫形鞋（大词） | 5,631 | -48% | 中等 | 见顶回落 | ✅ | 精准+词组+广泛 |
+| 9 | orthopedic dress shoes for men | 男士矫形正装鞋 | 550 | -44% | 弱 | 减速信号 | ✅ | 精准+词组+广泛 |
+| 10 | waterproof dress shoes for men | 男士防水正装鞋 | 207 | -13% | 弱 | 见顶回落 | ❌ 未投放 | — |
+
+> ⚠️ 严格符合"流量上升"的只有前 **6 个词**；第 7–10 个词历史长期增长但近期动量已转"见顶回落/减速"、同比转负，属于"曾经增长、当前回落"，如实列出供你判断。
+
+---
+
+## 三、核心结论
+
+### ✅ 值得优先关注的增量机会（未投放 + 有潜力）
+
+以下 **6 个词当前未投放**，可作为拓词重点：
+
+| 来源 | 词 | 中文含义 | 亮点 |
+|---|---|---|---|
+| 搜索词报告 | orthopedic brown leather shoes for mens | 男士棕色皮革矫形鞋 | 出单 ACOS 2.6%，极低 |
+| 搜索词报告 | orthopedic men's dress sneakers | 男士矫形正装运动鞋 | 出单 ACOS 0.8% |
+| 搜索词报告 | black mens lace up bunion safe | 黑色系带拇外翻安全鞋 | 出单 ACOS 0.8% |
+| 搜索词报告 | mens orthopedic dress shoe | 男士矫形正装鞋（单数） | 出单 ACOS 2.5% |
+| 搜索词报告 | mens orthopedic office shoes | 男士矫形办公鞋 | 出单 ACOS 0.9% |
+| 市场工具 | waterproof dress shoes for men | 男士防水正装鞋 | 历史增长（但近期回落） |
+
+### ⚠️ 需要你留意的两点
+
+1. **已投放 ≠ 正在跑**：几乎所有关联 Campaign 的 `servingStatus` 均为"活动已暂停"，即这些词虽然配置存在，但所在广告活动当前是暂停的，实际不产生曝光。若你希望这些词真正生效，需要先确认对应广告活动是否要恢复投放。
+
+2. **市场工具中"流量上升"的强词大多已投放**：`neuropathy shoes for men`（男士神经病变鞋，+39%）、`wide toe box dress shoes for men`（男士宽楦正装鞋，+46%）等趋势最强的词，基本都已在多个活动以多种匹配方式投放，增量空间主要在"未投放的 6 个词"上。
+
+---
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+如果你需要，我可以进一步帮你：
+- 筛选出"当前真正在跑"（已启用且活动未暂停）的投放清单，明确真正的增量边界；
+- 或直接对上面 **6 个未投放的词**生成投放建议/执行清单。
+
+[5 USER SUCCESS]
+数据改为近60天
+
+[6 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+数据已更新为近60天口径，并补充了新增词的投放状态。以下是完整报告。
+
+---
+
+# 商品 B0CRDGCXWW 拓词建议报告（近 60 天口径）
+
+**商品**：B0CRDGCXWW（OrthoComfoot 男士矫形宽楦皮鞋/步行鞋，美国站，$79.99）
+**负责人**：杨梓孝（工号 5）｜**关联范围**：22 个子 ASIN，159 个 Campaign / 209 个广告组
+
+---
+
+## 一、基于搜索词报告（出单多 + ACOS 低 + 流量上升）
+
+**统计口径**：本期近 60 天（2026-08-13 ~ 2026-10-12）对比上一期 60 天（2026-06-14 ~ 2026-08-12）；出单 ≥ 2、ACOS ≤ 20%、本期曝光 > 上期曝光且本期曝光 ≥ 50。
+
+> ⚠️ 严格按"出单≥2 + ACOS≤20% + 流量上升"三重条件，**真正同时满足的词只有 2 个**。其余为 ACOS 略超标或流量下降的词，如实列出供参考。
+
+| 排名 | 搜索词 | 中文含义 | 本期出单 | 本期ACOS | 本期曝光 | 上期曝光 | 流量趋势 | 是否已投放 | 匹配方式 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | orthopedic mens dress shoes | 男士矫形正装鞋 | 3 | 3.2% | 97 | 84 | ↑ 上升 | ✅ | 广泛 |
+| 2 | ortho dress shoes for men | 男士矫形正装鞋（缩写） | 2 | 7.7% | 116 | 42 | ↑ 上升 | ✅ | 广泛 |
+| 3 | wide toe box dress shoes for men | 男士宽楦正装鞋 | 2 | 9.6% | 776 | 308 | ↑ 上升 | ✅ | 广泛（1条，已暂停） |
+| 4 | zapatos ortopédicos para hombre | 男士矫形鞋（西语） | 2 | 11.4% | 702 | 146 | ↑ 上升 | ✅ | 精准+广泛 |
+| 5 | orthopedic dress shoes for men | 男士矫形正装鞋 | 7 | 28.7% | 19873 | 6584 | ↑ 上升 | ✅ | 精准+词组+广泛 |
+| 6 | orthopedic shoes for men | 男士矫形鞋（大词） | 9 | 31.3% | 34015 | 28126 | ↑ 上升 | ✅ | 精准+词组+广泛 |
+| 7 | mens orthopedic shoes | 男士矫形鞋 | 4 | 21.9% | 3547 | 2968 | ↑ 上升 | ✅ | 精准+词组+广泛 |
+| 8 | orthofeet shoes for men | 男士矫形鞋（品牌词） | 4 | 6.9% | 805 | 4485 | ↓ 下降 | ✅ | 精准+词组+广泛 |
+
+> 说明：
+> - 第 1、2 名是**严格达标**的词（出单≥2 + ACOS≤20% + 流量上升）。
+> - 第 3、4 名 ACOS 优秀且流量上升，但上期基数较小。
+> - 第 5–7 名出单多、流量上升，但 ACOS 略超 20% 阈值。
+> - 第 8 名 `orthofeet shoes for men` ACOS 极低（6.9%）但**流量下降**，且为竞品品牌词，需注意。
+
+---
+
+## 二、基于市场工具拓词（流量上升 Top 10）
+
+**判定依据**：趋势方向=增长 + 动量=加速/稳定 + 同比为正；时间范围基于 3–7 年历史周度数据（更新至 2026-10-12）。
+
+| 排名 | 关键词 | 中文含义 | 周搜索量 | 同比 | 趋势强度 | 动量 | 是否已投放 | 匹配方式 |
+|---|---|---|---|---|---|---|---|---|
+| 1 | neuropathy shoes for men | 男士神经病变鞋 | 1,151 | +39% | 强 | 加速增长 | ✅ | 精准+词组+广泛 |
+| 2 | wide toe box dress shoes for men | 男士宽楦正装鞋 | 757 | +46% | 强 | 加速增长 | ✅ | 广泛（1条，已暂停） |
+| 3 | mens wide toe box dress shoes | 男士宽楦正装鞋（变体） | 242 | +22% | 中等 | 加速增长 | ✅ | 广泛 |
+| 4 | diabetic dress shoes for men | 男士糖尿病正装鞋 | 176 | +0% | 弱 | 稳定 | ✅ | 广泛 |
+| 5 | plantar fasciitis shoes for men | 男士足底筋膜炎鞋 | 2,272 | +29% | 弱 | 稳定 | ✅ | 精准+词组+广泛 |
+| 6 | mens arch support shoes | 男士足弓支撑鞋 | 631 | +36% | 中等 | 回暖中 | ✅ | 精准+词组+广泛 |
+| 7 | wide dress shoes for men | 男士宽楦正装鞋（宽泛） | 752 | -24% | 中等 | 见顶回落 | ✅ | 广泛+词组 |
+| 8 | orthopedic shoes for men | 男士矫形鞋（大词） | 5,631 | -48% | 中等 | 见顶回落 | ✅ | 精准+词组+广泛 |
+| 9 | orthopedic dress shoes for men | 男士矫形正装鞋 | 550 | -44% | 弱 | 减速信号 | ✅ | 精准+词组+广泛 |
+| 10 | waterproof dress shoes for men | 男士防水正装鞋 | 207 | -13% | 弱 | 见顶回落 | ❌ 未投放 | — |
+
+> ⚠️ 严格符合"流量上升"的只有前 **6 个词**；第 7–10 个词历史长期增长但近期动量已转"见顶回落/减速"、同比转负，属于"曾经增长、当前回落"，如实列出供你判断。
+
+---
+
+## 三、核心结论
+
+### ✅ 值得优先关注的增量机会（未投放 + 有潜力）
+
+近 60 天口径下，**未投放的词仅剩 1 个**：
+
+| 来源 | 词 | 中文含义 | 亮点 |
+|---|---|---|---|
+| 市场工具 | waterproof dress shoes for men | 男士防水正装鞋 | 历史增长（但近期回落） |
+
+> 注：近 30 天口径下曾出现的 5 个未投放长尾词（如 `orthopedic brown leather shoes for mens`、`mens orthopedic office shoes` 等），在近 60 天口径下因出单量未达到 ≥2 单阈值而不再出现在 Top 榜单中，但它们仍是低 ACOS 的潜力长尾词，如需可作为补充投放参考。
+
+### ⚠️ 需要你留意的三点
+
+1. **已投放 ≠ 正在跑**：几乎所有关联 Campaign 的 `servingStatus` 均为"活动已暂停"，即这些词虽然配置存在，但所在广告活动当前是暂停的，实际不产生曝光。唯一确认"真正在跑"的是 `orthofeet shoes for men` 在 Campaign 221957440976796 的广告组 211118873151793（活动正常）。
+
+2. **投放力度最弱的词**：`orthopedic mens dress shoes`（严格达标、ACOS 仅 3.2%）目前**只有 1 条广泛匹配**投放配置，且所在活动已暂停。该词是近 60 天口径下表现最优的长尾词，若恢复投放并补充精准/词组匹配，潜力较大。
+
+3. **市场工具中"流量上升"的强词大多已投放**：`neuropathy shoes for men`（+39%）、`wide toe box dress shoes for men`（+46%）等趋势最强的词，基本都已在多个活动以多种匹配方式投放，增量空间有限。
+
+---
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+如果你需要，我可以进一步帮你：
+- 筛选出"当前真正在跑"（已启用且活动未暂停）的投放清单，明确真正的增量边界；
+- 或对 `orthopedic mens dress shoes` 等投放力度不足的词生成补充投放建议/执行清单。
+
+[7 USER SUCCESS]
+有些搜索词花费高但转化低，帮我列出这些词，然后逐一查一下这些词在亚马逊上的整体搜索量和竞争度，以及与本品listing的匹配性，判断哪些词值得保留、哪些应该否定。
+
+>先基于类目/商品广告表现确定问题搜索词的筛选标准，再严格按照这个标准筛选符合条件的搜索词
+
+>关键词与商品属性/场景的匹配性可以通过listing内容先自行分析判断
+
+[8 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+两个成员的数据都已返回。我来汇总整理成完整的诊断报告。
+
+---
+
+# 商品 B0CRDGCXWW 问题搜索词诊断报告（花费高·转化低）
+
+**商品**：B0CRDGCXWW（OrthoComfoot 男士矫形宽楦皮鞋/步行鞋，美国站，$79.99）
+**数据口径**：近 60 天（2026-08-13 ~ 2026-10-12）
+
+---
+
+## 一、筛选标准（基于类目/商品广告表现）
+
+结合本品近 60 天整体表现（整体 ACOS 25.6%、整体 CVR 2.99%、客单价约 $85、平均 CPC $0.65），确定问题词标准：
+
+| 指标 | 阈值 | 依据 |
+|---|---|---|
+| 花费 | ≥ $5（60天） | 排除偶然性花费，聚焦真正"烧钱"的词 |
+| 点击 | ≥ 5 | 保证转化率统计有最低样本量 |
+| 出单 | = 0（零出单） | "转化低"的严格定义——花了钱但一单没出 |
+
+> 核心逻辑：**花了钱、点了不少、但一单没出**。共筛出 **21 个词**。
+
+---
+
+## 二、21 个问题词逐一诊断表
+
+| # | 搜索词 | 中文含义 | 花费($) | 点击 | 周搜索量 | 竞争度 | 匹配性 | 判定 |
+|---|---|---|---|---|---|---|---|---|
+| 1 | orthocomfort shoes for men | 男士矫形舒适鞋（品牌近似） | 26.38 | 31 | 358 | 低 | ✅ 高 | 🟢 保留·观察 |
+| 2 | extra wide dress shoes for men | 男士超宽正装鞋 | 22.38 | 43 | 469 | 低 | ✅ 高 | 🟢 保留 |
+| 3 | ortho comfort shoes men | 男士矫形舒适鞋 | 16.19 | 19 | 449 | 低 | ✅ 高 | 🟢 保留 |
+| 4 | diabetic dress shoes for men | 男士糖尿病正装鞋 | 12.64 | 18 | 176 | 低 | ✅ 高 | 🟢 保留·低量 |
+| 5 | clarks shoes men | Clarks 男士鞋（竞品） | 12.09 | 19 | 35,676 | 中 | ❌ 低 | 🔴 否定 |
+| 6 | orthofeet dress shoes for men | Orthofeet 正装鞋（竞品） | 11.28 | 15 | 141 | 低 | ❌ 低 | 🔴 否定 |
+| 7 | wide dress shoes for men | 男士宽楦正装鞋 | 8.70 | 16 | 752 | 低 | ✅ 高 | 🟢 保留 |
+| 8 | rockport men's shoes | Rockport 男士鞋（竞品） | 8.26 | 14 | 16,247 | 中 | ❌ 低 | 🔴 否定 |
+| 9 | ortho shoes for men | 男士矫形鞋 | 6.71 | 8 | 510 | 低 | ✅ 高 | 🟢 保留 |
+| 10 | men's orthopedic shoes | 男士矫形鞋 | 6.52 | 9 | 636 | 低 | ✅ 高 | 🟢 保留 |
+| 11 | hoka mens shoes | Hoka 男士鞋（竞品） | 6.45 | 12 | 122,115 | 高 | ❌ 低 | 🔴 否定 |
+| 12 | cole haan mens shoes | Cole Haan 男士鞋（竞品） | 6.42 | 13 | 139,151 | 高 | ❌ 低 | 🔴 否定 |
+| 13 | jhonson and murphy men shoes | Johnson&Murphy 男士鞋（竞品） | 6.19 | 19 | 444 | 低 | ❌ 低 | 🔴 否定 |
+| 14 | leather walking shoes for men | 男士皮革步行鞋 | 6.10 | 7 | 323 | 低 | ⚠️ 中 | 🟢 保留·观察 |
+| 15 | sketcher for men | Skechers 男士鞋（竞品） | 5.93 | 10 | 15,035 | 中 | ❌ 低 | 🔴 否定 |
+| 16 | wide toe box shoes for men | 男士宽楦鞋 | 5.75 | 7 | 8,803 | 中 | ✅ 高 | 🟢 保留·重点 |
+| 17 | mens orthopedic sneakers | 男士矫形运动鞋 | 5.56 | 6 | 590 | 低 | ⚠️ 中 | 🟢 保留·观察 |
+| 18 | best dress shoes for plantar fasciitis for men | 足底筋膜炎正装鞋（长尾） | 5.55 | 7 | 146 | 低 | ✅ 高 | 🟢 保留·低量 |
+| 19 | cole haan mens sneakers | Cole Haan 运动鞋（竞品） | 5.43 | 12 | 14,429 | 中 | ❌ 低 | 🔴 否定 |
+| 20 | mens diabetic shoes | 男士糖尿病鞋 | 5.33 | 6 | 868 | 低 | ✅ 高 | 🟢 保留 |
+| 21 | mens dress shoes | 男士正装鞋（泛大词） | 5.03 | 6 | 数据缺失 | — | ⚠️ 中 | 🟡 待查 |
+
+---
+
+## 三、最终结论
+
+### 🔴 建议否定（8 个）—— 竞品品牌词，花钱买不到转化
+
+这些词搜索量大但买家心智已被竞品品牌锁定，本品点击后几乎不可能转化，是"花费高转化低"的最主要来源：
+
+| 词 | 竞品品牌 | 周搜索量 |
+|---|---|---|
+| clarks shoes men | Clarks | 35,676 |
+| orthofeet dress shoes for men | Orthofeet | 141 |
+| rockport men's shoes | Rockport | 16,247 |
+| hoka mens shoes | Hoka | 122,115 |
+| cole haan mens shoes | Cole Haan | 139,151 |
+| jhonson and murphy men shoes | Johnson & Murphy | 444 |
+| sketcher for men | Skechers | 15,035 |
+| cole haan mens sneakers | Cole Haan | 14,429 |
+
+### 🟢 建议保留（12 个）—— 与本品卖点匹配、竞争度低、有转化潜力
+
+| 词 | 中文含义 | 周搜索量 | 亮点 |
+|---|---|---|---|
+| wide toe box shoes for men | 男士宽楦鞋 | 8,803 | **重点**，宽楦核心卖点，竞争分散 |
+| mens diabetic shoes | 男士糖尿病鞋 | 868 | 糖尿病足场景 |
+| wide dress shoes for men | 男士宽楦正装鞋 | 752 | 宽楦正装 |
+| men's orthopedic shoes | 男士矫形鞋 | 636 | 矫形核心词 |
+| mens orthopedic sneakers | 男士矫形运动鞋 | 590 | 矫形（sneaker 偏运动，观察） |
+| ortho shoes for men | 男士矫形鞋 | 510 | 矫形核心词 |
+| extra wide dress shoes for men | 男士超宽正装鞋 | 469 | 宽楦正装 |
+| ortho comfort shoes men | 男士矫形舒适鞋 | 449 | 品牌近似词 |
+| orthocomfort shoes for men | 男士矫形舒适鞋 | 358 | 品牌近似词（零转化疑为页面/价格问题） |
+| leather walking shoes for men | 男士皮革步行鞋 | 323 | 材质匹配但泛化 |
+| diabetic dress shoes for men | 男士糖尿病正装鞋 | 176 | 糖尿病+正装 |
+| best dress shoes for plantar fasciitis for men | 足底筋膜炎正装鞋 | 146 | 精准长尾 |
+
+### 🟡 待查（1 个）
+
+- **mens dress shoes**（男士正装鞋）——市场数据缺失，属于泛品类大词，竞争极高，零出单大概率是匹配问题，建议单独补查或直接否定。
+
+---
+
+## 四、关键洞察
+
+1. **问题词的根因是"品牌词错投"**：21 个问题词中 8 个是竞品品牌词（Clarks/Rockport/Hoka/Cole Haan/Skechers/Orthofeet/Johnson&Murphy），是"花费高转化低"的最主要来源，应全部加入否定关键词。
+
+2. **本品真正的机会在"宽楦 + 矫形 + 糖尿病足"长尾**：`wide toe box shoes for men`（周量 8803，竞争分散）是本品最匹配的核心词，值得重点投入；`mens diabetic shoes`、`extra wide dress shoes for men` 等精准词竞争度低、匹配度高，是低成本起量的好选择。
+
+3. **两个"保留·观察"需注意**：
+   - `orthocomfort shoes for men`（$26.38，31 点击 0 单）是本品品牌近似词，零转化可能是页面/价格问题而非词不匹配，**不建议直接否定**，建议先排查 Listing 转化。
+   - `mens orthopedic sneakers` 中 "sneakers" 偏运动，本品是皮鞋，匹配度中等，需观察。
+
+---
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+如果你需要，我可以进一步帮你：
+- 对 **8 个竞品品牌词**生成否词执行清单（需你确认后执行）；
+- 或对 `mens dress shoes` 单独补查搜索量/竞争度后再定夺。
+
+[9 USER PAUSED]
+对 8 个竞品品牌词生成否词执行清单
+
+[10 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[11 USER SUCCESS]
+已完成审批确认
+
+[12 ASSISTANT SUCCESS]
+否词操作已成功执行。
+
+---
+
+## ✅ 否词执行完成
+
+已成功对 **8 个竞品品牌词**执行否词操作，共 **31 条**（8 个词 × 命中广告组），全部采用**词组否定（NEGATIVE_PHRASE）**方式，作用在**广告组级**。
+
+### 本次否定的 8 个竞品品牌词
+
+| 词 | 竞品品牌 | 近60天花费($) |
+|---|---|---|
+| clarks shoes men | Clarks | 12.09 |
+| orthofeet dress shoes for men | Orthofeet | 11.28 |
+| rockport men's shoes | Rockport | 8.26 |
+| hoka mens shoes | Hoka | 6.45 |
+| cole haan mens shoes | Cole Haan | 6.42 |
+| jhonson and murphy men shoes | Johnson & Murphy | 6.19 |
+| sketcher for men | Skechers | 5.93 |
+| cole haan mens sneakers | Cole Haan | 5.43 |
+
+### 执行说明
+
+- **作用范围**：11 个 SP 广告活动（含 9 个自动投放 + 3 个手动关键词投放）的对应广告组。
+- **匹配方式**：词组否定，可覆盖品牌词变体（如 "clarks shoes men wide" 等）。
+- **合计节省**：这 8 个词近 60 天共花费约 **$62.05**，且零出单，否定后可避免继续无效烧钱。
+
+### 后续建议
+
+1. 这 8 个竞品品牌词已否定，建议持续观察 1–2 周，确认自动投放中不再出现这些品牌词的流量。
+2. 之前诊断中标记的 **12 个"保留"词**（如 `wide toe box shoes for men`、`mens diabetic shoes` 等）与本品卖点匹配、竞争度低，可作为后续重点投放/加码方向。
+3. `mens dress shoes`（泛品类大词）市场数据缺失，如需可单独补查后再决定是否否定。
+
+如需我继续处理其他词（如对保留词生成投放建议、或补查 `mens dress shoes`），随时告诉我。
+
+[13 USER SUCCESS]
+托词适合的cpc也标示出来
+
+[14 ASSISTANT SUCCESS]
+CPC 数据已返回。我来汇总整理，把 CPC 标示到拓词建议中。
+
+---
+
+# 商品 B0CRDGCXWW 拓词建议 · 含 CPC 标示
+
+**商品**：B0CRDGCXWW（OrthoComfoot 男士矫形宽楦皮鞋/步行鞋，美国站，$79.99）
+
+**CPC 口径说明**：市场建议竞价区间（ABA/SQP 口径），分「固定竞价」和「动态竞价（提降）」两种策略，每种又分精准/词组/广泛三种匹配。下表「建议 CPC」取**固定·精准中位值**作为基准出价参考；动态竞价可降约 35–40% 成本。
+
+---
+
+## 一、有 CPC 数据的词（11 个，按建议 CPC 从低到高）
+
+| 关键词 | 中文含义 | 周搜索量 | 建议 CPC（固定·精准中位） | 建议出价区间 | 动态·精准中位 |
+|---|---|---|---|---|---|
+| ortho shoes for men | 男士矫形鞋 | 510 | **$0.62** | $0.51–$0.72 | $0.38 |
+| ortho comfort shoes men | 男士矫形舒适鞋 | 449 | **$0.89** | $0.57–$1.18 | $0.55 |
+| mens orthopedic shoes | 男士矫形鞋 | 1,601 | **$0.92** | $0.69–$1.15 | $0.57 |
+| wide toe box shoes for men | 男士宽楦鞋 | 8,803 | **$0.97** | $0.73–$1.21 | $0.60 |
+| orthopedic shoes for men | 男士矫形鞋（大词） | 5,631 | **$1.02** | $0.77–$1.27 | $0.63 |
+| mens orthopedic sneakers | 男士矫形运动鞋 | 590 | **$1.08** | $0.56–$1.52 | $0.67 |
+| diabetic dress shoes for men | 男士糖尿病正装鞋 | 176 | **$1.09** | $0.94–$1.37 | $0.65 |
+| orthopedic dress shoes for men | 男士矫形正装鞋 | 550 | **$1.19** | $0.89–$1.49 | $0.72 |
+| mens arch support shoes | 男士足弓支撑鞋 | 631 | **$1.23** | $0.80–$1.44 | $0.77 |
+| plantar fasciitis shoes for men | 男士足底筋膜炎鞋 | 2,272 | **$1.41** | $1.06–$1.76 | $0.87 |
+| mens diabetic shoes | 男士糖尿病鞋 | 868 | **$1.46** | $1.03–$1.73 | $0.90 |
+
+---
+
+## 二、CPC 数据缺失的词（12 个，多为长尾低量词）
+
+以下词在词经济学表中无 CPC 数据，可参考同词根词的 CPC 做近似出价：
+
+| 关键词 | 中文含义 | 参考近似 CPC（同词根词） |
+|---|---|---|
+| orthopedic mens dress shoes | 男士矫形正装鞋 | 参考 orthopedic dress shoes for men ≈ $1.19 |
+| ortho dress shoes for men | 男士矫形正装鞋（缩写） | 参考 ortho shoes for men ≈ $0.62 |
+| wide toe box dress shoes for men | 男士宽楦正装鞋 | 参考 wide toe box shoes for men ≈ $0.97 |
+| zapatos ortopédicos para hombre | 男士矫形鞋（西语） | 参考 orthopedic shoes for men ≈ $1.02 |
+| neuropathy shoes for men | 男士神经病变鞋 | 参考 mens diabetic shoes ≈ $1.46 |
+| mens wide toe box dress shoes | 男士宽楦正装鞋（变体） | 参考 wide toe box shoes for men ≈ $0.97 |
+| wide dress shoes for men | 男士宽楦正装鞋（宽泛） | 参考 wide toe box shoes for men ≈ $0.97 |
+| waterproof dress shoes for men | 男士防水正装鞋 | 参考 orthopedic dress shoes for men ≈ $1.19 |
+| extra wide dress shoes for men | 男士超宽正装鞋 | 参考 wide toe box shoes for men ≈ $0.97 |
+| orthocomfort shoes for men | 男士矫形舒适鞋（品牌近似） | 参考 ortho comfort shoes men ≈ $0.89 |
+| leather walking shoes for men | 男士皮革步行鞋 | 参考 orthopedic shoes for men ≈ $1.02 |
+| best dress shoes for plantar fasciitis for men | 足底筋膜炎正装鞋（长尾） | 参考 plantar fasciitis shoes for men ≈ $1.41 |
+
+---
+
+## 三、出价策略建议
+
+1. **CPC 整体偏低，广告成本友好**：本品类（矫形/宽楦皮鞋）市场 CPC 集中在 **$0.6–$1.5** 区间，属于低竞争成本品类。
+
+2. **性价比最优的词**（低 CPC + 高匹配 + 大流量）：
+   - `wide toe box shoes for men`（$0.97，周量 8803 最大，宽楦核心卖点）——**首选**
+   - `orthopedic shoes for men`（$1.02，周量 5631，本品流量第一大词）
+   - `ortho shoes for men`（$0.62，最低 CPC）
+
+3. **CPC 偏高需谨慎的词**：
+   - `plantar fasciitis shoes for men`（$1.41）——核心场景词但竞价最高，建议用动态竞价或词组匹配控成本
+   - `mens diabetic shoes`（$1.46）——糖尿病足精准词，竞价高但转化意图强，可小预算测试
+
+4. **出价策略**：
+   - **新品冷启动**：用「固定·精准」中位值 × 0.8 作为初始出价，观察 1–2 周曝光
+   - **有自然位积累后**：切换「动态·提降」竞价，成本可降 35–40%
+   - **长尾精准词**（如 `diabetic dress shoes for men`）可用词组/广泛匹配低价拓量
+
+---
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+> 补充：CPC 为市场建议竞价估算值（非实时竞价），实际成交 CPC 受竞争波动影响。如需进一步判断"某个词打广告能否回本"，请补充产品售价和贡献利润率，我可以计算盈亏平衡 CVR 和 ACOS。

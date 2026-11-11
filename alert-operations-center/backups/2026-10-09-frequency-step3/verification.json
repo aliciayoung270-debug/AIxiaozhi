@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "count": 16,
+  "checks": [
+    "No configured conditions cannot choose hourly",
+    "Only daily fields cannot choose hourly",
+    "Same-day update does not imply hourly",
+    "Actual hourly field unlocks hourly",
+    "Custom hourly field unlocks hourly",
+    "One hourly condition among groups is sufficient",
+    "Metric comparison right operand counts",
+    "Inactive cached comparison operand does not count",
+    "Unknown field cannot unlock hourly",
+    "Bypassing disabled option fails validation at module3",
+    "Hourly configuration with hourly field passes validation",
+    "Hourly fields do not force hourly frequency",
+    "Four modules are ordered 1 to4",
+    "Frequency moved out of basic info and into module3",
+    "Trial run is module4",
+    "Existing Page and Feature IDs preserved"
+  ]
+}

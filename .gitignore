@@ -1,0 +1,22 @@
+# macOS and local editor state
+.DS_Store
+._*
+.obsidian/
+.vscode/
+.idea/
+
+# Dependencies and generated local files
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+
+# Credentials and local environment (templates may be committed)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key

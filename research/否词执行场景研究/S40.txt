@@ -1,0 +1,243 @@
+ai_session_01a152f8d034765f84017dbafa1abf67
+[1 USER SUCCESS]
+请帮我看下这个商品 B0GJZQXYFV 有哪些拓词的建议 ；我的要求是
+
+> 可以基于搜索词报告，找到出单多，acos低的长尾词有哪些，给出top10，同时要求这个词的流量是在上升的
+
+> 可以基于市场工具帮我做拓词，要求这个词的流量是在上升的，给出top10
+
+> 以上所有的词，在这个商品关联的广告活动下是否已投放了，是的话标记出是否投放以及匹配方式
+
+[2 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+两个方向的拓词结果和投放状态核对都已完成。下面是完整汇总。
+
+---
+
+# 商品 B0GJZQXYFV 拓词建议
+
+**商品**：OrthoComfoot 女性矫形鞋（足弓支撑 / 足底筋膜炎 / 扁平足场景，slip-on 鞋型，美国站）
+
+---
+
+## 一、基于搜索词报告：出单多、ACOS 低的长尾词 Top 10
+
+统计周期 2026-09-19 ～ 2026-10-18（近 30 天），共 481 个搜索词、出单词 28 个。按「出单多 + ACOS 低 + 长尾」筛选：
+
+| 搜索词 | 订单 | ACOS | 是否已投放 | 匹配方式 | 投放状态 |
+|---|---|---|---|---|---|
+| womens orthopedic sneakers | 7 | 6.2% | ✅ | 广泛 + 精准 | 活动已暂停 |
+| diabetic shoes for women | 4 | 5.0% | ✅ | 精准 + 广泛 | 活动已暂停 |
+| orthopedic shoes for women | 4 | 14.7% | ✅ | 广泛 + 精准 | 活动已暂停 |
+| orthopedic running shoes for women | 3 | 6.8% | ✅ | 广泛 | 活动已暂停 |
+| orthopedic walking shoes for women | 2 | 13.1% | ✅ | 广泛 + 精准 | 活动已暂停 |
+| orthocomfoot womens shoes | 2 | 5.3% | ✅ | 广泛 + 精准 | 活动已暂停 |
+| ortho feet shoes for women | 1 | 9.2% | ✅ | 广泛 + 精准 | 活动已暂停 |
+| shoes for bunions women | 1 | 4.3% | ❌ | — | 未投放 |
+| orthocomfoot womens | 1 | 3.4% | ❌ | — | 未投放 |
+| zapatos ortopédicos para mujer | 1 | 23.2% | ✅ | 广泛 | 活动已暂停 |
+
+> ⚠️ 关于「流量上升」：内部搜索词报告是近 30 天静态数据，不提供单词语义上的流量趋势字段。我做了商品整体周期对比（近 30 天 vs 前 30 天），花费从 1161.72 降至 750.47（环比 **-35.4%**），点击 2698→1837，订单 63→54——**商品整体流量处于收缩状态，并非上升**。因此「流量上升」的长尾词需依赖外部市场工具判断（见下方第二部分）。
+
+---
+
+## 二、基于市场工具拓词：流量上升的关键词 Top 10
+
+以下为市场工具筛出的流量上升词（上升趋势均有至少两期数据支撑）：
+
+| 排名 | 关键词 | 当前周搜索量 | 趋势证据 |
+|---|---|---|---|
+| 1 | orthopedic shoes for women | 3.2万/周 | 核心大词，点击集中度仅 5% |
+| 2 | plantar fasciitis shoes women | 1.4万/周 | ABA 排名 9999999→25355，持续抬升 |
+| 3 | arch support shoes for women | 1.2万/周 | 0.5万→1.2万，+149% |
+| 4 | shoes for plantar fasciitis for women | 6247/周 | 0.4万→0.6万，+42%，2026-05 创峰值 |
+| 5 | plantar fasciitis shoes | 2424/周 | ABA 排名 245784→166086 |
+| 6 | orthopedic walking shoes for women | 1363/周 | +109%，点击集中度 8% |
+| 7 | slip on walking shoes women | 837/周 | 点击集中度 8%，可切入 |
+
+> 说明：市场工具因调用次数限制，`orthopedic shoes for women` 的完整历史趋势未拉全，其余 6 个词的上升趋势均有起点 vs 当前 + 近期 12 周数据支撑。第 8-10 个候选词建议继续筛查 `wide width shoes for women`、`diabetic shoes for women`、`neuropathy shoes` 等词根。
+
+---
+
+## 三、外部候选词投放状态核对
+
+| 候选词 | 是否已投放 | 匹配方式 | 投放状态 |
+|---|---|---|---|
+| orthopedic shoes for women | ✅ | 广泛 + 精准 | 活动已暂停 |
+| plantar fasciitis shoes women | ✅ | 广泛 + 精准 | 活动已暂停 |
+| arch support shoes for women | ✅ | 广泛 | 活动已暂停 |
+| shoes for plantar fasciitis for women | ✅ | 广泛 + 精准 | 活动已暂停 |
+| plantar fasciitis shoes | ✅ | 广泛 + 精准 | 活动已暂停 |
+| orthopedic walking shoes for women | ✅ | 广泛 + 精准 | 活动已暂停 |
+| slip on walking shoes women | ❌ | — | 未投放 |
+
+---
+
+## 核心结论
+
+1. **搜索词报告里的优质长尾词，基本都已在历史广告活动配置过**（广泛/精准匹配均有），但对应活动目前**全部暂停**。所以这些词不是"没投"，而是"投了但活动停了"——重启无需新建，恢复活动或重新启用投放即可。
+
+2. **真正未投放的纯新增机会**：
+   - 搜索词报告侧：`shoes for bunions women`（ACOS 4.3%）、`orthocomfoot womens`（品牌词）
+   - 市场拓词侧：`slip on walking shoes women`
+
+3. **流量趋势提醒**：内部数据显示该商品整体流量在收缩（环比 -35.4%），而市场侧 `plantar fasciitis shoes women`、`arch support shoes for women` 等词流量在上升——建议优先布局这些「市场热度上升 + 点击集中度低」的词，同时注意 `plantar fasciitis shoes for women` 已结构性下滑（-88%），不建议拓。
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+需要我进一步列出每个词具体分布在哪些广告活动（Campaign 名称/ID）及对应出价，或者帮你补齐第 8-10 个市场候选词吗？
+
+[3 USER SUCCESS]
+适合这款差评的词有哪一些
+
+[4 ASSISTANT SUCCESS]
+你的问题里"差评"这个词我理解可能有两种含义，想先跟你确认一下，以免答偏：
+
+1. **"长尾"的误写/口误** —— 即上一轮分析里的"长尾词"（long-tail keywords），继续找适合这款商品的拓词；
+2. **真的指"差评"（negative reviews）** —— 想了解这款商品 B0GJZQXYFV 的差评/负面反馈里提到了哪些关键词，用来做否词或优化 Listing。
+
+请问你具体想要哪一种？如果是指第 2 种（差评相关），也请说明你希望我基于什么数据来源分析（比如市场工具的评论数据），我可以帮你进一步查询。
+
+[5 USER SUCCESS]
+适合这款产品的词有哪一些
+
+[6 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+两个方向的结果都回来了。下面给你汇总「适合这款产品」的完整关键词清单。
+
+---
+
+# 商品 B0GJZQXYFV 适合投放的关键词
+
+**商品**：OrthoComfoot 女性矫形鞋（足弓支撑 / 足底筋膜炎 / 扁平足 / 神经病变 / 糖尿病场景，slip-on 鞋型，美国站）
+
+---
+
+## 一、内部搜索词报告：高潜力补充词（有曝光/点击、场景契合）
+
+统计周期 2026-09-19 ～ 2026-10-18（近 30 天）。以下词与本品 Listing 场景高度相关，有曝光/点击但尚未出单，或出单少但转化信号好：
+
+| 搜索词 | 曝光 | 点击 | 订单 | ACOS | 相关场景 | 投放状态 |
+|---|---|---|---|---|---|---|
+| ortho shoes for women | 285 | 13 | 0 | — | 矫形鞋核心词 | ✅ 广泛，活动已暂停 |
+| ortho comfort shoes women | 170 | 7 | 0 | — | 舒适矫形鞋 | ✅ 广泛+精准，活动已暂停 |
+| shoes for bunions women | 138 | 7 | 1 | 4.3% | 拇囊炎 | ❌ 未投放 |
+| ortho sneakers for women | 97 | 6 | 0 | — | 矫形运动鞋 | ✅ 广泛，活动已暂停 |
+| womens walking shoes with arch support | 86 | 4 | 0 | — | 足弓支撑 | ❌ 未投放 |
+| orthopedic work shoes for women | 51 | 6 | 0 | — | 工作鞋场景 | ✅ 广泛，活动已暂停 |
+| orthopedic hiking shoes for women | 26 | 3 | 0 | — | 徒步鞋场景 | ✅ 广泛，活动已暂停 |
+| tennis shoes for neuropathy womens | 25 | 3 | 0 | — | 神经病变 | ❌ 未投放 |
+| wide toe box walking shoes women | 25 | 4 | 0 | — | 宽楦/扁平足 | ❌ 未投放 |
+| orthopedic diabetic shoes for women | 11 | 3 | 0 | — | 糖尿病/神经病变 | ❌ 未投放 |
+| arch support walking shoes women | 9 | 2 | 0 | — | 足弓支撑 | ✅ 广泛，活动已暂停 |
+| plantar fasciitis running shoes women | 7 | 2 | 0 | — | 足底筋膜炎 | ❌ 未投放 |
+
+**未投放的纯新增机会（6 个）**：`orthopedic diabetic shoes for women`、`tennis shoes for neuropathy womens`、`shoes for bunions women`（已出 1 单、ACOS 4.3%）、`wide toe box walking shoes women`、`womens walking shoes with arch support`、`plantar fasciitis running shoes women`——这些与本品场景高度契合，建议优先拓词。
+
+---
+
+## 二、市场工具：场景词根补充（流量上升 + 可切入）
+
+本轮补充筛查了 wide width / diabetic / neuropathy / bunion / comfortable walking 等场景词根，命中 3 个高价值词：
+
+| 关键词 | 中文 | 当前周搜索量 | 趋势 |
+|---|---|---|---|
+| orthopedic shoes for women | 女士矫形鞋 | 2.9万/周 | ↑ 0.9万→2.9万，+236%，ABA 28816→10427 |
+| diabetic shoes for women | 女士糖尿病鞋 | 9398/周 | ↑ 0.4万→0.9万，+150%，ABA 88147→39509 |
+| neuropathy shoes for women | 女士神经病变鞋 | 2025/周 | ↑ 0.1万→0.2万，+111%，ABA 492545→199717 |
+
+> 说明：`wide width shoes`、`bunion shoes`、`comfortable walking shoes` 三个词根在外部数据中**无返回记录**（未收录或低于阈值），本轮无法验证趋势。建议用已确认上升的 `diabetic shoes for women`、`neuropathy shoes for women` 作为这些场景的替代切入词。
+
+---
+
+## 三、两轮合并的完整候选词清单（按搜索量排序）
+
+| 关键词 | 中文 | 周搜索量 | 趋势 | 可切入性 |
+|---|---|---|---|---|
+| orthopedic shoes for women | 女士矫形鞋 | 2.9万 | ↑ 上升 | 点击集中度 9%，主攻词 |
+| plantar fasciitis shoes women | 足底筋膜炎鞋 女士 | 1.4万 | ↑ 上升 | 点击集中度 5%，优质 |
+| arch support shoes for women | 女士拱形支撑鞋 | 1.2万 | ↑ 上升 | 点击集中度 3%，最分散 |
+| diabetic shoes for women | 女士糖尿病鞋 | 9398 | ↑ 上升 | 点击集中度 13%，优质 |
+| shoes for plantar fasciitis for women | 女士足底筋膜炎鞋 | 6247 | ↑ 上升 | 点击集中度 7% |
+| plantar fasciitis shoes | 足底筋膜炎鞋 | 2424 | ↑ 上升 | 点击集中度 8% |
+| neuropathy shoes for women | 女士神经病变鞋 | 2025 | ↑ 上升 | 点击集中度 16% |
+| orthopedic walking shoes for women | 女士矫形步行鞋 | 1363 | ↑ 上升 | 点击集中度 8% |
+| slip on walking shoes women | 女士一脚蹬步行鞋 | 837 | 待验证 | 点击集中度 8% |
+
+---
+
+## 核心结论
+
+1. **最值得主攻的词**：`orthopedic shoes for women`（2.9万/周，+236%，点击最分散），是本品核心大词。
+
+2. **场景词优先用已确认上升的替代词**：`diabetic shoes for women`、`neuropathy shoes for women`（bunion / wide width 未收录，无法验证趋势）。
+
+3. **内部未投放的 6 个高契合词是纯增量**：`orthopedic diabetic shoes for women`、`tennis shoes for neuropathy womens`、`shoes for bunions women`、`wide toe box walking shoes women`、`womens walking shoes with arch support`、`plantar fasciitis running shoes women`。
+
+4. **已投放但活动暂停的词**：重启对应活动即可恢复，无需新建。
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+需要我进一步列出每个已投放词具体分布在哪些广告活动（Campaign 名称/ID）及出价，或者针对这批未投放词生成投放建议（`recommend_ad_actions`）吗？
+
+[7 USER SUCCESS]
+根据这30天的广告数据，给我一份否词清单
+
+[8 ASSISTANT SUCCESS]
+基于这 30 天的广告数据，否词清单结果如下。
+
+---
+
+# 商品 B0GJZQXYFV 否词清单（近 30 天）
+
+**统计周期**：2026-09-19 ～ 2026-10-18 ｜ 搜索词总量 441 条（按花费降序读取）
+
+---
+
+## 重要说明
+
+系统对这批候选否词做了 **Listing 保护校验，但校验执行失败、结果未知**（`LISTING_PROTECTION_UNKNOWN`），因此所有候选否词都被保守地标记为「待确认（DEFER）」，**没有进入可执行否词表**。
+
+这不是说这些词不能否，而是系统在无法确认「否定这些词是否会误伤相关流量」之前，不会替你默认给出确定动作。
+
+---
+
+## 候选否词清单（按花费从高到低）
+
+以下词都是「高花费零转化 / 高 ACOS / 疑似不相关」的典型浪费词，供你知情后自行判断：
+
+| 搜索词 | 花费 | 点击 | 订单 | ACOS | 否词理由 |
+|---|---|---|---|---|---|
+| orthofeet shoes for women | 29.48 | 60 | 0 | — | 高花费零转化（竞品 Orthofeet 品牌词） |
+| walking shoes women | 15.22 | 35 | 0 | — | 高花费零转化（宽泛词） |
+| slip on sneakers women | 11.99 | 28 | 0 | — | 高花费零转化 |
+| ortho shoes for women | 6.00 | 12 | 0 | — | 零转化 |
+| tenis ortopédicos para mujer | 5.98 | 12 | 0 | — | 零转化 |
+| orthopedic golf shoes for women | 5.00 | 10 | 0 | — | 零转化（高尔夫鞋，场景不符） |
+| ortho pro shoes for women | 3.93 | 8 | 0 | — | 零转化 |
+| ladies sneakers | 3.04 | 8 | 0 | — | 零转化（宽泛词） |
+| orthocomfort shoes for women | 3.00 | 6 | 0 | — | 零转化 |
+| orthopedic work shoes for women | 3.00 | 6 | 0 | — | 零转化（工作鞋场景） |
+
+---
+
+## 优先否定建议（从数据事实看）
+
+1. **竞品品牌词**：`orthofeet shoes for women`（花费 29.48、零单）——竞品 Orthofeet 品牌词，明显不相关，最值得优先否定；
+2. **宽泛泛词**：`walking shoes women`、`slip on sneakers women`、`ladies sneakers`——点击多但零转化；
+3. **场景不符词**：`orthopedic golf shoes for women`（高尔夫鞋）、`orthopedic work shoes for women`（工作鞋）。
+
+---
+
+## 下一步
+
+如果你**确认要否定这些词**，请明确告诉我：
+1. 要否定的具体词（可以只选其中几个）；
+2. 否定范围（精确匹配 / 词组匹配）；
+3. 作用层级（Campaign 级 / 广告组级）。
+
+我会按你指定的词和范围继续处理执行。
+
+需要我针对某个具体词（如 `orthofeet shoes for women`）做更细的否定范围建议吗？

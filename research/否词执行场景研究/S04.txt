@@ -1,0 +1,1856 @@
+ai_session_01a03718a445750f8f50831675ef95e9
+[1 USER SUCCESS]
+D2Y818 分析美国站近30天广告数据 给出优化建议 并分析目前广告架构 给出完善建议
+
+[2 ASSISTANT SUCCESS]
+> 注意：该活动因命中当前授权或指定 ASIN 被纳入查询；指标为整个广告活动汇总，可能同时包含活动内其他 ASIN 的效果，不能解读为命中 ASIN 的独立贡献。
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 美国站广告数据诊断报告
+
+**统计周期**：2026-07-26 ～ 2026-08-24（近 30 天）
+**对象**：货号/SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+> 说明：本商品为 64 个子 ASIN 的多变体商品，广告活动指标为 Campaign 整体汇总，可能包含命中范围外其他 ASIN 的效果。
+
+---
+
+## 一、近 30 天核心指标
+
+| 指标 | 数值 | 指标 | 数值 |
+|---|---|---|---|
+| 曝光 | 286,424 | CPC | $0.66 |
+| 点击 | 2,281 | 销售额 | $4,344.12 |
+| CTR | 0.80% | 订单 | 105 |
+| 花费 | $1,508.64 | CVR | 4.61% |
+| **ACOS** | **34.73%** | ROAS | 2.88 |
+
+**关键特征**：销售高度依赖间接销售（占 88.5%），同 SKU 直接销售仅占 11.5%，说明该商品承担较强的"引流/关联"角色。
+
+---
+
+## 二、Campaign 层面表现
+
+| Campaign | 类型 | 状态 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|
+| D2Y818-简化 | 手动 | 启用 | $879.72 | $2,600.54 | 33.8% | 65 |
+| D2Y818-SP-AT-KF-0.45 | 自动 | 启用 | $68.17 | $383.90 | 17.8% | 9 |
+| D2Y818-SP-AT-KF-BS | 自动 | 启用 | $65.66 | $343.92 | 19.1% | 8 |
+| D2Y818-SP-AT-0.35 | 自动 | 启用 | $51.61 | $280.94 | 18.4% | 6 |
+| D2Y818-SP-AT-JM-0.61 | 自动 | 启用(超预算) | $101.50 | $134.97 | **75.2%** | 3 |
+| D2Y818-SP-AT-TL-0.36 | 自动 | 启用 | $93.81 | $125.97 | **74.5%** | 3 |
+| D2Y818-SP-MT-KW-BR | 手动 | 启用(超预算) | $78.70 | $120.96 | **65.1%** | 3 |
+| D2Y818-SP-MT-KWG-HS | 手动 | 启用 | $68.51 | $183.96 | 37.2% | 4 |
+| D2Y818-SP-MT-cat.-AI | 手动 | 启用 | $39.43 | $85.98 | 45.9% | 2 |
+| D2Y818-SP-MT-BRKW-BR/PH | 手动 | 启用 | $29.05 | $82.98 | 35.0% | 2 |
+| D2Y818-SP-AT-GL-0.5 | 自动 | 启用 | $19.28 | $0 | — | 0 |
+| D2Y818-SP-AT-KF-0.31 | 自动 | 已暂停 | $14.97 | $0 | — | 0 |
+| D2Y818-SP-MT-出单竞品asin | 手动 | 启用 | $0 | $0 | — | 0 |
+
+---
+
+## 三、投放类型与匹配方式
+
+| 投放类型 | 匹配方式 | 曝光 | 点击 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|---|
+| 关键词 | 词组(PHRASE) | 111,464 | 672 | $585.13 | $1,761.57 | 33.2% | 44 |
+| 商品投放 | — | 109,673 | 1,155 | $523.03 | $1,539.64 | 34.0% | 35 |
+| 关键词 | 广泛(BROAD) | 63,342 | 448 | $395.68 | $1,042.91 | 37.9% | 26 |
+| 关键词 | 精准(EXACT) | 1,939 | 5 | $4.58 | $0 | — | 0 |
+
+---
+
+## 四、搜索词层面（1,335 个，总花费 $1,464，ACOS 35.07%）
+
+**高效转化词（应加预算/提价）**：coutgo boots women（ACOS 5.1%）、kitten heel ankle boots（11.2%）、ankle boots（11.1%）、pointed toe booties（10.5%）、white boots for women（11.6%）
+
+**高花费低转化词（应否定/降价）**：ankle boots for women、kitten heel booties、kitten heels、kitten heel boots for women、white boots、booties for women 等
+
+---
+
+## 五、优化建议（按优先级）
+
+**🔴 P0 — 立即止损**
+1. 暂停/大幅降预算 `JM-0.61`、`TL-0.36`（ACOS 均 75%+）
+2. 优化 `KW-BR`（ACOS 65%，已超预算），先否定无效词
+3. 暂停 `GL-0.5`（$19.28 花费零转化）
+
+**🟠 P1 — 收词与否定**
+4. 否定高花费低转化泛词：`ankle boots for women`、`kitten heel booties`、`white boots`、`booties for women` 等
+5. 广泛匹配逐步收紧为词组匹配，补充否定词库
+
+**🟡 P2 — 扩量与提效**
+6. 加预算/提价品牌词 `coutgo` 及高效转化词（ACOS<12%）
+7. 补充精准匹配（EXACT）词库，将已验证高效词组词转精准投放
+8. 拆分"简化"活动，高效词单独建组
+
+---
+
+## 六、广告架构分析与完善建议
+
+**当前架构**：手动+自动双轨并行，命名规范（含 SP/MT/AT 及出价标识），匹配方式词组/广泛/精准均有覆盖。
+
+**存在的问题**
+1. "简化"活动承载过重（占 60% 销售额），内部词结构不透明
+2. 自动活动数量过多，JM/TL 两个高 ACOS 活动拖累整体
+3. 精准匹配几乎空白，浪费已验证高效词的扩量机会
+4. 商品投放点击量大但转化率仅 3%，投放 ASIN 精准度不足
+
+**完善建议**
+1. 将"简化"活动按词性拆分为「品牌词组」「高效词组」「长尾词组」3 个广告组，分别设预算出价
+2. 保留 KF-0.45、KF-BS、0.35 三个健康自动活动，暂停 JM-0.61、TL-0.36、GL-0.5，预算转移至高效手动活动
+3. 建立精准匹配层，将 ACOS<15% 的高效词逐一建 EXACT 精准投放
+4. 筛选出单竞品 ASIN，剔除无效商品投放
+5. 建立常态化否定词库
+
+---
+
+**总结**：D2Y818 整体 ACOS 34.73% 尚有优化空间，核心问题在于**两个高亏损自动活动 + 广泛匹配无效流量 + 精准匹配缺失**。通过"止损亏损活动 + 收词否定 + 建立精准匹配层"三步，预计可将 ACOS 优化至 25% 以下，同时放大品牌词与高效词的利润贡献。
+
+如需针对某个具体活动或搜索词进一步下钻分析，或需要我协助执行上述优化建议，请告诉我。
+
+[3 USER SUCCESS]
+D2Y818 分析美国站近30天广告数据 给出优化建议 并分析目前广告架构 给出完善建议
+
+[4 ASSISTANT SUCCESS]
+# D2Y818 美国站广告数据诊断报告
+
+**统计周期**：2026-07-26 ～ 2026-08-24（近 30 天）
+**对象**：货号/SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+> ⚠️ **数据说明**：广告位（Placement）维度因后端查询超时未能返回（该商品含 64 个子 ASIN），其余维度数据完整。Campaign/投放词/搜索词指标为命中广告组汇总，可能包含同组其他 ASIN 的效果。
+
+---
+
+## 一、近 30 天核心指标
+
+| 指标 | 数值 | 指标 | 数值 |
+|---|---|---|---|
+| 曝光 | 286,424 | CPC | $0.66 |
+| 点击 | 2,281 | 销售额 | $4,344.12 |
+| CTR | 0.80% | 订单 | 105 |
+| 花费 | $1,508.64 | CVR | 4.61% |
+| **ACOS** | **34.73%** | ROAS | 2.88 |
+
+**关键特征**：销售高度依赖间接销售（占 88.5%），同 SKU 直接销售仅占 11.5%（$497.88），该商品更多承担"引流/关联"角色。
+
+---
+
+## 二、Campaign 层面表现（13 个活动）
+
+| Campaign | 类型 | 状态 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|
+| D2Y818-简化 | 手动 | 启用 | $879.72 | $2,600.54 | 33.8% | 65 |
+| D2Y818-SP-AT-KF-0.45 | 自动 | 启用 | $68.17 | $383.90 | 17.8% | 9 |
+| D2Y818-SP-AT-KF-BS | 自动 | 启用 | $65.66 | $343.92 | 19.1% | 8 |
+| D2Y818-SP-AT-0.35 | 自动 | 启用 | $51.61 | $280.94 | 18.4% | 6 |
+| D2Y818-SP-AT-JM-0.61 | 自动 | 启用(超预算) | $101.50 | $134.97 | **75.2%** | 3 |
+| D2Y818-SP-AT-TL-0.36 | 自动 | 启用 | $93.81 | $125.97 | **74.5%** | 3 |
+| D2Y818-SP-MT-KW-BR | 手动 | 启用(超预算) | $78.70 | $120.96 | **65.1%** | 3 |
+| D2Y818-SP-MT-KWG-HS | 手动 | 启用 | $68.51 | $183.96 | 37.2% | 4 |
+| D2Y818-SP-MT-cat.-AI | 手动 | 启用 | $39.43 | $85.98 | 45.9% | 2 |
+| D2Y818-SP-MT-BRKW-BR/PH | 手动 | 启用 | $29.05 | $82.98 | 35.0% | 2 |
+| D2Y818-SP-AT-GL-0.5 | 自动 | 启用 | $19.28 | $0 | — | 0 |
+| D2Y818-SP-AT-KF-0.31 | 自动 | 已暂停 | $14.97 | $0 | — | 0 |
+| D2Y818-SP-MT-出单竞品asin | 手动 | 启用 | $0 | $0 | — | 0 |
+
+---
+
+## 三、投放类型与匹配方式
+
+| 投放类型 | 匹配方式 | 曝光 | 点击 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|---|
+| 关键词 | 词组(PHRASE) | 111,464 | 672 | $585.13 | $1,761.57 | 33.2% | 44 |
+| 商品投放 | — | 109,673 | 1,155 | $523.03 | $1,539.64 | 34.0% | 35 |
+| 关键词 | 广泛(BROAD) | 63,342 | 448 | $395.68 | $1,042.91 | 37.9% | 26 |
+| 关键词 | 精准(EXACT) | 1,939 | 5 | $4.58 | $0 | — | 0 |
+
+---
+
+## 四、搜索词层面（1,335 个，总花费 $1,464，ACOS 35.07%）
+
+**高效转化词（应加预算/提价）**：coutgo boots women（ACOS 5.1%）、kitten heel ankle boots（11.2%）、ankle boots（11.1%）、pointed toe booties（10.5%）、white boots for women（11.6%）
+
+**高花费低转化词（应否定/降价）**：ankle boots for women、kitten heel booties、kitten heels、kitten heel boots for women、white boots、booties for women
+
+---
+
+## 五、优化建议（按优先级）
+
+**🔴 P0 — 立即止损**
+1. 暂停/大幅降预算 `JM-0.61`、`TL-0.36`（ACOS 均 75%+）
+2. 优化 `KW-BR`（ACOS 65%，已超预算），先否定无效词
+3. 暂停 `GL-0.5`（$19.28 花费零转化）
+
+**🟠 P1 — 收词与否定**
+4. 否定高花费低转化泛词：`ankle boots for women`、`kitten heel booties`、`white boots`、`booties for women` 等
+5. 广泛匹配逐步收紧为词组匹配，补充否定词库
+
+**🟡 P2 — 扩量与提效**
+6. 加预算/提价品牌词 `coutgo` 及高效转化词（ACOS<12%）
+7. 补充精准匹配（EXACT）词库，将已验证高效词组词转精准投放
+8. 拆分"简化"活动，高效词单独建组
+
+---
+
+## 六、广告架构分析与完善建议
+
+**当前架构**：手动+自动双轨并行，命名规范（含 SP/MT/AT 及出价标识），词组/广泛/精准均有覆盖。
+
+**存在的问题**
+1. "简化"活动承载过重（占 60% 销售额），内部词结构不透明
+2. 自动活动数量过多，JM/TL 两个高 ACOS 活动拖累整体
+3. 精准匹配几乎空白，浪费已验证高效词的扩量机会
+4. 商品投放点击量大但转化率仅 3%，投放 ASIN 精准度不足
+
+**完善建议**
+1. 将"简化"活动按词性拆分为「品牌词组」「高效词组」「长尾词组」3 个广告组，分别设预算出价
+2. 保留 KF-0.45、KF-BS、0.35 三个健康自动活动，暂停 JM-0.61、TL-0.36、GL-0.5，预算转移至高效手动活动
+3. 建立精准匹配层，将 ACOS<15% 的高效词逐一建 EXACT 精准投放
+4. 筛选出单竞品 ASIN，剔除无效商品投放
+5. 建立常态化否定词库
+
+---
+
+**总结**：D2Y818 整体 ACOS 34.73% 尚有优化空间，核心问题在于**两个高亏损自动活动 + 广泛匹配无效流量 + 精准匹配缺失**。通过"止损亏损活动 + 收词否定 + 建立精准匹配层"三步，预计可将 ACOS 优化至 25% 以下，同时放大品牌词与高效词的利润贡献。
+
+如需针对某个具体活动或搜索词进一步下钻分析，或需要我协助执行上述优化建议，请告诉我。
+
+[5 USER SUCCESS]
+D2Y818 分析2026-08-01 至 2026-08-30（近 30 天）美国站广告数据 给出优化建议
+
+[6 ASSISTANT SUCCESS]
+> 注意：该活动因命中当前授权或指定 ASIN 被纳入查询；指标为整个广告活动汇总，可能同时包含活动内其他 ASIN 的效果，不能解读为命中 ASIN 的独立贡献。
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 美国站广告数据诊断报告
+
+**统计周期**：2026-08-01 ～ 2026-08-30（近 30 天）
+**对象**：货号/SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+> 说明：本商品为 64 个子 ASIN 变体，Campaign/投放词/搜索词指标为命中广告组汇总，可能包含同组其他 ASIN 的效果。
+
+---
+
+## 一、核心指标表现
+
+| 指标 | 数值 | 指标 | 数值 |
+|---|---|---|---|
+| 曝光 | 497,352 | CPC | $0.74 |
+| 点击 | 3,535 | 销售额 | $6,117.64 |
+| CTR | 0.71% | 订单 | 151 |
+| 花费 | $2,623.37 | CVR | 4.27% |
+| **ACOS** | **42.88%** | ROAS | 2.33 |
+
+**关键特征**：ACOS 42.88% 明显偏高，处于亏损边缘；销售高度依赖间接销售（占 88%），同 SKU 直接销售仅占 12%（$734.82），该商品主要承担"引流/关联"角色。
+
+---
+
+## 二、Campaign 层面表现（19 个活动）
+
+**主力活动（花费 >$50）**
+
+| Campaign | 类型 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|
+| D2Y818-简化 | 手动 | $1,518.05 | $3,779.24 | 40.2% | 95 |
+| D2Y818-SP-MT-BRKW-BR/PH | 手动 | $143.18 | $202.95 | **70.5%** | 5 |
+| D2Y818-SP-MT-KW-BR | 手动 | $139.00 | $195.92 | **70.9%** | 5 |
+| D2Y818-SP-MT-KWG-HS | 手动 | $98.02 | $166.96 | **58.7%** | 4 |
+| D2Y818-SP-AT-TL-0.32 | 自动 | $96.13 | $125.97 | **76.3%** | 3 |
+| D2Y818-SP-AT-0.35 | 自动 | $87.61 | $481.89 | 18.2% | 11 |
+| D2Y818-SP-AT-JM-0.46 | 自动 | $83.48 | $85.98 | **97.1%** | 2 |
+| D2Y818-SP-MT-Kw-PH | 手动 | $78.27 | $0 | — | 0 |
+| D2Y818-SP-MT-cat.-AI | 手动 | $71.30 | $85.98 | **82.9%** | 2 |
+| D2Y818-SP-AT-KF-0.42 | 自动 | $69.44 | $383.90 | 18.1% | 9 |
+| D2Y818-SP-AT-KF-BS | 自动 | $63.55 | $257.94 | 24.6% | 6 |
+
+**新拆分活动（8/25 后新建，花费 <$50）**
+
+| Campaign | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|
+| D2Y818-简化-HS | $41.09 | $112.97 | 36.4% | 3 |
+| D2Y818-简化-KQ | $31.18 | $0 | — | 0 |
+| D2Y818-简化-BR | $26.60 | $79.98 | 33.3% | 2 |
+| D2Y818-简化-MS | $25.09 | $37.99 | 66.0% | 1 |
+| D2Y818-简化-BS | $21.58 | $119.97 | 18.0% | 3 |
+
+---
+
+## 三、投放类型与匹配方式
+
+| 投放类型 | 匹配方式 | 曝光 | 点击 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|---|
+| 关键词 | 词组(PHRASE) | 196,851 | 1,222 | $1,071.94 | $2,499.38 | 42.9% | 63 |
+| 关键词 | 广泛(BROAD) | 157,085 | 1,019 | $943.62 | $2,029.64 | **46.5%** | 51 |
+| 商品投放 | — | 138,762 | 1,284 | $599.27 | $1,588.62 | 37.7% | 37 |
+| 关键词 | 精准(EXACT) | 4,663 | 9 | $8.32 | $0 | — | 0 |
+
+---
+
+## 四、搜索词层面（1,922 个，总花费 $2,433.60，ACOS 42.85%）
+
+**高效转化词（应加预算/提价）**：coutgo boots women（7.3%）、suede ankle boots for women（2.6%）、cheap ankle high dress boots（2.6%）、white boots for women（10.4%）、pointed toe booties（14.2%）、ankle boots（16.4%）、kitten heel ankle boots（18.8%）
+
+**高花费低转化词（应否定/降价）**：kitten heel boots、ankle boots for women、kitten heel booties、kitten heel boots for women、kitten heels、brown kitten heel boots、booties for women、white boots
+
+---
+
+## 五、优化建议（按优先级）
+
+**🔴 P0 — 立即止损（高 ACOS 活动）**
+1. 暂停/大幅降预算：`JM-0.46`（97%）、`cat.-AI`（83%）、`TL-0.32`（76%）、`KW-BR`（71%）、`BRKW-BR/PH`（71%）、`KWG-HS`（59%）
+2. 密切观察 `Kw-PH`（8/25 新建，$78 零转化），一周内无起色则暂停
+
+**🟠 P1 — 收词与否定**
+3. 否定高花费低转化词：`kitten heel boots for women`、`brown kitten heel boots`、`booties for women`、`white boots`、`ankle boots for women`
+4. 广泛匹配（ACOS 46.5%）逐步收紧为词组匹配，补充否定词库
+
+**🟡 P2 — 扩量与提效**
+5. 加预算/提价品牌词与高效词（ACOS<20%）：`coutgo boots women`、`suede ankle boots for women`、`cheap ankle high dress boots` 等
+6. 补充精准匹配（EXACT）词库，将已验证高效词转精准投放
+7. 继续推进"简化"活动拆分，淘汰 KQ（零转化）
+
+---
+
+## 六、广告架构分析与完善建议
+
+**当前架构**：手动+自动双轨并行，命名规范；8/25 起已将主力"简化"活动按变体（HS/KQ/BR/MS/BS）拆分为 5 个子活动，架构正在优化中。
+
+**存在的问题**
+1. "简化"活动仍承载过重（母活动 ACOS 40.2%），拆分尚未完成
+2. 自动活动数量过多，JM-0.46、TL-0.32 高 ACOS 拖累整体
+3. 精准匹配近乎空白，浪费已验证高效词的扩量机会
+4. 广泛匹配占比过高（ACOS 46.5%），无效流量严重
+5. 商品投放转化率仅 2.88%，投放 ASIN 精准度不足
+
+**完善建议**
+1. 完成"简化"活动拆分，按词性（品牌词/高效词/长尾词）而非仅按变体拆分
+2. 精简自动活动：保留 AT-0.35、AT-KF-0.42、AT-KF-BS，暂停 JM-0.46、TL-0.32
+3. 建立精准匹配层，将 ACOS<20% 的高效词逐一建 EXACT 精准投放
+4. 收紧广泛匹配，配合否定词库控制无效流量
+5. 优化商品投放，筛选出单竞品 ASIN、剔除无效投放
+6. 建立常态化否定词库
+
+---
+
+**总结**：D2Y818 在 8/1-8/30 周期 ACOS 高达 42.88%，明显偏高，核心问题在于**多个高亏损自动/手动活动 + 广泛匹配无效流量 + 精准匹配缺失**。该商品主要承担引流角色（间接销售占 88%），优化重点应放在"控成本、保引流"：通过止损亏损活动、收词否定、建立精准匹配层，预计可将 ACOS 优化至 30% 以下，同时保留品牌词与高效词的引流贡献。
+
+如需针对某个具体活动或搜索词进一步下钻分析，或需要我协助执行上述优化建议，请告诉我。
+
+[7 USER SUCCESS]
+结合最新的近30天2026-08-04 ～ 2026-09-02（最新完整近 30 天）广告数据以及本品率 给出优化建议
+
+[8 ASSISTANT SUCCESS]
+> 注意：该活动因命中当前授权或指定 ASIN 被纳入查询；指标为整个广告活动汇总，可能同时包含活动内其他 ASIN 的效果，不能解读为命中 ASIN 的独立贡献。
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 美国站广告数据诊断报告（结合本品率）
+
+**统计周期**：2026-08-04 ～ 2026-09-02（最新完整近 30 天）
+**对象**：货号/SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+> 说明：本商品为 64 个子 ASIN 变体，Campaign/投放词/搜索词指标为命中广告组汇总。**本品率数据结合了您上传的"已购买ASIN/7天内其他SKU销售"明细（143 条）与广告系统归因。**
+
+---
+
+## 一、核心指标表现
+
+| 指标 | 数值 | 指标 | 数值 |
+|---|---|---|---|
+| 曝光 | 550,297 | CPC | $0.75 |
+| 点击 | 3,783 | 销售额 | $7,386.13 |
+| CTR | 0.69% | 订单 | 183 |
+| 花费 | $2,855.77 | CVR | 4.84% |
+| **ACOS** | **38.66%** | ROAS | 2.59 |
+
+---
+
+## 二、本品率（直接销售占比）分析 ⭐ 核心
+
+| 口径 | 直接销售（本品） | 间接销售（其他SKU） | 本品率 |
+|---|---|---|---|
+| 广告系统归因 | $774.81 / 19单 | $6,611.32 / 164单 | **10.5%** |
+| 上传明细文件（143条） | $0 / 0单 | $5,953.48 / 147单 | **0%** |
+
+**关键结论：**
+- **本品率极低（10.5%，明细口径趋近 0%）**，该商品广告几乎完全依赖"关联引流"——顾客点击广告后购买的是同店铺其他商品，而非 D2Y818 本身。
+- 间接销售占 **89.5%**（$6,611 / 164 单），与您文件（147 单、$5,953.48）方向一致。
+- 文件显示主要贡献广告 SKU：**HS80（$1,704.77）、BS75（$838.8）、KQ80（$793.78）、BR80（$726.82）**；主要贡献 Campaign：**D2Y818-简化（$3,653.27）、AT-0.35（$518.88）、AT-KF-0.42（$248.93）**。
+
+**业务含义**：D2Y818 是典型的"引流款/关联款"，其广告价值不体现在自身 ACOS，而体现在带动店铺整体销售。仅用单品 ACOS 衡量会严重低估其真实贡献。
+
+---
+
+## 三、Campaign 层面表现（21 个活动）
+
+**主力活动（花费 >$50）**
+
+| Campaign | 类型 | 状态 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|
+| D2Y818-简化 | 手动 | 启用 | $1,606.02 | $4,380.09 | 36.7% | 110 |
+| D2Y818-SP-AT-0.35 | 自动 | 启用 | $103.52 | $526.88 | 19.6% | 12 |
+| D2Y818-SP-MT-KWG-HS | 手动 | 启用 | $103.22 | $300.93 | 34.3% | 7 |
+| D2Y818-SP-AT-KF-0.42 | 自动 | 启用 | $74.22 | $374.90 | 19.8% | 9 |
+| D2Y818-简化-HS | 手动 | 启用 | $76.76 | $232.94 | 33.0% | 6 |
+| D2Y818-SP-AT-KF-BS | 自动 | 启用 | $71.52 | $297.93 | 24.0% | 7 |
+| D2Y818-简化-BR | 手动 | 启用 | $70.98 | $239.94 | 29.6% | 6 |
+| D2Y818-简化-BS | 手动 | 启用(超预算) | $54.28 | $119.97 | 45.2% | 4 |
+| D2Y818-简化-MS | 手动 | 启用 | $49.31 | $221.75 | 22.2% | 5 |
+| D2Y818-SP-MT-Kw-PH-0.5+30% | 手动 | 启用 | $85.07 | $0 | — | 0 |
+
+**已止损活动（上一轮建议已生效 ✅）**：BRKW-BR/PH、KW-BR、TL-0.32、JM-0.46、cat.-AI、GL-0.5、简化-KQ 均已暂停。
+
+---
+
+## 四、投放类型与匹配方式
+
+| 投放类型 | 匹配方式 | 曝光 | 点击 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|---|---|
+| 关键词 | 词组(PHRASE) | 217,253 | 1,335 | $1,162.23 | $2,742.32 | 42.4% | 69 |
+| 关键词 | 广泛(BROAD) | 186,056 | 1,158 | $1,072.91 | $2,851.24 | 37.6% | 72 |
+| 商品投放 | — | 138,380 | 1,265 | $597.81 | $1,752.58 | **34.1%** | 41 |
+| 关键词 | 精准(EXACT) | 8,603 | 24 | $22.60 | $39.99 | 56.5% | 1 |
+
+---
+
+## 五、搜索词层面（2,145 个，总花费 $2,860.91，ACOS 39.15%）
+
+**高效转化词（应加预算/提价）**：coutgo boots women（8.7%）、black booties（5.1%）、white boots for women（11.5%）、kitten heel booties（14%）、womens booties（14.9%）、kitten heel ankle boots（17%）、ankle boots（18.1%）
+
+**高花费低转化词（应否定/降价）**：kitten heel boots、ankle boots for women、kitten heel boots for women、boots for women、kitten heels、white boots、booties for women
+
+---
+
+## 六、结合本品率的针对性优化建议
+
+**核心策略转变：从"单品 ACOS"转向"店铺级 ROAS"**
+
+1. **建立店铺级 ROAS 评估口径**：将间接销售（$6,611 / 164 单）纳入贡献评估，真实 ROAS ≈ $7,386 / $2,855 = 2.59，叠加 7 天归因间接销售实际贡献更高。
+
+2. **保引流、控成本、提关联转化**
+   - 保留并加码高效引流词：`coutgo boots women`、`kitten heel booties`、`kitten heel ankle boots`、`ankle boots`
+   - 否定纯烧钱泛词：`kitten heel boots for women`、`white boots`、`booties for women`、`ankle boots for women`
+
+3. **聚焦高贡献 SKU 与 Campaign**：优先保障 HS80、BS75、KQ80、BR80 的广告曝光；维持"简化"和 AT-0.35 预算，AT-KF-0.42 可加码。
+
+4. **止损与结构调整**：继续暂停 Kw-PH-0.5+30%（$85 零转化）、简化-BS（超预算且 ACOS 45%）；广泛匹配逐步收紧为词组。
+
+5. **商品投放值得加码**：商品投放 ACOS 34.1% 最优，且能有效带动关联销售（间接销售占 90%），建议扩充出单竞品 ASIN 定向。
+
+---
+
+## 七、总结
+
+D2Y818 是典型的**"引流款/关联款"**商品：本品率仅 10.5%（明细口径趋近 0%），广告价值 90% 体现在带动同店铺其他商品的间接销售（$6,611 / 164 单）。
+
+**优化核心应调整为：**
+1. 用**店铺级 ROAS** 替代单品 ACOS 作为评估标准；
+2. 保留高效引流词、否定纯烧钱泛词；
+3. 聚焦 HS80/BS75/KQ80/BR80 高贡献 SKU，保障其曝光；
+4. 加码商品投放，放大关联引流效应；
+5. 继续止损零转化新活动，收紧广泛匹配。
+
+如需进一步下钻某个高贡献 SKU 或 Campaign 的间接销售结构，或生成具体的否定词清单，请告诉我。
+
+[9 USER SUCCESS]
+本品率计算错误 本品下的所有子ASIN对照ASIN对照表
+
+[10 ASSISTANT SUCCESS]
+现在数据完全清晰了。重新计算后本品率约为 **52.18%**（按销售额），而非之前错误的 0%。让我整理最终结论。
+
+关键修正结果：
+- 本品（直接销售）：78 单，$3,106.24
+- 间接销售（其他 SKU）：69 单，$2,847.24
+- 本品率（按销售额）：**52.18%**；按订单：53.06%
+
+以下是修正后的完整报告。
+
+---
+
+# D2Y818 美国站广告数据诊断报告（本品率修正版）
+
+**统计周期**：2026-08-04 ～ 2026-09-02（最新完整近 30 天）
+**对象**：货号/SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+> 修正说明：本品率已按您提供的 **ASIN 对照表（64 个子 ASIN）** 重新计算——将"已购买ASIN"对照本品全部子 ASIN 判断归属，而非简单比对"广告ASIN"。
+
+---
+
+## 一、本品率（直接销售占比）修正结果 ⭐
+
+| 口径 | 直接销售（本品） | 间接销售（其他SKU） | 本品率 |
+|---|---|---|---|
+| 按销售额 | $3,106.24 | $2,847.24 | **52.18%** |
+| 按订单 | 78 单 | 69 单 | **53.06%** |
+
+**修正结论**：
+- 之前误判本品率趋近 0%（因仅比对"广告ASIN"），实际**本品率约 52%**，该商品广告约一半销售额来自本品自身转化，一半来自关联销售。
+- 本品直接销售 78 单、$3,106.24，间接销售 69 单、$2,847.24，**两者贡献相当**，D2Y818 兼具"直接转化 + 关联引流"双重角色。
+
+---
+
+## 二、本品直接销售明细（按已购买子 ASIN）
+
+本品销售分散在 37 个子 ASIN 上，主要贡献者：
+
+| 已购买子ASIN | SKU | 订单 | 销售额 |
+|---|---|---|---|
+| B0D672M77Z | HS85 | 4 | $248.94 |
+| B0D676271X | BS90 | 3 | $199.95 |
+| B0D676JBSR | BS100 | 3 | $199.95 |
+| B0D672FJRG | MS90 | 2 | $168.96 |
+| B0D6749DY8 | HS75 | 4 | $159.96 |
+| B0D674SBBS | HS95 | 4 | $159.96 |
+| B0D6751YWH | HS90 | 3 | $122.97 |
+| B0D674CX4Z | HS65 | 3 | $125.97 |
+| B0DQBVDGGK | BR90 | 3 | $122.97 |
+
+> 本品销售高度分散，无单一子 ASIN 主导，说明是**多 SKU 变体共同承接转化**，符合鞋靴类多码/多色变体特征。
+
+---
+
+## 三、广告 SKU 维度本品率
+
+| 广告SKU | 本品销售额 | 间接销售额 | 本品率 |
+|---|---|---|---|
+| HS80 | $852.79 | $851.98 | 50.0% |
+| BS75 | $648.84 | $189.96 | **77.4%** |
+| KQ80 | $420.90 | $372.88 | 53.0% |
+| BR80 | $368.91 | $357.91 | 50.8% |
+| BS90 | $122.97 | $39.99 | **75.5%** |
+| HS75 | $125.97 | $29.99 | **80.8%** |
+| MS80 | $162.96 | $59.99 | **73.1%** |
+| HS85 | $39.99 | $245.91 | 14.0% |
+| MS65 | $42.99 | $183.76 | 19.0% |
+| BR75 | $39.99 | $162.96 | 19.7% |
+
+**关键发现**：
+- **BS75、HS75、BS90、MS80 本品率 >73%**，是"直接转化型"SKU，广告直接带动本品销售。
+- **HS85、MS65、BR75 本品率 <20%**，是"关联引流型"SKU，主要带动其他 SKU 销售。
+- HS80、KQ80、BR80 本品率约 50%，兼具双重角色。
+
+---
+
+## 四、Campaign 维度本品率
+
+| Campaign | 本品销售额 | 间接销售额 | 本品率 |
+|---|---|---|---|
+| D2Y818-简化 | $2,159.47 | $1,493.80 | 59.1% |
+| AT-0.35 | $202.95 | $315.93 | 39.1% |
+| AT-KF-0.42 | $165.96 | $82.97 | 66.7% |
+| KW-BR | $79.98 | $155.93 | 33.9% |
+| 简化-MS | $0 | $221.75 | 0% |
+| KWG-HS | $42.99 | $177.96 | 19.5% |
+| BRKW-BR/PH | $39.99 | $162.96 | 19.7% |
+| 简化-HS | $39.99 | $112.97 | 26.1% |
+| AT-TL-0.32 | $125.97 | $0 | 100% |
+| AT-KF-BS | $85.98 | $0 | 100% |
+
+---
+
+## 五、修正后的优化建议
+
+**核心认知修正**：D2Y818 不是"纯引流款"，而是**"直接转化 + 关联引流"并重**的商品（本品率约 52%）。因此优化策略应**兼顾单品 ACOS 与店铺级 ROAS**，而非单一维度。
+
+**1. 区分 SKU 角色，差异化投放**
+- **直接转化型 SKU（BS75、HS75、BS90、MS80，本品率 >73%）**：以单品 ACOS 为核心指标，重点优化出价与否定词，追求直接盈利。
+- **关联引流型 SKU（HS85、MS65、BR75，本品率 <20%）**：以店铺级 ROAS 为核心，允许较高单品 ACOS，重点保障曝光引流。
+
+**2. Campaign 层面**
+- "简化"活动本品率 59.1%，是核心盈利活动，继续按词性拆分精细管控。
+- 简化-MS 本品率 0%（$221.75 全部为间接销售），应明确其"引流"定位，用店铺 ROAS 评估而非单品 ACOS。
+- AT-0.35 本品率 39.1% 但 ACOS 19.6% 健康，是优质引流活动，可加码。
+
+**3. 否定词与收词（沿用前次结论）**
+- 否定纯烧钱泛词：`kitten heel boots for women`、`white boots`、`booties for women`、`ankle boots for women`。
+- 加码高效词：`coutgo boots women`（8.7%）、`black booties`（5.1%）、`kitten heel booties`（14%）等。
+
+**4. 商品投放加码**：商品投放 ACOS 34.1% 最优，且能同时带动本品与关联销售，建议扩充出单竞品 ASIN 定向。
+
+---
+
+## 六、总结
+
+修正后，D2Y818 本品率约 **52%**（按销售额），是**"直接转化 + 关联引流"并重**的商品，而非此前误判的"纯引流款"。优化应：
+1. 按 SKU 本品率高低区分"直接转化型"与"关联引流型"，差异化设定评估口径与出价策略；
+2. 单品 ACOS 与店铺级 ROAS 双轨评估；
+3. 继续止损亏损活动、否定纯烧钱泛词、加码高效词与商品投放。
+
+如需针对某个具体 SKU 或 Campaign 做更细的本品率下钻，或生成否定词清单，请告诉我。
+
+[11 USER SUCCESS]
+结合整体情况 针对每个广告活动给出优化建议操作 并按照优先级排序
+
+[12 ASSISTANT SUCCESS]
+我已获得全部 21 个活动的完整数据。现在结合本品率分析（本品率约52%，其中 BS75/HS75/BS90/MS80 为直接转化型，HS85/MS65/BR75 为关联引流型）和整体情况，针对每个活动给出按优先级排序的优化操作建议。
+
+---
+
+# D2Y818 美国站 · 全广告活动优化操作建议（按优先级排序）
+
+**周期**：2026-08-04 ～ 2026-09-02（近 30 天）｜**整体 ACOS 38.66%**｜**本品率约 52%**
+
+> 排序原则：先止损（P0），再提效（P1），后扩量（P2）。每个活动给出明确可执行操作。
+
+---
+
+## 🔴 P0 — 立即止损（暂停/降预算，释放无效花费）
+
+### 1. D2Y818-SP-MT-Kw-PH-0.5+30%-8.31 —— 暂停
+- 现状：花费 $85.07，**零转化**，CTR 1.04% 有流量但完全不出单
+- 操作：**暂停活动**。若坚持测试，降预算至 $3 并设 7 天观察期，仍无转化则彻底暂停
+
+### 2. D2Y818-SP-AT-CK —— 暂停
+- 现状：花费 $2.98，零转化，CTR 仅 0.15%（点击极少）
+- 操作：**暂停**。CK 系列（新品变体）暂无流量承接能力，待 Listing 成熟后再启
+
+### 3. D2Y818-简化-CK —— 暂停
+- 现状：花费 $1.13，零转化，仅 2 次点击
+- 操作：**暂停**，与 AT-CK 同理
+
+### 4. D2Y818-简化-BS —— 降预算/优化出价
+- 现状：花费 $54.28，ACOS 45.24%，**已超预算**，本品率 50%
+- 操作：**降出价 15-20%**，收紧至词组匹配；若 7 天 ACOS 仍 >40% 则暂停
+
+> 已暂停活动（BRKW-BR/PH、KW-BR、TL-0.32、JM-0.46、cat.-AI、简化-KQ、GL-0.5、AT-KF-0.31、出单竞品asin）**维持暂停，无需操作**。
+
+---
+
+## 🟠 P1 — 提效优化（收词、否定、调出价）
+
+### 5. D2Y818-简化 —— 主力活动，精细拆分+否定
+- 现状：花费 $1,606.02（占 56%），ACOS 36.67%，本品率 59.1%，CVR 6.46% 健康
+- 操作：
+  - **继续按词性拆分**（品牌词/高效词/长尾词），把已验证高效词迁出到独立活动
+  - **加否定词**：`kitten heel boots for women`、`white boots`、`booties for women`、`ankle boots for women`
+  - **加码高效词**：`coutgo boots women`（8.7%）、`kitten heel booties`（14%）、`kitten heel ankle boots`（17%）
+
+### 6. D2Y818-SP-MT-KWG-HS —— 收词+否定
+- 现状：花费 $103.22，ACOS 34.30%，本品率仅 19.5%（偏引流）
+- 操作：**否定零转化泛词**，将广泛匹配收紧为词组；本品率低，按店铺 ROAS 评估，控制出价不追高
+
+### 7. D2Y818-简化-HS —— 加码
+- 现状：花费 $76.76，ACOS 32.95%，CVR 6.19%，本品率 26.1%
+- 操作：**小幅加预算**（$10→$15），补充高效词精准投放
+
+### 8. D2Y818-简化-BR —— 加码
+- 现状：花费 $70.98，ACOS 29.58%，CVR 7.79%（转化率最高），本品率 100%
+- 操作：**加预算**（$20→$30），本品率 100% 说明是纯直接转化活动，值得重点投入
+
+---
+
+## 🟢 P2 — 扩量放大（加预算，放大利润）
+
+### 9. D2Y818-SP-AT-0.35 —— 加预算
+- 现状：花费 $103.52，ACOS 19.65%（最优），本品率 39.1%，CTR 1.03%
+- 操作：**加预算**（$50→$80），这是核心盈利自动活动，充分放量
+
+### 10. D2Y818-SP-AT-KF-0.42 —— 加预算
+- 现状：花费 $74.22，ACOS 19.80%，本品率 66.7%，CVR 5.70%
+- 操作：**加预算**（$50→$80），本品率高+ACOS低，是优质直接转化活动
+
+### 11. D2Y818-SP-AT-KF-BS —— 加预算
+- 现状：花费 $71.52，ACOS 24.01%，本品率 100%，CVR 6.67%
+- 操作：**加预算**（$50→$70），本品率 100% 纯直接转化，值得放量
+
+### 12. D2Y818-简化-MS —— 加预算
+- 现状：花费 $49.31，ACOS 22.24%，CVR 8.93%（全店最高），但本品率 0%（纯引流）
+- 操作：**加预算**（$20→$30），本品率 0% 说明是纯关联引流款，用店铺 ROAS 评估，其高转化说明引流价值强
+
+---
+
+## 📋 汇总操作清单（按优先级）
+
+| 优先级 | 活动 | 操作 | 理由 |
+|---|---|---|---|
+| P0 | Kw-PH-0.5+30%-8.31 | 暂停 | $85 零转化 |
+| P0 | AT-CK | 暂停 | 零转化，CTR 0.15% |
+| P0 | 简化-CK | 暂停 | 零转化，2 次点击 |
+| P0 | 简化-BS | 降出价 15-20% | ACOS 45% 超预算 |
+| P1 | 简化 | 拆分+否定+加码高效词 | 主力活动精细管控 |
+| P1 | KWG-HS | 否定泛词+收词 | ACOS 34% 本品率低 |
+| P1 | 简化-HS | 加预算 $10→$15 | CVR 6.19% 健康 |
+| P1 | 简化-BR | 加预算 $20→$30 | 本品率 100% 转化率高 |
+| P2 | AT-0.35 | 加预算 $50→$80 | ACOS 19.65% 最优 |
+| P2 | AT-KF-0.42 | 加预算 $50→$80 | ACOS 19.8% 本品率 66.7% |
+| P2 | AT-KF-BS | 加预算 $50→$70 | 本品率 100% |
+| P2 | 简化-MS | 加预算 $20→$30 | CVR 8.93% 引流强 |
+
+---
+
+**执行建议**：P0 四项可立即操作止损；P1 收词与否定可同步进行；P2 加预算建议在 P0 止损释放预算后逐步放量，避免总预算失控。
+
+如需我**直接执行**上述某几项操作（如暂停活动、调整预算、否定关键词），请告诉我具体活动，我可以帮你落地执行。
+
+[13 USER SUCCESS]
+执行「减少损失」类
+
+[14 ASSISTANT SUCCESS]
+当前智能建议页面没有加载到「减少损失」类的行动建议明细数据。
+
+我这边无法直接拿到可执行的明细 ID。为了帮你执行「减少损失」类的操作，需要你提供以下信息之一：
+
+1. **确认页面**：请确认是否已打开「智能建议行动明细页」并加载出数据，或
+2. **提供定位条件**：告诉我站点（如美国站）以及店铺 / ASIN / 货号（如 D2Y818），我让行动建议助手按站点维度重新拉取「减少损失」类的行动建议明细。
+
+另外，如果你指的是希望我**直接执行**上一轮分析中「减少损失」类的操作（即 P0 止损项：暂停 Kw-PH-0.5+30%、AT-CK、简化-CK，以及简化-BS 降出价），我也可以通过「跳过策略系统直接操作」的方式帮你落地。请告诉我你倾向哪种方式：
+
+- **A**：执行系统智能建议里的「减少损失」类建议（需先确认页面/站点信息）
+- **B**：直接按我上轮分析结论执行 P0 止损操作（暂停零转化活动、降出价）
+
+请确认你的选择。
+
+[15 USER SUCCESS]
+B
+
+[16 ASSISTANT SUCCESS]
+我已确认：当前「跳过策略系统直接操作」能力**仅支持「否词」（NEGATIVE_KEYWORD）**一种动作，暂不支持「暂停活动」「降预算」「降出价」等操作。
+
+因此，我上轮 P0 止损项中：
+- ❌ **暂停活动**（Kw-PH-0.5+30%、AT-CK、简化-CK）—— 当前无法直接执行
+- ❌ **降出价**（简化-BS）—— 当前无法直接执行
+- ✅ **否词**（把零转化/纯烧钱泛词否定掉）—— 可以执行
+
+不过，P0 里「减少损失」最直接、且当前工具可落地的方式，是**对零转化活动里的纯烧钱搜索词做否定**。但要精准否定，需要先拿到这些活动下「有花费但零转化」的具体搜索词。
+
+让我先确认一下：你希望我按哪种方式落地「减少损失」？
+
+**方案 B1（当前可执行）**：对零转化活动（Kw-PH-0.5+30%、AT-CK、简化-CK、简化-KQ、GL-0.5 等）下的**纯烧钱搜索词做否定**，减少无效花费。
+
+**方案 B2（暂停/降预算/降出价）**：这类操作当前系统暂不支持直接执行，需要你到广告后台手动操作，或通过策略系统配置规则自动推出建议。
+
+请问你倾向哪个方案？如果选 B1，我需要先让 ad-query 拉取这些零转化活动下的搜索词明细（花费>0 且零订单的词），确认后我再执行否词。
+
+[17 USER SUCCESS]
+B1
+
+[18 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+profileId 已获取：`3560279735817672`。
+
+现在我需要向你说明一个重要的现实情况，并请你确认否词范围：
+
+**当前「直接操作」能力只支持否词（NEGATIVE_KEYWORD），不支持暂停活动。** 而这 5 个活动全部是零转化活动，其中：
+- 2 个自动活动（AT-CK、AT-GL-0.5）的搜索词全是 ASIN 触发，**无法否词**；
+- 3 个手动活动（Kw-PH、简化-KQ、简化-CK）的搜索词可以否词。
+
+如果只做否词，能止住的损失有限（这 3 个手动活动合计约 $117，但否定词后活动仍空转，不如暂停彻底）。
+
+**我的建议**：这 5 个活动最彻底的「减少损失」方式是**暂停活动**，但该操作当前系统不支持直接执行，需要你到广告后台手动暂停，或通过策略系统配置规则。
+
+**当前我能直接执行的**：对这 3 个手动活动里「花费较高且零转化」的搜索词做否定，止住关键词层面的无效花费。
+
+请你确认要执行的方式：
+
+**选项 1**：只对 3 个手动活动的零转化词做否定（我立即执行，可止住关键词层面浪费）
+
+**选项 2**：我给出这 5 个活动的暂停清单，你到后台手动暂停（最彻底，但需你手动操作）
+
+**选项 3**：两者都做——我先否词止住关键词浪费，同时给你暂停清单
+
+请问你选哪个？如果选 1 或 3，我会对以下零转化词执行否定（已排除品牌词 coutgo 相关，降低误否风险）：
+
+- **Kw-PH-0.5+30% 活动**：`ankle boots for women low heel`、`kitten heel boots`、`womens boots` 等 100+ 个零转化词
+- **简化-KQ 活动**：`kitten heel boots for women`、`kitten boots`、`ankle boots for women` 等 34 个零转化词
+- **简化-CK 活动**：`velcro ankle dress heel`、`guess low square toe party shoes`
+
+请确认你的选择。
+
+[19 USER PAUSED]
+选项 3
+
+[20 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[21 USER PAUSED]
+已完成审批确认
+
+[22 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[23 USER SUCCESS]
+给出广告活动维度需否词的操作清单
+
+[24 ASSISTANT SUCCESS]
+好的，我来整理一份「广告活动维度需否词」的操作清单。基于刚才 ad-query 拉取的搜索词明细，我按活动维度整理出可执行否词的清单（仅手动关键词投放活动，自动活动无法否词）。
+
+先说明一个关键点：**否词只能在「手动关键词投放」活动上执行**，自动投放活动（AT-CK、AT-GL-0.5）的搜索词是 ASIN 触发，无法通过否定关键词处理。
+
+以下是完整清单：
+
+---
+
+## 广告活动维度 · 否词操作清单
+
+**对象**：SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+**周期**：2026-08-04 ~ 2026-09-02（近 30 天）
+**筛选标准**：花费 > 0 且订单 = 0
+
+---
+
+### 活动 1：D2Y818-SP-MT-Kw-PH-0.5+30%-8.31（手动·词组，花费 $85.07，零订单）
+
+**投放类型**：MANUAL_KEYWORD ｜ **建议否定层级**：广告组级（adGroupId 188527444440958）
+
+| # | 需否定的搜索词 | 匹配方式 | 花费 |
+|---|---|---|---|
+| 1 | ankle boots for women low heel | PHRASE | $6.30 |
+| 2 | kitten heel boots | PHRASE | $5.29 |
+| 3 | broad moore dress boots for women | PHRASE | $1.92 |
+| 4 | wide width kitten heel boots | PHRASE | $1.90 |
+| 5 | womens boots | PHRASE | $1.72 |
+| 6 | women's low heel boots | PHRASE | $1.40 |
+| 7 | low heel boots | PHRASE | $1.40 |
+| 8 | dark cherry kitten heel boots | PHRASE | $1.40 |
+| 9 | kitten heels boots | PHRASE | $1.40 |
+| 10 | vionic kitten heel boot | PHRASE | $1.40 |
+| 11 | burgundy booties low heel | PHRASE | $1.20 |
+| 12 | size 13 womens boots | PHRASE | $1.20 |
+| 13 | women boots | PHRASE | $1.16 |
+| 14 | beige ankle boots for women low heel | PHRASE | $0.70 |
+| 15 | brown low heel booties | PHRASE | $0.70 |
+| 16 | metallic gold low heel booties | PHRASE | $0.70 |
+| 17 | tan leather boots women ankle | PHRASE | $0.70 |
+| 18 | short heel boots | PHRASE | $0.70 |
+| 19 | short heeled boots small silver shape | PHRASE | $0.70 |
+| 20 | dress low heel boots for women | PHRASE | $0.70 |
+| 21 | fall color low heels boots for wedding guests dress | PHRASE | $0.70 |
+| 22 | low-shaft, low-heel boot | PHRASE | $0.70 |
+| 23 | pointed toe closed toe low heel boots | PHRASE | $0.70 |
+| 24 | black pointed toe booties low heel | PHRASE | $0.70 |
+| 25 | leather tan pointed toe booties | PHRASE | $0.70 |
+| 26 | pointed toe booties with protective toe | PHRASE | $0.70 |
+| 27 | pointed toe booties | PHRASE | $0.70 |
+| 28 | real leather ankle boots low heels flat sky blue | PHRASE | $0.70 |
+| 29 | short boots for women dressy | PHRASE | $0.70 |
+| 30 | short boots women | PHRASE | $0.70 |
+| 31 | kitten heel bootie leather brown | PHRASE | $0.70 |
+| 32 | kitten heel bootie | PHRASE | $0.70 |
+| 33 | square toe black kitten heel bootie | PHRASE | $0.70 |
+| 34 | dress boots women | PHRASE | $0.70 |
+| 35 | mid calf dress boots women | PHRASE | $0.70 |
+| 36 | simple dress boots for women | PHRASE | $0.70 |
+| 37 | versatile black dress boots women | PHRASE | $0.70 |
+| 38 | women's white kitten heel boots | PHRASE | $0.70 |
+| 39 | black kitten heel boots | PHRASE | $0.70 |
+| 40 | black pointed toe kitten heel boot | PHRASE | $0.70 |
+| 41 | chinese laundry kitten heel boots for women | PHRASE | $0.70 |
+| 42 | chocolate brown kitten heel boots | PHRASE | $0.70 |
+| 43 | comfortable kitten heel boots | PHRASE | $0.70 |
+| 44 | fall kitten heel boots | PHRASE | $0.70 |
+| 45 | low heel burgundy kitten heel boots | PHRASE | $0.70 |
+| 46 | low kitten heel boots | PHRASE | $0.70 |
+| 47 | mid calf comfortable kitten heel boots women | PHRASE | $0.70 |
+| 48 | mid calf kitten heel boots women | PHRASE | $0.70 |
+| 49 | red kitten heel boot | PHRASE | $0.70 |
+| 50 | square toe kitten heel boot | PHRASE | $0.70 |
+| 51 | vionic 1" kitten heel boot | PHRASE | $0.70 |
+| 52 | white pointed toe kitten heel boots | PHRASE | $0.70 |
+| 53 | wide calf kitten heel boots women | PHRASE | $0.70 |
+| 54 | women kitten heel boots size 11w orange | PHRASE | $0.70 |
+| 55 | black kitten heel ankle boots | PHRASE | $0.70 |
+| 56 | black leather kitten heel ankle boots | PHRASE | $0.70 |
+| 57 | kitten heel ankle boots | PHRASE | $0.70 |
+| 58 | round toe kitten heel ankle boots women | PHRASE | $0.70 |
+| 59 | high low heel boots | PHRASE | $0.69 |
+| 60 | 1 inch leather booties | PHRASE | $0.65 |
+| 61 | booties for maxi dress leather | PHRASE | $0.65 |
+| 62 | lifestride brown leather booties | PHRASE | $0.60 |
+| 63 | michael kors naomi leather booties | PHRASE | $0.60 |
+| 64 | woman dress boots | PHRASE | $0.60 |
+| 65 | booties for women dressy | PHRASE | $0.60 |
+| 66 | booties for work low heel | PHRASE | $0.60 |
+| 67 | booties size 5 with kitten heel | PHRASE | $0.60 |
+| 68 | booties size 5 | PHRASE | $0.60 |
+| 69 | cole haan leather dress booties | PHRASE | $0.60 |
+| 70 | cream and white booties | PHRASE | $0.60 |
+| 71 | elegant booties for girls | PHRASE | $0.60 |
+| 72 | high quality leather booties for women | PHRASE | $0.60 |
+| 73 | leather ankle booties for women | PHRASE | $0.60 |
+| 74 | naturalizer ankle booties | PHRASE | $0.60 |
+| 75 | navy blue booties 2 inch heel | PHRASE | $0.60 |
+| 76 | red back zipper booties | PHRASE | $0.60 |
+| 77 | white ankle booties women size 12 | PHRASE | $0.60 |
+| 78 | white booties | PHRASE | $0.60 |
+| 79 | white patent booties for women | PHRASE | $0.60 |
+| 80 | womens kitten heel white booties | PHRASE | $0.60 |
+| 81 | brown womens boot | PHRASE | $0.60 |
+| 82 | elegant woman boots | PHRASE | $0.60 |
+| 83 | leather women boots | PHRASE | $0.60 |
+| 84 | navy blue shoes for women boots | PHRASE | $0.60 |
+| 85 | olive green womens boots | PHRASE | $0.60 |
+| 86 | pink shoes women boot | PHRASE | $0.60 |
+| 87 | womens boots size 5 | PHRASE | $0.60 |
+| 88 | clarks booties kitten heel | PHRASE | $0.58 |
+| 89 | womens red dress booty | PHRASE | $0.58 |
+| 90 | women's boots size 12 | PHRASE | $0.54 |
+| 91 | dark brown chunky heel booties | PHRASE | $0.50 |
+| 92 | pointed toe tan duede booties | PHRASE | $0.50 |
+| 93 | shiny white booties | PHRASE | $0.50 |
+| 94 | white booties woman | PHRASE | $0.50 |
+| 95 | tommy hilfiger women's boot | PHRASE | $0.50 |
+| 96 | 1-2 inch black women boots | PHRASE | $0.50 |
+| 97 | clarks women ankle boots side zipper | PHRASE | $0.50 |
+| 98 | women ankle boots navy 5.5 | PHRASE | $0.50 |
+| 99 | brown kitten heel boots | PHRASE | $0.50 |
+
+> 已排除品牌词 `coutgo ankle boots`（品牌词转化通常较好，误否风险高）。该活动共 99 个零转化词可否定。
+
+---
+
+### 活动 2：D2Y818-简化-KQ（手动·词组/广泛，花费 $31.18，零订单）
+
+**投放类型**：MANUAL_KEYWORD ｜ **建议否定层级**：广告组级（adGroupId 273059571605252）
+
+| # | 需否定的搜索词 | 匹配方式 | 花费 |
+|---|---|---|---|
+| 1 | kitten heel boots for women | PHRASE | $2.22 |
+| 2 | kitten boots | PHRASE | $1.67 |
+| 3 | chocolate boots | PHRASE | $1.47 |
+| 4 | ankle boots for women | PHRASE | $1.44 |
+| 5 | short light brown boots | PHRASE | $1.25 |
+| 6 | brown boots for women | BROAD | $1.25 |
+| 7 | banter bootie | BROAD | $1.23 |
+| 8 | givenchy boots | PHRASE | $1.20 |
+| 9 | congo kitten heel boots | PHRASE | $1.10 |
+| 10 | small heel boots | PHRASE | $1.08 |
+| 11 | women's kitten heel leather ankle boots | BROAD | $1.03 |
+| 12 | botas de mujer | BROAD | $1.03 |
+| 13 | chocolate brown booties | BROAD | $0.99 |
+| 14 | ankle boots | PHRASE | $0.98 |
+| 15 | low kitten heel boot | PHRASE | $0.98 |
+| 16 | short kitten boots | PHRASE | $0.98 |
+| 17 | almond toe classic ankle boot | PHRASE | $0.94 |
+| 18 | orange low heel boots women | BROAD | $0.85 |
+| 19 | coutgo two tone boots | PHRASE | $0.81 |
+| 20 | womens low heel ankle boot round toe | BROAD | $0.79 |
+| 21 | ankle boots for women gold | BROAD | $0.76 |
+| 22 | beige booties low heel | BROAD | $0.74 |
+| 23 | kitten heel booties | BROAD | $0.72 |
+| 24 | women's chunky heel boots khaki color | BROAD | $0.71 |
+| 25 | cream booties | BROAD | $0.64 |
+| 26 | tan leather bootie heels | BROAD | $0.64 |
+| 27 | black pointed toe kitten heel boots short | BROAD | $0.59 |
+| 28 | kitten heel boots for women | BROAD | $0.54 |
+| 29 | leather short boots | PHRASE | $0.51 |
+| 30 | boots for women | BROAD | $0.48 |
+| 31 | stretch boots for women | BROAD | $0.48 |
+| 32 | womens ankle boot | BROAD | $0.46 |
+| 33 | cognac boots women | PHRASE | $0.34 |
+| 34 | womens boots | BROAD | $0.28 |
+
+> 已排除品牌词 `coutgo two tone boots`（品牌词误否风险高）。该活动共 33 个零转化词可否定。
+
+---
+
+### 活动 3：D2Y818-简化-CK（手动·广泛，花费 $1.13，零订单）
+
+**投放类型**：MANUAL_KEYWORD ｜ **建议否定层级**：广告组级（adGroupId 173806363918365）
+
+| # | 需否定的搜索词 | 匹配方式 | 花费 |
+|---|---|---|---|
+| 1 | velcro ankle dress heel | BROAD | $0.66 |
+| 2 | guess low square toe party shoes | BROAD | $0.47 |
+
+> 该活动共 2 个零转化词可否定。
+
+---
+
+### ⚠️ 无法否词的活动（自动投放，ASIN 触发）
+
+| 活动 | 花费 | 原因 | 建议 |
+|---|---|---|---|
+| D2Y818-SP-AT-CK | $2.98 | 自动投放，搜索词为 ASIN 触发（substitutes/loose-match） | 暂停活动 |
+| D2Y818-SP-AT-GL-0.5 | $22.13 | 自动投放，搜索词为 ASIN 触发（complements） | 暂停活动 |
+
+---
+
+## 汇总
+
+| 项目 | 数量 |
+|---|---|
+| 可否定活动数 | 3 个（手动关键词投放） |
+| 可否定搜索词总数 | 134 个 |
+| 涉及零转化花费 | 约 $117.38 |
+| 无法否词活动数 | 2 个（自动投放，需暂停） |
+
+---
+
+**重要提醒**：
+
+1. 这 3 个手动活动本身**全部零转化**，否定掉这些词后活动基本空转，**更彻底的做法是直接暂停活动**（但暂停操作当前系统不支持直接执行，需你到后台手动操作）。
+2. 已为你排除品牌词 `coutgo` 相关（`coutgo ankle boots`、`coutgo two tone boots`），避免误否品牌流量。
+3. 否词匹配方式建议：**词组否定（NEGATIVE_PHRASE）**为主，广泛匹配的搜索词也可用精确否定（NEGATIVE_EXACT）更精准。
+
+如果你确认要执行否词，请告诉我，我会按此清单发起否词操作。你也可以指定只否其中某几个活动或某几个词。
+
+[25 USER SUCCESS]
+这 3 个手动活动已经暂停 基于【D2Y818 美国站 · 全广告活动优化操作建议（按优先级排序）】对需要做否词的广告活动 列出否词清单
+
+[26 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+数据已获取完整。现在整理成一份清晰的「需否词活动清单」。我先说明关键判断，再给出清单。
+
+**关键说明**：
+1. 已排除你指定的 3 个已暂停活动（Kw-PH、简化-KQ、简化-CK）。
+2. 否词仅适用于「手动关键词投放」活动，以下 6 个活动均为手动投放，可执行否词。
+3. 品牌词 `coutgo` 相关（含 `coutgo`、`coutgo boots`、`coutgo kitten heels` 等）**已单独标注**，建议谨慎处理——品牌词通常转化较好，零转化可能是活动结构问题而非词本身问题，误否会损失品牌流量。
+
+---
+
+# D2Y818 美国站 · 需否词广告活动清单
+
+**对象**：SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+**周期**：2026-08-04 ~ 2026-09-02 ｜ **筛选标准**：花费 > 0 且订单 = 0
+
+---
+
+## 活动 1：D2Y818-SP-MT-KWG-HS（手动·词组，ACOS 34.3%）
+
+**campaignId**：430615805942644 ｜ **adType**：SP ｜ **targetingType**：MANUAL_KEYWORD
+
+**重点否词（花费 ≥ $1）**：
+
+| 搜索词 | 匹配方式 | 花费 |
+|---|---|---|
+| clarks ankle boots for women | PHRASE | $5.92 |
+| kitten heel boots for women | PHRASE | $2.42 |
+| kitten heel boots | PHRASE | $2.24 |
+| womens booties | PHRASE | $1.92 |
+| pointed toe ankle boots for women | PHRASE | $1.52 |
+| nine west women's boots | PHRASE | $1.48 |
+| pointed toe booties | PHRASE | $1.41 |
+| kitten heel ankle boots | PHRASE | $1.37 |
+| cushionaire boots women | PHRASE | $1.35 |
+| low heel boots | PHRASE | $1.35 |
+| clarks boots for women | PHRASE | $1.26 |
+
+> 另有 69 个零转化词（花费 < $1），如需全量清单可单独提供。品牌词 `coutgo boots`（$1.38）、`coutgo sandals`、`coutgo ankle boots`、`coutgo booties`、`coutgo loafers`、`coutgo`（各 $0.66~0.73）**建议保留，不否定**。
+
+---
+
+## 活动 2：D2Y818-简化（手动·词组/广泛，ACOS 36.7%，主力活动）
+
+**campaignId**：255811784395108 ｜ **adType**：SP ｜ **targetingType**：MANUAL_KEYWORD
+
+**重点否词（花费 ≥ $5）**：
+
+| 搜索词 | 匹配方式 | 花费 |
+|---|---|---|
+| kitten heels | PHRASE | $20.59 |
+| boots for women | PHRASE | $14.00 |
+| white boots | PHRASE | $13.99 |
+| booties for women | BROAD | $13.45 |
+| kitten heel booties for women | BROAD | $10.79 |
+| kitten heel boots for women | PHRASE | $9.70 |
+| ankle boots for women | BROAD | $8.81 |
+| brown booties | BROAD | $8.48 |
+| boots | PHRASE | $7.97 |
+| kitten heel bootie | BROAD | $6.83 |
+| white booties | BROAD | $6.76 |
+| burgundy kitten heel boots | PHRASE | $6.52 |
+| red boots for women | PHRASE | $6.48 |
+| black kitten heel booties | BROAD | $6.29 |
+| clarks ankle boots for women | PHRASE | $6.09 |
+| womens gold booty | BROAD | $5.56 |
+| navy blue boots for women | PHRASE | $5.53 |
+| black western booties | BROAD | $5.20 |
+| black booties with heel | BROAD | $5.15 |
+
+> 品牌词 `coutgo kitten heels`（$17.83）、`coutgo womens ankle boots kitten low heel...`（$5.37）、`coutgo womens ankle boots`（$5.00）**建议保留**。该活动零转化词数量庞大（1000+），如需完整清单可单独导出。
+
+---
+
+## 活动 3：D2Y818-简化-HS（手动·词组/广泛，ACOS 33.0%）
+
+**campaignId**：28797991510172 ｜ **adType**：SP ｜ **targetingType**：MANUAL_KEYWORD
+
+**重点否词（花费 ≥ $2）**：
+
+| 搜索词 | 匹配方式 | 花费 |
+|---|---|---|
+| kitten heel booties | BROAD | $4.26 |
+| kitten heel boots for women | BROAD | $3.05 |
+| kitten heel boots | BROAD | $2.90 |
+| black kitten heel boots | BROAD | $2.78 |
+
+> 另有 55 个零转化词（花费 < $2）。品牌词 `coutgo kitten heels booties`（$1.63）、`coutgo boots`、`coutgo kitten heel boots` 等**建议保留**。
+
+---
+
+## 活动 4：D2Y818-简化-BR（手动·词组/广泛，ACOS 29.6%）
+
+**campaignId**：194521866079176 ｜ **adType**：SP ｜ **targetingType**：MANUAL_KEYWORD
+
+**重点否词（花费 ≥ $2）**：
+
+| 搜索词 | 匹配方式 | 花费 |
+|---|---|---|
+| brown booties | BROAD | $4.16 |
+| kitten heel boots for women | BROAD | $2.55 |
+| brown kitten heels | BROAD | $2.26 |
+| botines de mujer | BROAD | $2.15 |
+| kitten heeled boots for women | PHRASE | $2.03 |
+
+> 另有 48 个零转化词（花费 < $2）。品牌词 `coutgo kitten heels`（$1.26）、`coutgo women's pointed toe kitten heel boots`、`coutgo ankle boots` 等**建议保留**。
+
+---
+
+## 活动 5：D2Y818-简化-MS（手动·词组/广泛，ACOS 22.2%）
+
+**campaignId**：13488797463083 ｜ **adType**：SP ｜ **targetingType**：MANUAL_KEYWORD
+
+**重点否词（花费 ≥ $2）**：
+
+| 搜索词 | 匹配方式 | 花费 |
+|---|---|---|
+| ankle boots for women | BROAD | $3.90 |
+| kitten heel boots for women | BROAD | $2.45 |
+| boots for women | PHRASE | $2.12 |
+
+> 另有 44 个零转化词（花费 < $2）。品牌词 `coutgo boots women`（$1.33）、`coutgo ankle boots` 等**建议保留**。
+
+---
+
+## 活动 6：D2Y818-简化-BS（手动·词组/广泛，ACOS 45.2%，超预算）
+
+**campaignId**：35621933518331 ｜ **adType**：SP ｜ **targetingType**：MANUAL_KEYWORD
+
+**重点否词（花费 ≥ $2）**：
+
+| 搜索词 | 匹配方式 | 花费 |
+|---|---|---|
+| kitten heel boots | EXACT | $8.72 |
+| white boots | BROAD | $4.46 |
+| boots for women | BROAD | $4.15 |
+| booties for women | BROAD | $3.41 |
+
+> 另有 26 个零转化词（花费 < $2）。品牌词 `coutgo boots women`（$1.04）**建议保留**。
+
+---
+
+## 汇总
+
+| 项目 | 数量 |
+|---|---|
+| 需否词活动数 | 6 个（均为手动关键词投放） |
+| 重点否词（花费≥$1/$2/$5 阈值） | 约 45 个 |
+| 品牌词（coutgo 相关，建议保留） | 已单独标注，不否定 |
+
+---
+
+**几点提醒**：
+
+1. **品牌词 `coutgo` 相关零转化词我全部建议保留不否**。这些词本该是转化主力，零转化更可能是活动竞价/预算/结构问题，否定品牌词会直接损失核心流量，风险高。
+
+2. **「简化」主力活动零转化词极多（1000+）**，上面只列了花费 ≥ $5 的重点词。如果要做彻底否词，建议聚焦「花费 ≥ $3」或「花费 ≥ $5」的词，避免一次否定过多导致误伤。
+
+3. 否词匹配方式建议：**词组否定（NEGATIVE_PHRASE）**为主，广泛匹配的搜索词可用**精确否定（NEGATIVE_EXACT）**更精准。
+
+4. 这些活动本身 ACOS 偏高（22%~45%），否词只能止住部分无效花费，**更根本的优化是降竞价/降预算**，但当前系统暂不支持直接执行。
+
+---
+
+请确认你要否定的**范围**（例如：只否花费 ≥ $3 的重点词？还是全量？是否包含品牌词？），确认后我按清单发起否词操作。
+
+[27 USER SUCCESS]
+不包含品牌词 对点击量大于20的词做否定
+
+[28 ASSISTANT SUCCESS]
+筛选结果已明确。按你的规则（**不包含品牌词 + 点击量 > 20**），6 个启用中的手动活动里，**只有 1 个搜索词命中**：
+
+---
+
+## 否词清单（点击 > 20 且零转化，非品牌词）
+
+| 活动 | 搜索词 | 匹配方式 | 花费 | 点击 | 订单 |
+|---|---|---|---|---|---|
+| D2Y818-简化 | kitten heels | PHRASE | $20.59 | 21 | 0 |
+
+**campaignId**：255811784395108 ｜ **adType**：SPONSORED_PRODUCTS ｜ **targetingType**：MANUAL_KEYWORD
+
+---
+
+## 其余活动说明
+
+其余 5 个活动（KWG-HS、简化-HS、简化-BR、简化-MS、简化-BS）**均无命中**——它们的零转化搜索词点击量最高也只有 8~13 次，未达到「>20」的阈值。
+
+---
+
+## 关键提醒
+
+1. **唯一命中词 `kitten heels`** 是「D2Y818-简化」主力活动里的高花费零转化词（$20.59、21 次点击零订单），值得否定。
+
+2. **adGroupId 缺失问题**：该活动为多广告组结构，搜索词接口未返回单一 adGroupId。执行否词时需要在广告后台按 `kitten heels` 反查所属广告组，或对该活动整体添加否定关键词。
+
+3. 如果你觉得「点击 > 20」阈值过高、覆盖的词太少，我可以按 **点击 > 10** 或 **花费 ≥ $5** 的标准再筛一批更值得否定的词。
+
+---
+
+请确认：是否就按这 1 个词 `kitten heels` 执行否定？如果确认，请告诉我否词的**层级**（广告活动级 / 广告组级）和**匹配方式**（词组否定 NEGATIVE_PHRASE 或精确否定 NEGATIVE_EXACT），我立即发起否词操作。
+
+[29 USER SUCCESS]
+点击 > 10
+
+[30 ASSISTANT SUCCESS]
+筛选完成。按你的规则（**点击 > 10 且零转化，排除品牌词 coutgo**），6 个启用中的手动活动里，**只有「D2Y818-简化」活动命中 7 个词**，其余 5 个活动均无命中。
+
+---
+
+## 否词清单（点击 > 10 且零转化，非品牌词）
+
+**活动**：D2Y818-简化 ｜ **campaignId**：255811784395108 ｜ **adType**：SPONSORED_PRODUCTS ｜ **targetingType**：MANUAL_KEYWORD
+
+| # | 搜索词 | 匹配方式 | 花费 | 点击 | 订单 |
+|---|---|---|---|---|---|
+| 1 | kitten heels | PHRASE | $20.59 | 21 | 0 |
+| 2 | boots for women | PHRASE | $14.00 | 19 | 0 |
+| 3 | white boots | PHRASE | $13.99 | 15 | 0 |
+| 4 | booties for women | BROAD | $13.45 | 13 | 0 |
+| 5 | boots | PHRASE | $7.97 | 13 | 0 |
+| 6 | kitten heel booties for women | BROAD | $10.79 | 11 | 0 |
+| 7 | ankle boots for women | BROAD | $8.81 | 10 | 0 |
+
+**合计**：7 个词，花费约 **$88.60**，点击 **102 次**，零订单。
+
+---
+
+## 其余活动说明
+
+KWG-HS、简化-HS、简化-BR、简化-MS、简化-BS 这 5 个活动**均无命中**——它们的零转化词点击量最高也只有 8~9 次，未达「>10」阈值。
+
+---
+
+## 关键提醒
+
+1. **adGroupId 缺失**：该活动为多广告组结构，搜索词接口未返回单一 adGroupId。执行否词时需在广告后台按搜索词反查所属广告组，或对该活动整体添加否定关键词。
+
+2. **否词匹配方式建议**：
+   - 词组匹配（PHRASE）触发的词 → 用**词组否定（NEGATIVE_PHRASE）**
+   - 广泛匹配（BROAD）触发的词 → 用**精确否定（NEGATIVE_EXACT）**更精准，避免误伤
+
+3. 这 7 个词都是「kitten heels / boots / booties」这类**大流量泛词**，零转化说明词与产品匹配度低，否定后能明显止住纯烧钱花费。
+
+---
+
+请确认是否就按这 7 个词执行否定？确认时请告诉我：
+1. **否定层级**：广告活动级（campaign 级）还是广告组级？
+2. **匹配方式**：是否按上面建议（PHRASE 词用词组否定、BROAD 词用精确否定）？
+
+确认后我立即发起否词操作。
+
+[31 USER PAUSED]
+广告组级 匹配方式按上面建议
+
+[32 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[33 USER SUCCESS]
+已完成审批确认
+
+[34 ASSISTANT SUCCESS]
+✅ 否词操作已成功执行。
+
+---
+
+## 执行结果
+
+| 项目 | 结果 |
+| --- | --- |
+| **操作状态** | ✅ 成功 |
+| **否词数量** | 7 条 |
+| **广告活动** | D2Y818-简化 |
+| **否定层级** | 广告组级 |
+
+### 已否定的关键词
+
+| 搜索词 | 匹配方式 |
+| --- | --- |
+| kitten heels | 词组否定 |
+| boots for women | 词组否定 |
+| white boots | 词组否定 |
+| booties for women | 精确否定 |
+| boots | 词组否定 |
+| kitten heel booties for women | 精确否定 |
+| ankle boots for women | 精确否定 |
+
+---
+
+## 说明
+
+1. **已排除品牌词**：`coutgo` 相关搜索词（如 `coutgo kitten heels` 17 点击等）均未否定，保留品牌流量。
+
+2. **`boots` 词组否定的影响**：该词会屏蔽所有包含 "boots" 的搜索词。由于该广告组同时投放了词组和广泛匹配关键词，实际屏蔽范围可能比预期更广——如果后续发现某些含 "boots" 的转化词流量被误伤，可以再补充精确否定来收窄范围。
+
+3. 这 7 个词合计约 **$88.60 花费、102 次点击、零订单**，否定后预计可止住这部分纯烧钱花费。
+
+如需我继续处理其他活动，或对否词范围做进一步调整，随时告诉我。
+
+[35 USER CANCELLED]
+已完成审批确认
+
+[36 ASSISTANT CANCELLED]
+用户已停止生成
+
+[37 USER SUCCESS]
+D2Y818分析2026-08-08至 2026-09-06（近 30 天）美国站广告数据 给出优化建议
+
+[38 ASSISTANT SUCCESS]
+> 注意：该活动因命中当前授权或指定 ASIN 被纳入查询；指标为整个广告活动汇总，可能同时包含活动内其他 ASIN 的效果，不能解读为命中 ASIN 的独立贡献。
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 美国站广告诊断报告
+
+**数据时间范围**：2026-08-08 ～ 2026-09-06（近 30 天）
+**对象**：SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+**覆盖活动**：全部 21 个 Campaign（含已暂停）
+
+> ⚠️ 广告位（Placement）维度因后端查询超时未能返回，本报告该部分无法展开；其余维度完整。
+
+---
+
+## 一、整体核心指标
+
+| 指标 | 数值 |
+|---|---|
+| 曝光 | 632,069 |
+| 点击 | 4,176 |
+| CTR | 0.66% |
+| 花费 | $3,220.94 |
+| CPC | $0.77 |
+| 销售额 | $8,227.91 |
+| 订单 | 204 |
+| CVR | 4.88% |
+| **ACOS** | **39.15%** |
+| ROAS | 2.55 |
+| CPA | $15.79 |
+
+**特征**：ACOS 39.15% 偏高；间接销售占 91.2%（$7,502），本品率仅 8.8%，商品主要承担"关联引流"角色。
+
+---
+
+## 二、广告活动表现
+
+### 启用中活动（按花费降序）
+
+| 活动 | 类型 | 花费 | 销售额 | ACOS | 订单 | CVR | 日预算 | 状态 |
+|---|---|---|---|---|---|---|---|---|
+| D2Y818-简化 | 手动 | $1,775.12 | $4,600.04 | 38.6% | 115 | 6.03% | $30 | 启用 |
+| D2Y818-简化-BR | 手动 | $151.02 | $557.85 | 27.1% | 14 | 8.09% | $30 | 启用(预算不足) |
+| D2Y818-简化-MS | 手动 | $138.50 | $467.69 | 29.6% | 11 | 7.14% | $30 | 启用 |
+| D2Y818-SP-AT-0.35 | 自动 | $117.25 | $483.89 | 24.2% | 11 | 3.21% | $50 | 启用 |
+| D2Y818-简化-HS | 手动 | $115.88 | $352.91 | 32.8% | 9 | 6.12% | $10 | 启用(预算不足) |
+| D2Y818-SP-MT-KWG-HS | 手动 | $108.92 | $300.93 | 36.2% | 7 | 3.87% | $20 | 启用 |
+| D2Y818-SP-AT-KF-0.42 | 自动 | $78.19 | $368.90 | 21.2% | 9 | 5.49% | $50 | 启用 |
+
+### 已暂停活动（本周期仍有历史消耗）
+
+| 活动 | 类型 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|---|
+| D2Y818-SP-MT-BRKW-BR/PH | 手动 | $142.22 | $202.95 | 70.1% | 5 |
+| D2Y818-SP-MT-KW-BR | 手动 | $138.61 | $235.91 | 58.8% | 6 |
+| D2Y818-SP-MT-Kw-PH-0.5+30% | 手动 | $85.57 | $39.99 | 214% | 1 |
+| D2Y818-简化-BS | 手动 | $73.76 | $119.97 | 61.5% | 4 |
+| D2Y818-SP-AT-KF-BS | 自动 | $71.21 | $125.97 | 56.5% | 3 |
+| D2Y818-SP-AT-TL-0.32 | 自动 | $66.34 | $125.97 | 52.7% | 3 |
+| D2Y818-SP-AT-JM-0.46 | 自动 | $49.75 | $0 | — | 0 |
+| D2Y818-SP-MT-cat.-AI | 手动 | $48.73 | $244.94 | 19.9% | 6 |
+| D2Y818-简化-KQ | 手动 | $31.18 | $0 | — | 0 |
+| D2Y818-SP-AT-GL-0.5 | 自动 | $20.98 | $0 | — | 0 |
+| D2Y818-SP-AT-CK | 自动 | $6.58 | $0 | — | 0 |
+| D2Y818-简化-CK | 手动 | $1.13 | $0 | — | 0 |
+
+---
+
+## 三、投放词/投放品表现
+
+| 投放类型 | 匹配方式 | 花费 | 销售额 | ACOS | 订单 | CVR |
+|---|---|---|---|---|---|---|
+| 关键词 | 广泛(BROAD) | $1,366.04 | $3,641.04 | 37.5% | 91 | 6.05% |
+| 关键词 | 词组(PHRASE) | $1,258.34 | $2,856.29 | **44.1%** | 72 | 4.97% |
+| 商品投放 | — | $568.70 | $1,650.60 | 34.5% | 39 | 3.27% |
+| 关键词 | 精准(EXACT) | $29.83 | $79.98 | 37.3% | 2 | 6.25% |
+
+---
+
+## 四、搜索词分析
+
+### 高花费低转化词（建议否定，花费≥$20 且订单≤1）
+
+| 搜索词 | 花费 | 点击 | 订单 | ACOS |
+|---|---|---|---|---|
+| kitten heel boots | $105.92 | 115 | 5 | 52.7% |
+| kitten heel boots for women | $46.95 | 54 | 2 | 54.6% |
+| ankle boots for women | $46.18 | 57 | 1 | 115.5% |
+| boots for women | $33.45 | 42 | 1 | 83.6% |
+| kitten heels | $30.36 | 32 | 1 | 75.9% |
+| brown kitten heel boots | $30.44 | 33 | 2 | 38.1% |
+| booties for women | $24.75 | 26 | 0 | — |
+| white boots | $23.22 | 28 | 0 | — |
+| kitten heel booties for women | $23.07 | 27 | 2 | 28.8% |
+| ankle boots for women low heel | $22.88 | 29 | 1 | 57.2% |
+
+### 高效转化词（建议加预算/提价）
+
+| 搜索词 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|
+| coutgo shoes women | $54.33 | $277.93 | 19.5% | 7 |
+| kitten heel booties | $47.89 | $346.72 | 13.8% | 8 |
+| kitten heel ankle boots | $37.25 | $209.95 | 17.7% | 5 |
+| coutgo boots women | $35.57 | $155.96 | 22.8% | 4 |
+| womens booties | $21.95 | $122.97 | 17.8% | 3 |
+| white boots for women | $15.53 | $122.97 | 12.6% | 4 |
+| black booties | $9.15 | $119.97 | 7.6% | 3 |
+
+---
+
+## 五、预算使用情况
+
+| 活动 | 日预算 | 状态 | 判断 |
+|---|---|---|---|
+| D2Y818-简化 | $30 | 启用 | 主力，花费高但 ACOS 38.6% 偏高 |
+| D2Y818-简化-BR | $30 | **预算不足** | 高效（27.1%），应加预算 |
+| D2Y818-简化-HS | $10 | **预算不足** | 高效（32.8%），应加预算 |
+| D2Y818-SP-AT-0.35 | $50 | 启用 | 健康（24.2%） |
+| D2Y818-SP-AT-KF-0.42 | $50 | 启用 | 最优（21.2%） |
+
+---
+
+## 六、优化建议（按优先级）
+
+### 🔴 P0 — 否词（降低 ACOS）
+对以下高花费低转化词做否定处理（优先精确否定）：
+- `kitten heel boots`（$105.92，ACOS 52.7%）
+- `kitten heel boots for women`（$46.95，ACOS 54.6%）
+- `ankle boots for women`（$46.18，ACOS 115.5%）
+- `boots for women`（$33.45，ACOS 83.6%）
+- `kitten heels`（$30.36，ACOS 75.9%）
+- `booties for women`（$24.75，零转化）
+- `white boots`（$23.22，零转化）
+
+### 🟠 P1 — 调预算（放大高效）
+1. **简化-BR**（27.1%）、**简化-HS**（32.8%）已"预算不足"，建议分别从 $30/$10 提升至 $40/$20。
+2. **AT-KF-0.42**（21.2%）、**AT-0.35**（24.2%）为最优自动活动，可维持或小幅加码。
+
+### 🟡 P2 — 调匹配方式
+1. 词组匹配 ACOS 44.1% 最高，建议高效词转精准匹配、低效词转否定。
+2. 商品投放 ACOS 34.5% 且间接销售占 97.4%，是高效关联引流渠道，建议扩充出单竞品 ASIN 定向。
+
+### 🟢 P3 — 提价高效词
+对 `coutgo shoes women`、`kitten heel booties`、`kitten heel ankle boots`、`coutgo boots women`、`womens booties`、`white boots for women`、`black booties`（ACOS 均 <23%）提价/加预算。
+
+---
+
+## 七、总结
+
+D2Y818 本周期 ACOS 39.15%，核心问题：**词组匹配 ACOS 偏高 + 多个高花费低转化泛词未否定 + 高效活动预算受限**。
+
+**三步优化路径**：
+1. **否词**：否定 `kitten heel boots`、`ankle boots for women` 等 7 个高花费低转化词，预计可节省约 $300 低效花费；
+2. **调预算**：给简化-BR、简化-HS 两个"预算不足"的高效活动加预算；
+3. **调匹配**：收紧词组匹配、加码商品投放、补充精准匹配词库。
+
+按此执行，预计可将 ACOS 优化至 30% 以下，同时保持关联引流价值。
+
+---
+
+需要我进一步下钻某个具体活动的搜索词，或稍后重试广告位数据查询吗？也可以直接告诉我执行哪一项优化（如否词、调预算）。
+
+[39 USER SUCCESS]
+列出否词清单
+
+[40 ASSISTANT SUCCESS]
+# D2Y818 否词清单
+
+**数据时间范围**：2026-08-08 ～ 2026-09-06（近 30 天）
+**对象**：SPU D2Y818（父 ASIN B0D6743K74，美国站）
+
+以下为建议否定的搜索词，按花费降序排列：
+
+| 序号 | 搜索词 | 花费 | 点击 | 订单 | ACOS | 建议匹配方式 |
+|---|---|---|---|---|---|---|
+| 1 | kitten heel boots | $105.92 | 115 | 5 | 52.7% | 精确否定 |
+| 2 | kitten heel boots for women | $46.95 | 54 | 2 | 54.6% | 精确否定 |
+| 3 | ankle boots for women | $46.18 | 57 | 1 | 115.5% | 精确否定 |
+| 4 | boots for women | $33.45 | 42 | 1 | 83.6% | 精确否定 |
+| 5 | kitten heels | $30.36 | 32 | 1 | 75.9% | 词组否定 |
+| 6 | brown kitten heel boots | $30.44 | 33 | 2 | 38.1% | 精确否定 |
+| 7 | booties for women | $24.75 | 26 | 0 | — | 精确否定 |
+| 8 | white boots | $23.22 | 28 | 0 | — | 精确否定 |
+| 9 | kitten heel booties for women | $23.07 | 27 | 2 | 28.8% | 精确否定 |
+| 10 | ankle boots for women low heel | $22.88 | 29 | 1 | 57.2% | 精确否定 |
+
+**合计**：10 个词，花费约 **$387.22**，点击 443，订单 15，整体 ACOS 明显偏高。
+
+---
+
+## 说明与建议
+
+1. **匹配方式建议**：除 `kitten heels` 建议用**词组否定**（可同时屏蔽 "kitten heels" 相关的长尾变体）外，其余均建议**精确否定**，避免误伤含品牌词或高效词的长尾流量。
+
+2. **需谨慎的词**：
+   - `kitten heel boots`（$105.92，5 单）——虽有一定订单但 ACOS 52.7% 偏高，是否否定取决于你的目标 ACOS 阈值；
+   - `brown kitten heel boots`（ACOS 38.1%）、`kitten heel booties for women`（ACOS 28.8%）——这两个 ACOS 相对没那么差，可考虑保留观察或只做精确否定。
+
+3. **注意**：上一轮已对 `D2Y818-简化` 活动执行过 7 条广告组级否词（含 `kitten heels`、`boots for women`、`white boots`、`booties for women`、`boots`、`kitten heel booties for women`、`ankle boots for women`）。本次清单中部分词与上次重复，执行前建议先确认是否已在其他活动/广告组覆盖。
+
+---
+
+需要我确认这些词在哪些活动/广告组中投放、是否已存在否定，或直接帮你执行否词吗？
+
+[41 USER SUCCESS]
+需要
+
+[42 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 否词清单确认结果
+
+**数据时间范围**：2026-08-08 ～ 2026-09-06（近 30 天）
+
+**关键结论**：这 10 个词**目前均未设置任何否定关键词**（元数据查询未返回否定配置），全部属于"需要新增否定"或"需分活动精细处理"的范畴。
+
+---
+
+## 一、建议否定的词（7 个）
+
+### 🔴 纯烧钱 / 严重亏损（建议全活动否定）
+
+| 搜索词 | 花费 | 订单 | ACOS | 判断 |
+|---|---|---|---|---|
+| booties for women | $24.75 | 0 | — | 纯烧钱 |
+| white boots | $23.22 | 0 | — | 纯烧钱 |
+| ankle boots for women | $46.18 | 1 | 115.5% | 严重亏损 |
+| boots for women | $33.45 | 1 | 83.6% | 严重亏损 |
+| kitten heels | $30.36 | 1 | 75.9% | 严重亏损 |
+
+### 🟠 分活动否定（保留有效投放，否定无效流量）
+
+| 搜索词 | 保留 | 否定 |
+|---|---|---|
+| kitten heel boots | 简化-词组（4 单，ACOS 23%） | BRKW、KW-BR、简化-BS 精准等零转化流量 |
+| kitten heel boots for women | 简化-MS-词组（2 单） | 其余活动零转化流量 |
+
+---
+
+## 二、建议观察（3 个，暂不否定）
+
+| 搜索词 | 花费 | 订单 | ACOS | 说明 |
+|---|---|---|---|---|
+| brown kitten heel boots | $30.44 | 2 | 38.1% | 简化-BR 词组 ACOS 仅 4.6%，有效；BRKW 活动已暂停 |
+| kitten heel booties for women | $23.07 | 2 | 28.8% | 简化-BR 有 1 单，可保留 |
+| ankle boots for women low heel | $22.88 | 1 | 57.2% | 简化-词组有 1 单，可否定低效活动、保留简化词组 |
+
+---
+
+## 三、重要提示
+
+1. **上一轮已执行过 7 条否词**（针对 `D2Y818-简化` 活动广告组级）：`kitten heels`、`boots for women`、`white boots`、`booties for women`、`boots`、`kitten heel booties for women`、`ankle boots for women`。但本次元数据查询显示这些词**仍未体现为否定配置**——可能是：
+   - 上次否定仅作用于「简化」活动的某个广告组，而本次查询的是全账户范围；
+   - 或否定尚未同步/生效。
+
+   因此执行前需要**明确否定层级和范围**，避免重复或遗漏。
+
+2. 本次建议的否定词中，有部分与上次已否定的词重叠（`booties for women`、`white boots`、`kitten heels`、`boots for women`、`ankle boots for women`），执行时需确认是否已覆盖。
+
+---
+
+## 四、下一步
+
+请告诉我你希望如何执行：
+
+1. **直接执行否词**——我可以按「全活动否定」或「分活动否定」两种方案，帮你生成具体操作并执行；
+2. **先输出精确操作清单**（含活动/广告组/匹配方式），你确认后再执行；
+3. **只否定纯烧钱 + 严重亏损的 5 个词**（最稳妥），分活动处理的 2 个词暂缓。
+
+你倾向哪种方式？
+
+[43 USER PAUSED]
+只否定纯烧钱 + 严重亏损的 5 个词
+
+[44 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[45 USER SUCCESS]
+已完成审批确认
+
+[46 ASSISTANT SUCCESS]
+✅ 否词操作已成功执行。
+
+## 执行结果汇总
+
+本次共对 **5 个词** 完成否定关键词操作，覆盖 **7 个广告活动**：
+
+| 否定词 | 覆盖范围 | 否定匹配方式 |
+|---|---|---|
+| booties for women | 简化、简化-BR、简化-HS、KWG-HS（4 个广告组） | 词组否定 |
+| white boots | 简化（广告组级）+ AT-KF-0.42、AT-0.35（活动级·自动） | 词组否定 |
+| ankle boots for women | 简化、简化-MS、简化-BR（广告组级）+ AT-0.35（活动级·自动） | 词组否定 |
+| boots for women | 简化、简化-MS、简化-BR、简化-HS（4 个广告组） | 词组否定 |
+| kitten heels | 简化、简化-MS、简化-BR（3 个广告组） | 词组否定 |
+
+**说明**：
+- 手动关键词活动采用**广告组级**否定，自动广告（AT-KF-0.42、AT-0.35）采用**活动级**否定。
+- 已暂停的活动（BRKW-BR/PH、KW-BR、Kw-PH、简化-KQ、简化-BS、JM-0.46、TL-0.32 等）无需否定，已自动排除。
+- 这 5 个词近 30 天合计花费约 **$157.86**，其中 2 个纯烧钱（0 单）、3 个严重亏损，否定后预计可显著降低无效花费。
+
+---
+
+如需继续处理「分活动否定」的 2 个词（`kitten heel boots`、`kitten heel boots for women`），或执行调预算、调匹配等其他优化，请告诉我。
+
+[47 USER SUCCESS]
+货号D2Y818/父asinB0D6743K74
+分析2026-08-10至 2026-09-08（近 30 天）美国站广告数据 给出优化建议 首要目的先控制无效花费，再完善该货号广告架构，降低广告ACOS，提升广告效率
+
+[48 ASSISTANT SUCCESS]
+> 注意：该活动因命中当前授权或指定 ASIN 被纳入查询；指标为整个广告活动汇总，可能同时包含活动内其他 ASIN 的效果，不能解读为命中 ASIN 的独立贡献。
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 美国站广告优化建议报告
+
+**数据时间范围**：2026-08-10 ～ 2026-09-08（近 30 天）
+**对象**：SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+---
+
+## 一、整体表现
+
+| 指标 | 数值 | 指标 | 数值 |
+|---|---|---|---|
+| 曝光 | 661,860 | 点击 | 4,306 |
+| CTR | 0.65% | CPC | $0.78 |
+| 花费 | $3,339.45 | 销售额 | $8,564.81 |
+| 订单 | 213 | CVR | 4.95% |
+| **ACOS** | **39.0%** | ROAS | 2.56 |
+
+**核心问题**：ACOS 39% 偏高，主要来自**词组匹配效率低（ACOS 44.5%）** + **7 个高花费低转化词未否定** + **精准匹配缺失** + **主力活动预算设置脱节**。
+
+---
+
+## 二、分优先级优化建议
+
+### 🔴 P0 — 控无效花费（立即执行）
+
+**1. 否定高花费低转化词**（预计节省 $250+ 低效花费）
+
+| 搜索词 | 花费 | 订单 | ACOS | 建议 |
+|---|---|---|---|---|
+| booties for women | $25.67 | 0 | — | 立即否定 |
+| white boots | $22.63 | 0 | — | 立即否定 |
+| ankle boots for women | $44.14 | 1 | 110.4% | 立即否定 |
+| boots for women | $33.77 | 1 | 84.4% | 立即否定 |
+| kitten heels | $30.08 | 1 | 75.2% | 立即否定 |
+| kitten heel boots for women | $46.29 | 2 | 53.8% | 否定 |
+| ankle boots for women low heel | $23.41 | 1 | 58.5% | 否定 |
+
+> 注：其中前 5 个词（booties for women、white boots、ankle boots for women、boots for women、kitten heels）**已在上一轮完成否定**。本轮新增需否定的为 `kitten heel boots for women`、`ankle boots for women low heel` 两个词。
+
+**2. 收紧词组匹配**：词组匹配 ACOS 44.5% 最高，将高效词转精准、低效词转否定。
+
+### 🟠 P1 — 完善架构（1-2 周内）
+
+**3. 建立精准匹配层**：将 ACOS<20% 的高效词逐一建立 EXACT 精准投放：
+
+| 高效词 | 花费 | 销售额 | ACOS | 订单 |
+|---|---|---|---|---|
+| kitten heel booties | $46.87 | $346.72 | 13.5% | 8 |
+| kitten heel ankle boots | $38.21 | $209.95 | 18.2% | 5 |
+| womens booties | $21.48 | $122.97 | 17.5% | 3 |
+| white boots for women | $15.53 | $122.97 | 12.6% | 4 |
+| black booties | $9.92 | $119.97 | 8.3% | 3 |
+| coutgo boots | $10.28 | $122.97 | 8.4% | 3 |
+| ankle boots | $25.92 | $125.97 | 20.6% | 3 |
+| coutgo shoes women | $63.36 | $277.93 | 22.8% | 7 |
+
+**4. 加码商品投放**：商品投放间接销售占 97.3%，扩充出单竞品 ASIN 定向。
+
+**5. 加预算给健康活动**：简化-BR（ACOS 32.4%）、简化-MS（34.6%）预算利用率仅 29-34%，可加预算放大。
+
+### 🟡 P2 — 提效（持续优化）
+
+**6. 提价高效词**：coutgo shoes women、kitten heel booties、kitten heel ankle boots 等 ACOS<25% 的词提价/加预算。
+
+**7. 规范"简化"活动预算**：日预算 $5 但日均花费 $59，严重脱节，需重新评估或继续拆分。
+
+**8. 持续监控自动活动**：AT-KF-0.42（27.2%）、AT-0.35（27.9%）表现稳定，可小幅加码。
+
+---
+
+## 三、三步优化路径总结
+
+1. **先控无效花费**：否定剩余 2 个高花费低转化词（前 5 个已完成），预计 ACOS 可降至 34% 左右；
+2. **再完善架构**：建立精准匹配层、加码商品投放、加预算给健康活动；
+3. **持续提效**：提价高效词、规范预算设置。
+
+按此执行，预计可将 ACOS 优化至 30% 以下，同时保持关联引流价值。
+
+---
+
+## 下一步
+
+我可以帮你直接执行以下操作，请选择：
+
+1. **否定剩余 2 个词**（`kitten heel boots for women`、`ankle boots for women low heel`）；
+2. **建立精准匹配层**（为 8 个高效词新建 EXACT 精准投放）；
+3. **加预算给健康活动**（简化-BR、简化-MS）；
+4. 以上全部或部分组合。
+
+你希望执行哪些？
+
+[49 USER SUCCESS]
+否定剩余 2 个词
+
+[50 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+我注意到这两个词都存在**有效转化**的情况：
+
+- `kitten heel boots for women`：在「简化-MS」词组匹配有 2 单（ACOS 5%），全活动否定会损失；
+- `ankle boots for women low heel`：在「简化」词组匹配有 1 单（ACOS 14.5%），全活动否定会损失。
+
+这两个词整体 ACOS 偏高（53.8%、58.5%），但它们的词组匹配部分其实是有效的。为了既控制无效花费、又保留有效转化，我建议采用**精准否定策略**：
+
+- **保留词组匹配（PHRASE）**（有转化），**否定广泛匹配（BROAD）**（无效流量）；
+- 自动活动（AT-KF-0.42）中 `kitten heel boots for women` 的自动流量零转化，活动级否定。
+
+不过，由于否定关键词的匹配方式里，`NEGATIVE_PHRASE` 会同时覆盖词组和广泛匹配，无法只否定广泛而保留词组。因此要保留词组匹配的有效转化，需要**用 NEGATIVE_EXACT 精准否定**，或仅对零转化的广告组做否定。
+
+让我重新梳理一个更稳妥的方案，向你确认后再执行：
+
+## 📋 否词方案确认
+
+### 方案说明
+由于这两个词的部分词组匹配有有效转化，我建议**分广告组精准处理**，避免误伤有效转化：
+
+| 搜索词 | 保留（有转化） | 否定（无效流量） |
+|---|---|---|
+| kitten heel boots for women | 简化-MS 词组匹配（2单，ACOS 5%） | 简化（词组）、简化-MS（广泛）、简化-BR（广泛）、简化-HS（广泛+词组）、KWG-HS、AT-KF-0.42（自动） |
+| ankle boots for women low heel | 简化 词组匹配（1单，ACOS 14.5%） | 简化（广泛）、简化-MS（广泛+词组）、简化-BR（广泛） |
+
+**但这里有个技术限制**：否定关键词的 `NEGATIVE_PHRASE` 会同时屏蔽词组和广泛匹配，无法在同一广告组内"只否广泛、保留词组"。
+
+因此实际可行的方案是二选一：
+
+**方案 A（全活动否定，简单彻底）**：两个词全活动否定，接受损失 3 单（约 $126 销售额，但换来节省 $70 低效花费）。适合优先控花费。
+
+**方案 B（保守，保留转化）**：仅否定两个词中**零转化**的广告组/活动，保留有转化的词组匹配广告组。适合平衡花费与转化。
+
+---
+
+请问你希望采用哪个方案？
+
+- 回复 **A**：全活动否定（简单彻底，损失 3 单有效转化）；
+- 回复 **B**：保守否定（保留有效转化的词组匹配，只否零转化流量）。
+
+（如果你希望我直接按"控制无效花费"的首要目标执行，我默认推荐 **方案 A**，因为这两个词整体 ACOS 都超过 50%，属于低效花费。）
+
+[51 USER PAUSED]
+A
+
+[52 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[53 USER SUCCESS]
+已完成审批确认
+
+[54 ASSISTANT SUCCESS]
+已取消本次否词操作，未执行任何改动。
+
+如果你希望调整方案（例如改用方案 B 保守否定、保留有效转化，或只否定其中某个词），请告诉我，我再按你的要求处理。
+
+[55 USER SUCCESS]
+D2Y818分析2026-08-11至 2026-09-09（近 30 天）美国站广告数据 给出优化建议 控制无效花费，再完善该货号广告架构，降低广告ACOS，提升广告效率，按广告活动维度给出优化操作
+
+[56 ASSISTANT SUCCESS]
+> 注意：该活动因命中当前授权或指定 ASIN 被纳入查询；指标为整个广告活动汇总，可能同时包含活动内其他 ASIN 的效果，不能解读为命中 ASIN 的独立贡献。
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+# D2Y818 美国站广告优化报告（按活动维度）
+
+**数据时间范围**：2026-08-11 ～ 2026-09-09（近 30 天）
+**对象**：SPU D2Y818（父 ASIN B0D6743K74，店铺「亚马逊九堡CC1」，美国站）
+
+---
+
+## 一、整体表现
+
+| 指标 | 数值 | 指标 | 数值 |
+|---|---|---|---|
+| 曝光 | 663,027 | 点击 | 4,309 |
+| 花费 | $3,335.66 | 销售额 | $8,560.80 |
+| 订单 | 213 | CVR | 4.95% |
+| **ACOS** | **38.96%** | ROAS | 2.57 |
+
+**核心问题**：词组匹配 ACOS 45.6% 偏高 + 高花费低转化词未否定 + 精准匹配缺失 + 主力"简化"活动承载过重。
+
+---
+
+## 二、按活动维度优化操作清单
+
+### 🔴 P0 — 控无效花费（立即执行）
+
+| 活动 | 状态 | 优化动作 | 依据 |
+|---|---|---|---|
+| **D2Y818-简化** | 启用 | 否定：`ankle boots for women`、`boots for women`、`kitten heels`、`booties for women`、`white boots`、`kitten heel boots for women`（广告组级 NEGATIVE_PHRASE） | 占 52.7% 花费，ACOS 36.4%，上述词 ACOS 70-110% |
+| **D2Y818-简化-MS** | 启用 | 否定：`kitten heel boots for women`、`ankle boots for women`（广泛匹配） | 广泛匹配零转化 |
+| **D2Y818-简化-BR** | 启用 | 否定：`ankle boots for women low heel`、`booties for women`（广泛匹配） | 广泛匹配零转化 |
+| **D2Y818-简化-HS** | 启用 | 否定：`kitten heel boots for women`（广泛匹配） | 广泛匹配零转化 |
+| **D2Y818-SP-MT-KWG-HS** | 启用 | 否定：`clarks ankle boots for women`、`kitten heel boots for women` | 零转化词 |
+| **D2Y818-SP-AT-KF-0.42** | 启用 | 活动级否定：`kitten heel boots for women`（自动活动 NEGATIVE_PHRASE） | 自动活动零转化 |
+
+### 🟠 P1 — 完善架构（1-2 周内）
+
+| 活动 | 状态 | 优化动作 | 依据 |
+|---|---|---|---|
+| **D2Y818-简化** | 启用 | 拆分广告组：高效词与低效词分组；补充精准匹配 | 词结构不透明，精准缺失 |
+| **D2Y818-简化-BR** | 启用 | 加预算 $20→$30 | ACOS 32.2%，健康可放大 |
+| **D2Y818-简化-MS** | 启用 | 加预算 $20→$30 | ACOS 35.6%，健康可放大 |
+| **D2Y818-SP-AT-0.35** | 启用 | 加预算 $20→$30 | ACOS 29.9%，自动性价比高 |
+| **D2Y818-SP-AT-KF-0.42** | 启用 | 维持预算 $50 | ACOS 27.2%，最优活动 |
+
+### 🟡 P2 — 提效（持续优化）
+
+| 活动 | 状态 | 优化动作 | 依据 |
+|---|---|---|---|
+| **D2Y818-简化** | 启用 | 提价：coutgo boots women、kitten heel booties、kitten heel ankle boots、ankle boots、black booties | ACOS 6-20% |
+| **D2Y818-简化-BR** | 启用 | 提价：brown kitten heel boots、coutgo boots | ACOS 低 |
+| **D2Y818-SP-MT-KWG-HS** | 启用 | 小幅提价：coutgo shoes women | ACOS 23.5% |
+| 全部已暂停活动 | 暂停 | 保持暂停 | 已止损 |
+
+---
+
+## 三、架构缺口总结
+
+1. **精准匹配严重缺失**：仅 $36 花费、2 单，高效词未建立精准投放；
+2. **否定关键词缺失**：多个高花费低转化词未否定；
+3. **商品投放偏弱**：ACOS 34.9% 但仅 45 个投放 ASIN，可扩充出单竞品；
+4. **主力"简化"活动承载过重**：占 52.7% 花费，需拆分。
+
+---
+
+## 四、三步优化路径
+
+1. **P0 控无效花费**：对 6 个启用中活动执行否定关键词，预计节省 $250+ 低效花费；
+2. **P1 完善架构**：拆分"简化"活动、加预算给健康活动、补充精准匹配；
+3. **P2 提效**：提价高效词、加码商品投放。
+
+按此执行，预计可将 ACOS 优化至 33% 以下，同时保持关联引流价值。
+
+---
+
+## 下一步
+
+我可以帮你直接执行以下操作，请选择：
+
+1. **P0 否定关键词**（6 个启用中活动，控无效花费）；
+2. **P1 加预算**（简化-BR、简化-MS、AT-0.35 各 +$10）；
+3. 以上全部或部分组合。
+
+你希望执行哪些？

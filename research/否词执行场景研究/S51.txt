@@ -1,0 +1,151 @@
+ai_session_01a166c400b67250b749b9b2f39dc0e3
+[1 USER SUCCESS]
+我们店铺里  B0HBWHJ5ZL  最近有些搜索词花费高但转化低，帮我列出这些词，然后逐一查一下这些词在亚马逊上的整体搜索量和竞争度，以及与本品listing的匹配性，判断哪些词值得保留、哪些应该否定。
+
+>先基于类目/商品广告表现确定问题搜索词的筛选标准，再严格按照这个标准筛选符合条件的搜索词
+
+>关键词与商品属性/场景的匹配性可以通过listing内容先自行分析判断
+
+[2 ASSISTANT SUCCESS]
+> 注意：搜索词指标按命中的 Campaign/Ad Group 汇总；当前接口没有推广 ASIN 维度，同一广告组内其他 ASIN 的效果可能包含在结果中，不能解读为指定 ASIN 的独立贡献。
+
+现在整理最终结论。数据已齐全，我直接给出完整的分析报告。
+
+---
+
+# B0HBWHJ5ZL 高花费低转化搜索词分析报告
+
+## 一、筛选标准
+
+基于本品近 30 天广告数据分布，确定「高花费低转化」判定口径：
+
+| 维度 | 阈值 | 依据 |
+|---|---|---|
+| 花费门槛 | 近 30 天花费 ≥ $1.5 | 过滤单次点击噪音词，聚焦真正烧钱的词 |
+| 转化表现 | 零订单（orderCnt = 0） | "低转化"核心判据 |
+| 效率参考 | ACOS 为空 / ROAS = 0 | 零订单的必然结果 |
+
+本品近 30 天整体 ACOS 约 71.5%，回收效率本就偏低，零订单词占比极高。按此标准共筛出 **29 个词**，近 30 天合计浪费花费约 **$89.64**（其中普通关键词 18 个约 $68.01，商品投放 ASIN 词 11 个约 $21.63）。
+
+## 二、筛选结果明细（近 30 天，花费 ≥ $1.5 且零订单）
+
+| 搜索词 | 花费 | 点击数 | 曝光量 | 订单数 | 销售额 | CPC | 点击率 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 2 piece skirt sets for women | 13.97 | 32 | 2,963 | 0 | 0.00 | 0.44 | 1.08% |
+| 2 piece skirt set | 8.31 | 17 | 1,413 | 0 | 0.00 | 0.49 | 1.20% |
+| womens two piece skirt set | 6.71 | 16 | 590 | 0 | 0.00 | 0.42 | 2.71% |
+| two piece skirt set for women | 6.29 | 15 | 1,360 | 0 | 0.00 | 0.42 | 1.10% |
+| plaid skirt | 5.36 | 11 | 439 | 0 | 0.00 | 0.49 | 2.51% |
+| plaid skirt sets women 2 piece outfits | 2.74 | 6 | 63 | 0 | 0.00 | 0.46 | 9.52% |
+| B0H7MH2CMG | 2.65 | 6 | 25 | 0 | 0.00 | 0.44 | 24.00% |
+| B0HBWPJZSY | 2.60 | 5 | 34 | 0 | 0.00 | 0.52 | 14.71% |
+| gingham skirt set | 2.59 | 6 | 63 | 0 | 0.00 | 0.43 | 9.52% |
+| gingham sets women 2 piece outfits skirt | 2.45 | 6 | 63 | 0 | 0.00 | 0.41 | 9.52% |
+| B0H8FJDDQZ | 2.42 | 5 | 37 | 0 | 0.00 | 0.48 | 13.51% |
+| long sleeve skirt set | 2.39 | 5 | 82 | 0 | 0.00 | 0.48 | 6.10% |
+| jacket skirt set | 2.30 | 5 | 362 | 0 | 0.00 | 0.46 | 1.38% |
+| preppy outfits women | 2.23 | 5 | 20 | 0 | 0.00 | 0.45 | 25.00% |
+| fall skirt set | 2.14 | 5 | 392 | 0 | 0.00 | 0.43 | 1.28% |
+| vest and skirt set women | 2.10 | 5 | 209 | 0 | 0.00 | 0.42 | 2.39% |
+| B0G71JYXRP | 2.00 | 5 | 45 | 0 | 0.00 | 0.40 | 11.11% |
+| B0H8FBQPC6 | 1.97 | 4 | 29 | 0 | 0.00 | 0.49 | 13.79% |
+| B0HBTY1YKH | 1.90 | 4 | 8 | 0 | 0.00 | 0.47 | 50.00% |
+| fall skirt sets | 1.79 | 4 | 42 | 0 | 0.00 | 0.45 | 9.52% |
+| midi skirt set | 1.71 | 4 | 63 | 0 | 0.00 | 0.43 | 6.35% |
+| tennis skirt set | 1.70 | 4 | 45 | 0 | 0.00 | 0.42 | 8.89% |
+| B0HCZ95GJJ | 1.67 | 4 | 98 | 0 | 0.00 | 0.42 | 4.08% |
+| yousify 2 piece skirts sets | 1.66 | 4 | 41 | 0 | 0.00 | 0.41 | 9.76% |
+| B0HBWM53V3 | 1.64 | 3 | 25 | 0 | 0.00 | 0.55 | 12.00% |
+| B0HFVN5NQN | 1.60 | 16 | 234 | 0 | 0.00 | 0.10 | 6.84% |
+| B0HDNDGHD5 | 1.60 | 3 | 64 | 0 | 0.00 | 0.53 | 4.69% |
+| B0H8S7SM9Z | 1.58 | 4 | 52 | 0 | 0.00 | 0.40 | 7.69% |
+| tankaneo pullover sweater mini skirt set | 1.57 | 4 | 104 | 0 | 0.00 | 0.39 | 3.85% |
+
+> 口径：窗口：近30天（2026-09-23~2026-10-22） ｜ 范围：商品×1（金鑫亚马逊12） ｜ 筛选：cost>=1.5,orderCnt==0（命中 29/663 行）
+
+## 三、逐词判断（保留 / 否定）
+
+### ✅ 建议保留并优化（属性匹配 + 流量大，零订单是承接问题而非词的问题）
+
+| 词 | 月搜索量 | ABA排名 | Top3点击集中度 | 判断 |
+|---|---|---|---|---|
+| plaid skirt | 153,751 | 6,328 | 6.3% | **本品最核心词**，格纹裙，月搜15万+、排名前1万，与本品格纹属性最匹配 |
+| 2 piece skirt sets for women | 42,560 | 28,864 | 3.7% | 与"2 piece"完全匹配，大流量、格局开放 |
+| two piece skirt set for women | 35,075 | 36,155 | 4.4% | 同上，核心大词 |
+| preppy outfits women | 13,999 | 98,549 | 7.8% | 与本品 preppy 学院风定位匹配 |
+| 2 piece skirt set | 10,454 | 134,028 | 4.4% | 两件式裙装核心词 |
+
+> 这 5 个词与本品"格纹 + 两件式裙套装"高度匹配，且流量大、竞争格局开放（Top3 点击集中度仅 3.7%–7.8%）。零订单不是词不对，而是 **Listing 承接力或出价/广告位**的问题，应保留并重点优化。
+
+### 🔴 建议否定（属性错配 / 流量过小 / 无数据）
+
+| 词 | 月搜索量 | ABA排名 | 判断依据 |
+|---|---|---|---|
+| jacket skirt set | 未收录 | — | 夹克+裙，本品无夹克，属性错配 |
+| vest and skirt set women | 1,520 | 970,863 | 背心+裙，本品是长袖 polo 领，版型错配 |
+| midi skirt set | 7,434 | 192,010 | 中长裙，本品是 mini 短裙，版型错配 |
+| tennis skirt set | 12,666 | 109,598 | 网球运动款，本品非运动款 |
+| long sleeve skirt set | 2,237 | 656,942 | 属性相关但搜索量低、排名65万+ |
+| fall skirt sets | 1,732 | 850,715 | 秋季复数词，仅1期数据、排名85万+ |
+| gingham skirt set | 1,792 | 914,980 | 格纹相关但搜索量极低、排名91万+ |
+| plaid skirt sets women 2 piece outfits | 未收录 | — | 长尾词无数据 |
+| gingham sets women 2 piece outfits skirt | 未收录 | — | 长尾词无数据 |
+
+### ⚪ 竞品品牌词（建议否定）
+
+| 词 | 判断 |
+|---|---|
+| yousify 2 piece skirts sets | 买家搜竞品品牌触发本品广告，无品牌认知，零转化正常 |
+| tankaneo pullover sweater mini skirt set | 同上，且"pullover sweater"与本品 polo 领不符 |
+
+### ⚪ 商品投放词（11 个 ASIN 码，需单独核对相关性）
+
+B0H7MH2CMG、B0HBWPJZSY、B0H8FJDDQZ、B0G71JYXRP、B0H8FBQPC6、B0HBTY1YKH、B0HCZ95GJJ、B0HBWM53V3、B0HFVN5NQN、B0HDNDGHD5、B0H8S7SM9Z
+
+> 这 11 个是商品投放（竞品/关联商品）产生的词，无法用搜索量衡量。零订单说明投放的竞品 ASIN 与本品相关性不足或本品在竞品页面竞争力弱，建议逐一核对品类/价格带后停投不相关的。
+
+## 四、核心结论
+
+1. **"高花费零订单"的主因是词与本品属性错配 + 流量过小，而非竞争过大。** 这批词 Top3 点击集中度普遍在 3%–8%，竞争格局开放，广告买得到量，但词不对、转化不了。
+
+2. **真正值得主攻的是 `plaid skirt`（月搜 15.4 万、排名 6328）**，这是本品最该投入的词；其次是 `2 piece skirt sets for women`、`two piece skirt set for women` 两个核心大词。零订单的根因在 Listing 承接力，建议检查标题/五点是否突出 plaid、2 piece、mini skirt、preppy 属性。
+
+3. **优先否定**：2 个品牌词 + jacket/vest/midi/tennis 等明确错配词 + 3 个未收录长尾词，这些是明确的浪费。
+
+---
+
+以上分析基于小织广告数据和市场数据，数据以「小织为主 / 市场数据为辅」。
+
+如果你需要，我可以进一步：**①** 帮你把这批建议否定的词整理成可直接执行的否词清单；**②** 让广告数据侧拉出那 11 个商品投放 ASIN 的品类信息，判断哪些该停投。
+
+[3 USER PAUSED]
+jacket skirt set
+vest and skirt set women
+midi skirt set
+long sleeve skirt set
+否定这些词
+
+[4 ASSISTANT PAUSED]
+Team run paused. The following require input:
+- team: execute_direct_ad_action requires confirmation
+
+[5 USER SUCCESS]
+已完成审批确认
+
+[6 ASSISTANT SUCCESS]
+✅ 否词操作已成功执行。
+
+## 执行结果
+
+已为以下 4 个搜索词完成**广告组级精确否定**（NEGATIVE_EXACT），共覆盖 5 个广告活动、5 个广告组、8 条投放记录：
+
+| 搜索词 | 否定范围 |
+| --- | --- |
+| jacket skirt set | 1 个广告组（手动精准-10.9） |
+| vest and skirt set women | 2 个广告组（skirt set、扩词skirt set） |
+| midi skirt set | 2 个广告组（扩小词、扩词skirt set） |
+| long sleeve skirt set | 3 个广告组（skirt set、扩小词、扩词skirt set） |
+
+采用**广告组级 + 精确否定**，只屏蔽这些词本身，不影响同广告组内其他正常投放的关键词。
+
+如需继续处理上一轮分析中其他建议否定的词（如品牌词 yousify、tankaneo，或 tennis skirt set、fall skirt sets 等），或核对那 11 个商品投放 ASIN 的相关性，随时告诉我。

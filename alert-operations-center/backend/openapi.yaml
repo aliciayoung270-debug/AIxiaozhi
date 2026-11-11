@@ -1,0 +1,108 @@
+openapi: 3.0.3
+info:
+  title: 预警规则字段目录 API
+  version: 1.0.0
+paths:
+  /api/v1/alert-rule-fields:
+    get:
+      summary: 按预警对象获取允许使用的统计对象与字段
+      parameters:
+        - in: query
+          name: alertObjectType
+          required: true
+          schema:
+            $ref: '#/components/schemas/AlertObjectType'
+        - in: query
+          name: statisticalObjectType
+          required: false
+          schema:
+            $ref: '#/components/schemas/AlertObjectType'
+        - in: query
+          name: query
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 字段目录
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FieldCatalogResponse'
+        '400':
+          description: 对象类型不支持或统计对象不在允许关系内
+  /api/v1/alert-rule-fields/comparable:
+    get:
+      summary: 获取某字段可比较的指标
+      parameters:
+        - in: query
+          name: alertObjectType
+          required: true
+          schema:
+            $ref: '#/components/schemas/AlertObjectType'
+        - in: query
+          name: fieldId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 可比较指标列表
+        '404':
+          description: 字段不在当前预警对象可用范围
+components:
+  schemas:
+    AlertObjectType:
+      type: string
+      enum:
+        - PARENT_ASIN
+        - CHILD_ASIN
+        - AD_CAMPAIGN
+        - PROMOTED_CHILD_ASIN
+        - TARGETING
+        - SEARCH_TERM_PARENT_ASIN
+        - SEARCH_TERM_CHILD_ASIN
+    FieldCatalogResponse:
+      type: object
+      required: [schemaVersion, alertObject, statisticalObjects]
+      properties:
+        schemaVersion:
+          type: string
+        alertObject:
+          type: object
+        statisticalObjects:
+          type: array
+          items:
+            type: object
+    Field:
+      type: object
+      required: [id, name, fieldType, operators, comparisonModes, timeWindow]
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        fieldType:
+          type: string
+          enum: [枚举, 布尔, 百分比, 金额, 数值, 天数]
+        operators:
+          type: array
+          items:
+            type: string
+        comparisonModes:
+          type: array
+          items:
+            type: string
+            enum: [FIXED, METRIC]
+        comparableMetricIds:
+          type: array
+          items:
+            type: string
+        enumOptions:
+          type: array
+          items:
+            type: string
+        timeWindow:
+          type: string
+        customMark:
+          type: string

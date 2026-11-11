@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人使用情况 · AI 小织</title>
+  <link rel="stylesheet" href="shared.css?v=20261023-sidebar">
+  <script src="sidebar.js?v=20261023-sidebar" defer></script>
+  <style>
+    .profile-main { overflow-y: auto; background: var(--color-bg-base); }
+    .profile-shell { width: min(100%, var(--content-max-width)); margin: 0 auto; padding: var(--space-12) var(--space-8); }
+    .profile-back { display: inline-flex; align-items: center; gap: var(--space-2); color: var(--color-text-secondary); font-size: var(--text-sm); transition: color var(--duration-fast); }
+    .profile-back:hover { color: var(--color-accent); }
+    .profile-hero { display: flex; justify-content: space-between; align-items: flex-end; gap: var(--space-8); margin: var(--space-8) 0 var(--space-10); }
+    .profile-kicker { font-size: var(--text-sm); color: var(--color-accent); font-weight: var(--font-semibold); letter-spacing: var(--tracking-wide); }
+    .profile-title { margin-top: var(--space-2); font-family: var(--font-serif); font-size: var(--text-4xl); font-weight: var(--font-medium); line-height: var(--leading-tight); }
+    .profile-subtitle { margin-top: var(--space-3); color: var(--color-text-secondary); font-size: var(--text-base); }
+    .profile-date { padding: var(--space-2) var(--space-3); border-radius: var(--radius-full); background: var(--color-bg-sunken); color: var(--color-text-tertiary); font-size: var(--text-sm); white-space: nowrap; }
+    .profile-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--space-6); }
+    .profile-card { padding: var(--space-6); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-lg); background: var(--color-bg-surface); box-shadow: var(--shadow-sm); }
+    .profile-card-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); }
+    .profile-card-heading h2 { font-size: var(--text-lg); font-weight: var(--font-semibold); }
+    .profile-card-heading span { font-size: var(--text-xs); color: var(--color-text-tertiary); }
+    .today-balance { display: flex; align-items: flex-end; gap: var(--space-3); margin-top: var(--space-6); }
+    .today-balance strong { font-family: var(--font-serif); font-size: var(--text-4xl); font-weight: var(--font-medium); line-height: 1; }
+    .today-balance span { margin-bottom: var(--space-1); color: var(--color-text-secondary); font-size: var(--text-sm); }
+    .usage-track { height: var(--space-3); margin: var(--space-5) 0 var(--space-3); overflow: hidden; border-radius: var(--radius-full); background: var(--color-bg-sunken); }
+    .usage-track > span { display: block; height: 100%; border-radius: inherit; background: var(--color-accent); transition: width var(--duration-slow) var(--ease-in-out); }
+    .usage-caption { display: flex; justify-content: space-between; gap: var(--space-4); color: var(--color-text-tertiary); font-size: var(--text-xs); }
+    .rule-note { display: flex; gap: var(--space-3); margin-top: var(--space-6); padding-top: var(--space-5); border-top: 1px solid var(--color-border-subtle); color: var(--color-text-secondary); font-size: var(--text-sm); line-height: var(--leading-relaxed); }
+    .rule-note b { color: var(--color-accent); font-weight: var(--font-semibold); }
+    .identity-list { display: grid; gap: var(--space-5); margin-top: var(--space-6); }
+    .identity-row { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-4); }
+    .identity-row span { color: var(--color-text-tertiary); font-size: var(--text-sm); }
+    .identity-row strong { font-size: var(--text-sm); font-weight: var(--font-medium); text-align: right; }
+    .full-width { grid-column: 1 / -1; }
+    .stat-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: var(--space-6); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); overflow: hidden; }
+    .stat-item { padding: var(--space-5); background: var(--color-bg-base); }
+    .stat-item + .stat-item { border-left: 1px solid var(--color-border-subtle); }
+    .stat-label { color: var(--color-text-tertiary); font-size: var(--text-xs); }
+    .stat-value { display: block; margin-top: var(--space-2); font-family: var(--font-serif); font-size: var(--text-2xl); font-weight: var(--font-medium); }
+    .stat-unit { margin-left: var(--space-1); font-family: var(--font-sans); font-size: var(--text-xs); color: var(--color-text-secondary); }
+    .heatmap-wrap { position: relative; margin-top: var(--space-6); padding-bottom: var(--space-1); }
+    .heatmap { display: grid; grid-template-columns: repeat(26, var(--space-3)); grid-auto-flow: column; grid-template-rows: repeat(7, var(--space-3)); gap: var(--space-1); width: fit-content; max-width: 100%; margin: 0 auto; }
+    .heat-cell { width: var(--space-3); height: var(--space-3); border-radius: var(--radius-full); background: var(--color-bg-sunken); cursor: default; transition: transform var(--duration-fast), box-shadow var(--duration-fast); }
+    .heat-cell:hover, .heat-cell:focus-visible { transform: scale(1.16); box-shadow: 0 0 0 var(--space-1) var(--color-bg-surface); outline: none; }
+    .heat-cell[data-level="1"] { background: var(--color-accent-subtle); }
+    .heat-cell[data-level="2"] { background: var(--color-border-default); }
+    .heat-cell[data-level="3"] { background: var(--color-accent); }
+    .heat-cell[data-level="4"] { background: var(--color-charcoal); }
+    .heatmap-tooltip { position: absolute; z-index: 2; padding: var(--space-2) var(--space-3); border-radius: var(--radius-md); background: var(--color-charcoal); box-shadow: var(--shadow-md); color: var(--color-text-inverse); font-size: var(--text-xs); white-space: nowrap; opacity: 0; pointer-events: none; transform: translate(-50%, calc(-100% - var(--space-2))); transition: opacity var(--duration-fast); }
+    .heatmap-tooltip.visible { opacity: 1; }
+    .heatmap-foot { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); margin-top: var(--space-4); color: var(--color-text-tertiary); font-size: var(--text-xs); }
+    .heat-legend { display: flex; align-items: center; gap: var(--space-1); }
+    .heat-legend i { display: inline-block; width: var(--space-2); height: var(--space-2); border-radius: var(--radius-sm); background: var(--color-bg-sunken); }
+    .heat-legend i:nth-of-type(2) { background: var(--color-accent-subtle); }
+    .heat-legend i:nth-of-type(3) { background: var(--color-accent); }
+    .heat-legend i:nth-of-type(4) { background: var(--color-charcoal); }
+    .ledger { width: 100%; margin-top: var(--space-5); border-collapse: collapse; text-align: left; font-size: var(--text-sm); }
+    .ledger th { padding: var(--space-3) var(--space-2); color: var(--color-text-tertiary); font-size: var(--text-xs); font-weight: var(--font-medium); border-bottom: 1px solid var(--color-border-subtle); }
+    .ledger td { padding: var(--space-4) var(--space-2); color: var(--color-text-secondary); border-bottom: 1px solid var(--color-border-subtle); }
+    .ledger tr:last-child td { border-bottom: none; }
+    .ledger td:first-child { color: var(--color-text-primary); font-weight: var(--font-medium); }
+    .ledger .deduction { color: var(--color-accent-hover); font-family: var(--font-mono); font-size: var(--text-xs); }
+    .ledger .balance { color: var(--color-success); font-family: var(--font-mono); font-size: var(--text-xs); }
+    .profile-footer-note { margin-top: var(--space-6); color: var(--color-text-tertiary); font-size: var(--text-xs); line-height: var(--leading-relaxed); }
+    @media (max-width: 860px) { .profile-grid { grid-template-columns: 1fr; } .profile-hero { align-items: flex-start; flex-direction: column; } }
+    @media (max-width: 600px) { .profile-shell { padding: var(--space-6) var(--space-4); } .profile-title { font-size: var(--text-3xl); } .stat-grid { grid-template-columns: 1fr; } .stat-item + .stat-item { border-top: 1px solid var(--color-border-subtle); border-left: none; } }
+  </style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" data-shared-sidebar data-page="profile" aria-label="主导航"></aside>
+  <main class="main profile-main">
+    <div class="profile-shell">
+      <a class="profile-back" href="index.html">← 返回运营中心</a>
+      <header class="profile-hero">
+        <div><p class="profile-kicker">USAGE OVERVIEW</p><h1 class="profile-title">个人中心</h1><p class="profile-subtitle">清楚掌握每一次分析的积分消耗与可用额度。</p></div>
+        <span class="profile-date" id="profileDate"></span>
+      </header>
+      <div class="profile-grid">
+        <section class="profile-card">
+          <div class="profile-card-heading"><h2>今日积分</h2><span>每日 00:00 自动恢复</span></div>
+          <div class="today-balance"><strong id="todayRemaining">126</strong><span>可用 / <span id="dailyLimit">200</span> 积分</span></div>
+          <div class="usage-track"><span id="usageProgress" style="width:37%"></span></div>
+          <div class="usage-caption"><span>已消耗 <b id="todayUsed">74</b> 积分</span><span id="usagePercent">37% 已使用</span></div>
+          <div class="rule-note"><b>◔</b><p>发起任务前会先确认积分余额。任务完成后按实际用量统一扣分，不会中途打断已启动的分析。</p></div>
+        </section>
+        <section class="profile-card">
+          <div class="profile-card-heading"><h2>个人信息</h2><span>账户资料</span></div>
+          <div class="identity-list"><div class="identity-row"><span>姓名</span><strong>杨修瑛</strong></div><div class="identity-row"><span>所属租户</span><strong>扬腾创新</strong></div><div class="identity-row"><span>积分方案</span><strong>普通用户 · 200 积分 / 天</strong></div></div>
+        </section>
+        <section class="profile-card full-width">
+          <div class="profile-card-heading"><h2>历史使用</h2><span>截至今日</span></div>
+          <div class="stat-grid"><div class="stat-item"><span class="stat-label">累计消耗</span><strong class="stat-value">3,846<span class="stat-unit">积分</span></strong></div><div class="stat-item"><span class="stat-label">日峰值</span><strong class="stat-value">186<span class="stat-unit">积分</span></strong></div><div class="stat-item"><span class="stat-label">本月对话数</span><strong class="stat-value" id="monthConversations">28<span class="stat-unit">次</span></strong></div></div>
+          <div class="heatmap-wrap" id="heatmapWrap"><div class="heatmap" id="usageHeatmap" aria-label="近半年积分使用热力图"></div><div class="heatmap-tooltip" id="heatmapTooltip" role="status" aria-live="polite"></div></div>
+          <div class="heatmap-foot"><span>近半年每日积分使用量</span><span class="heat-legend">少 <i></i><i></i><i></i><i></i> 多</span></div>
+        </section>
+        <section class="profile-card full-width">
+          <div class="profile-card-heading"><h2>最近积分流水</h2><span>仅展示最近10笔</span></div>
+          <table class="ledger"><thead><tr><th>时间</th><th>任务</th><th>消耗</th><th>扣除后余额</th></tr></thead><tbody id="ledgerBody"></tbody></table>
+        </section>
+      </div>
+      <p class="profile-footer-note">积分仅用于核算 AI 服务成本，实际扣除以任务结束后的完整用量为准。</p>
+    </div>
+  </main>
+</div>
+<script src="shared.js?v=20260811-1"></script>
+<script>
+  function formatDate() { return new Intl.DateTimeFormat('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' }).format(new Date()); }
+  function buildHeatmap() {
+    const target = document.getElementById('usageHeatmap');
+    const today = new Date();
+    for (let offset = 181; offset >= 0; offset--) {
+      const date = new Date(today); date.setDate(today.getDate() - offset);
+      const value = (date.getDate() * 7 + date.getMonth() * 11 + offset * 3) % 201;
+      const level = value === 0 ? 0 : value < 45 ? 1 : value < 95 ? 2 : value < 150 ? 3 : 4;
+      const cell = document.createElement('span');
+      const dateLabel = date.toLocaleDateString('zh-CN');
+      cell.className = 'heat-cell'; cell.dataset.level = level; cell.tabIndex = 0;
+      cell.setAttribute('aria-label', `${dateLabel}：${value} 积分`);
+      cell.addEventListener('mouseenter', () => showHeatmapTooltip(cell, dateLabel, value));
+      cell.addEventListener('mouseleave', hideHeatmapTooltip);
+      cell.addEventListener('focus', () => showHeatmapTooltip(cell, dateLabel, value));
+      cell.addEventListener('blur', hideHeatmapTooltip);
+      target.appendChild(cell);
+    }
+  }
+  function showHeatmapTooltip(cell, date, points) {
+    const tooltip = document.getElementById('heatmapTooltip'); const wrap = document.getElementById('heatmapWrap');
+    const cellBox = cell.getBoundingClientRect(); const wrapBox = wrap.getBoundingClientRect();
+    tooltip.textContent = `${date} · ${points} 积分`;
+    tooltip.style.left = `${cellBox.left - wrapBox.left + cellBox.width / 2}px`;
+    tooltip.style.top = `${cellBox.top - wrapBox.top}px`;
+    tooltip.classList.add('visible');
+  }
+  function hideHeatmapTooltip() { document.getElementById('heatmapTooltip').classList.remove('visible'); }
+  function renderProfile() {
+    const usage = getUsageState(); const remaining = getPointsRemaining(); const percent = Math.round((usage.used / DAILY_POINTS) * 100);
+    document.getElementById('profileDate').textContent = `今天 · ${formatDate()}`;
+    document.getElementById('todayRemaining').textContent = remaining;
+    document.getElementById('dailyLimit').textContent = DAILY_POINTS;
+    document.getElementById('todayUsed').textContent = usage.used;
+    document.getElementById('usagePercent').textContent = `${percent}% 已使用`;
+    document.getElementById('usageProgress').style.width = `${Math.min(percent, 100)}%`;
+    document.getElementById('monthConversations').innerHTML = `${28 + Math.max(0, usage.conversations - 8)}<span class="stat-unit">次</span>`;
+    const rows = [{ time: '今天 14:32', task: '广告健康检查', amount: 18 }, { time: '今天 11:08', task: '商品全景诊断', amount: 14 }, { time: '昨天 16:45', task: '竞品矩阵对比', amount: 22 }];
+    let running = remaining + rows[0].amount;
+    document.getElementById('ledgerBody').innerHTML = rows.map((row, index) => { const balance = index === 0 ? remaining : running - row.amount; running = balance; return `<tr><td>${row.time}</td><td>${row.task}</td><td class="deduction">−${row.amount} 积分</td><td class="balance">${balance} 积分</td></tr>`; }).join('');
+    buildHeatmap();
+  }
+  function init() { renderProfile(); }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); } else { init(); }
+</script>
+</body>
+</html>
